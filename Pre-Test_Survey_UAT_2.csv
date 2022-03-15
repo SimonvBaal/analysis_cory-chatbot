@@ -1,0 +1,180 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Info_Sheet,Consent_Form,ID,Age_1,Nationality,Childhood,Sex,Vic,Essential_Worker,Reading,Facebook_Messenger,email_address,mobile_number,Concern_Rank_1,Necessary_Rank_1,Effectiveness_Rank_1,Intention_1,Test_1,1_Attitude_1,3_Attitude_1,5_Attitude_1,7_Attitude_1,9_Attitude_1,11_Attitude_1,13_Attitude_1,15_Attitude_1,17_Attitude_1,19_Attitude_1,21_Attitude_1,23_Attitude_1,25_Attitude_1,27_Attitude_1,29_Attitude_1
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"Information Sheet
+
+Project Title: Cory Covid-Bot User Acceptance Testing
+
+
+	
+		
+			Simon van Baal
+
+			PhD Candidate
+
+			simon.vanbaal@monash.edu
+			Mozafer Rajabali
+Citizen Developer
+
+			mmraj1@student.monash.edu
+		
+	
+
+
+ 
+You are invited to take part in this study. Please read this Explanatory Statement in full before deciding whether or not to participate in this research. If you would like further information regarding any aspect of this project, you are encouraged to contact the researchers via the email addresses listed above.
+
+
+
+
+
+
+
+What is the purpose of this research project? 
+
+This project is meant to improve our understanding of how people will interact with a chatbot that is aimed at informing people about the disease COVID-19 and what they can do to make the best choices in light of the newest information available. In addition, we are interested in knowing which resources individuals are most likely to request from the chatbot, so we can improve the usefulness of the technology and optimize the user experience.
+
+This project aims to identify the strengths and weaknesses of this technological aid in helping people understand the virus and its effects, as well as the current and future guidelines from the government. This will aid in improving people's knowledge on key factors of viral transmission and in making more informed decisions in their daily lives. 
+
+
+
+Why were you chosen for this research?
+
+This study is looking for healthy adults. To be included, you must meet the following criteria:
+
+
+	Age between 18 and 35 years old
+	Currently residing in Victoria
+	You don't have any trouble reading for any reason (including uncorrected vision impairment)You have a phone, and a laptop with a webcam.
+
+ 
+
+What does the research involve? 
+
+First, you will complete an online intake questionnaire which asks you about your basic demographic data. Then, before the Testing session, we will ask about your attitudes regarding COVID-19 and your attitude towards government restrictions to limit the spread of COVID-19. The online questionnaire should take you less than 10 minutes. During the testing phase, you will be asked to interact with the chatbot for 30 minutes on your smartphone while being supervised by an experimenter via Zoom. In these 30 minutes, you will be asked to converse with the chatbot in order to get answers to specific questions in sequence. Afterwards, you will be asked to freely interact with Cory Covid-Bot for 30 minutes (without any supervision). Lastly, you will be asked to complete an exit survey (also online) wherein you provide feedback on your experience with Cory Covid-Bot and general questions about your attitudes on COVID-19 after accessing information on the subject.
+
+
+
+Consenting to participate in the research
+
+Participation in this research is completely voluntary. It is your decision to participate or not. If you choose to participate, you will be asked to sign a consent form, and you can take a screenshot of this form to keep, or request one after the questionnaire from one of the researchers.
+
+
+
+Withdrawal from the research
+
+You may withdraw from the research at any stage. If you would like to also withdraw any of your data which has not yet been published, you can contact any of the researchers listed at the top of this Explanatory Statement and they will remove your data from the study with no repercussions to you. 
+
+The research team may discontinue your participating in the study at any point, for scientific reasons. If discontinued, you can request that your data be removed from the study with no repercussions to you.
+
+
+
+Payment
+
+To cover costs associated with your time, you will receive a $50 Coles Voucher for participating fully in the study. This will be sent to you via email within 24hrs after completion of the whole experiment (including post-test survey).
+
+
+
+Privacy and confidentiality
+
+Any information obtained in connection with this research project that can identify you will remain confidential. It will only be disclosed with your permission, except as required by law. The data obtained in this study will be only accessible by the research team listed above. Publicly presented or published data will only include numerical data and statistical analyses. It will not include any information which may identify you.
+
+
+
+Storage and use of data
+
+In accordance with Monash University regulations, if you decide to take part in this study, you will be assigned a number and all hard copy and electronic files containing data from you will be labelled with this number, rather than your name or other information, which could directly identify you. A document detailing which number corresponds with you, and any other details that could identify you, will be kept on a password-protected network at Monash University accessible only to researchers directly involved in this study. This document will be deleted at the conclusion of this study to protect your confidentiality. We will keep your data for 5 years and then destroy it by shredding (for hard copy files) or deletion (for electronic files).
+
+
+
+
+Funding
+
+
+This study is funded by the Department of Human and Health Services.
+
+
+
+
+Results
+
+
+If you would like to be informed of the aggregate findings of this research project, please contact the researchers via email. 
+
+
+
+Complaints
+
+Should you have any concerns or complaints about the conduct of the project, you are welcome to contact the Executive Officer, Monash University Human Research Ethics (MUHREC):
+
+
+	
+		
+			
+			Executive Officer - Monash University Human Research Ethics Committee (MUHREC)
+
+			Room 111, Building 3e
+
+			Research Office
+
+			Monash University VIC 3800
+
+			Tel: +61 3 9905 2052         Email: muhrec@monash.edu        Fax: +61 3 9905 3831","Consent Form
+Experiment Title: Cory Covid-Bot User Acceptance Testing
+Please note, this form will be retained by the Monash University Researchers for their records. I agree to take part in the Monash University research project specified above. I have had the project explained to me, and I have read the Explanatory Statement, which I can keep for my records. I understand that agreeing to take part means that:I agree to participate in a internet-based experimental procedure.I agree to complete relevant questionnaires. I also understand that my answers on these questionnaires are both confidential and voluntary.I understand that my participation is voluntary, that I can choose not to participate in part or all of the project, and that I can withdraw at any stage of the project.I understand that any data that the researcher extracts will be kept in secure storage, and will only be accessible to the research team.I understand that my data will be anonymous during the experiment, such that the information I provide cannot be associated with my personal identity. I also understand that this data will be destroyed after a 5-year period, unless I consent to it being used in future research.",Important: please make your own ID consisting of 6 digits (you could try using: https://numbergenerator.org/random-6-digit-number-generator). Make sure to write this down and have it handy during your Cory test.,How old are you?,List of Countries,List of Countries,What is your sex?,"Do you currently reside in Regional Victoria or Metro Melbourne, Australia?",Are you classified as an essential worker?,Do you have trouble reading for any reason (including uncorrected impaired vision or severe dyslexia),"Do you have Facebook Messenger, and if not, will you install it before the experiment?",Please enter your email address,"Please enter your mobile phone number (no spaces, like: 04123456789)","In general, how concerned with COVID-19 are you compared to other people in Melbourne? Please rank yourself from 0-100.",What is your attitude toward the necessity of the Victorian government's restrictions as a method to limit transmission of COVID-19 in the community?,How would you rate the effectiveness of the Victorian government's restrictions as a method to limit transmission of COVID-19 in the community?,How much do you intend to stay home to limit COVID-19 transmission in the next two weeks?,How important do you think it is to get tested if you experience symptoms?,"[Field-1] - Someone wants to get a new piece of furniture, because they have been spending a lot of time inside. It has been busy at the big furniture stores lately. How certain are you that it is alright for them to go out? - ${lm://Field/1}",[Field-1] - Someone wants to go for a walk in the park at 5pm. It is a popular neighbourhood park with narrow footpaths near their house. How certain are you that it is alright for them to go out? - ${lm://Field/1},"[Field-1] - Someone wants to give care to a family member who is having a difficult time. They could leave it to one of their siblings, who does not need to use public transport to get there. How certain are you that it is alright for them to go out? - ${lm://Field/1}","[Field-1] - Someone wants to see their friend who has recently returned from abroad, as their friend's quarantine just finished. They haven’t seen each other in a very long time and their friend has invited them over for a drink. How certain are you that it is alright for them to go out? - ${lm://Field/1}",[Field-1] - Someone wants to go for a run on a popular running track by a park. People will be breathing heavily and running both ways. How certain are you that it is alright for them to go out? - ${lm://Field/1},[Field-1] - Someone wants to go for a vigorous walk at sunrise. The walking path is off the beaten track. How certain are you that it is alright for them to go out? - ${lm://Field/1},"[Field-1] - Someone wants to go play basketball on their own on a Sunday morning. The basketball court is located outside, on the grounds of their quiet neighbourhood school. How certain are you that it is alright for them to go out? - ${lm://Field/1}",[Field-1] - Someone wants to go sit in the park and read their book. It is a weekday and the park is quite large. How certain are you that it is alright for them to go out? - ${lm://Field/1},[Field-1] - Someone wants to have dinner with their friends. The six of them have not seen each other for a long time. Some are more serious about social distancing than others. How certain are you that it is alright for them to go out? - ${lm://Field/1},[Field-1] - Someone wants to meet and go for a walk in a forest with three old friends. They have discussed social distancing together. How certain are you that it is alright for them to go out? - ${lm://Field/1},[Field-1] - Someone wants to spend some time in the office at their workplace to concentrate on an important task. Most other colleagues on their floor are working from home. They will need to use the lift to get to their floor. How certain are you that it is alright for them to go out? - ${lm://Field/1},[Field-1] - Someone wants to go for a barbecue in the park with their friends. There will be four of them and they have not discussed social distancing together.  How certain are you that it is alright for them to go out? - ${lm://Field/1},"[Field-1] - Someone wants to go see their partner, but they do not live together. They will go by car, and they can park in front of the house. How certain are you that it is alright for them to go out? - ${lm://Field/1}","[Field-1] - Someone wants to go running on a track by the beach during working hours. It is a popular, quite narrow and winding track. How certain are you that it is alright for them to go out? - ${lm://Field/1}",[Field-1] - Someone wants to go see their close friend who lives close by. Their friend tells them that they don't take social distancing very seriously. How certain are you that it is alright for them to go out? - ${lm://Field/1}
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID28""}","{""ImportId"":""QID29""}","{""ImportId"":""QID23_TEXT""}","{""ImportId"":""QID30_1""}","{""ImportId"":""QID7""}","{""ImportId"":""QID33""}","{""ImportId"":""QID31""}","{""ImportId"":""QID32""}","{""ImportId"":""QID34""}","{""ImportId"":""QID35""}","{""ImportId"":""QID36""}","{""ImportId"":""QID37_TEXT""}","{""ImportId"":""QID38_TEXT""}","{""ImportId"":""QID8_1""}","{""ImportId"":""QID9_1""}","{""ImportId"":""QID10_1""}","{""ImportId"":""QID21_1""}","{""ImportId"":""QID27_1""}","{""ImportId"":""1_QID24_1""}","{""ImportId"":""3_QID24_1""}","{""ImportId"":""5_QID24_1""}","{""ImportId"":""7_QID24_1""}","{""ImportId"":""9_QID24_1""}","{""ImportId"":""11_QID24_1""}","{""ImportId"":""13_QID24_1""}","{""ImportId"":""15_QID24_1""}","{""ImportId"":""17_QID24_1""}","{""ImportId"":""19_QID24_1""}","{""ImportId"":""21_QID24_1""}","{""ImportId"":""23_QID24_1""}","{""ImportId"":""25_QID24_1""}","{""ImportId"":""27_QID24_1""}","{""ImportId"":""29_QID24_1""}"
+2020-10-07 23:24:26,2020-10-07 23:33:08,Survey Preview,,100,522,True,2020-10-07 23:33:10,R_3LiOHcptX2KxiQ3,,,,,-37.816802978515625,145.000396728515625,preview,EN,,,test,,Netherlands,,,,,,,,,70,92,74,68,,,,,,,,,,,,,,,,
+2020-10-18 02:12:30,2020-10-18 02:14:12,Survey Preview,,100,102,True,2020-10-18 02:14:14,R_a9vk2QMp14jH70Z,,,,,-37.8159027099609375,144.966888427734375,preview,EN,,,test,,Netherlands,,,,,,,,,75,80,82,76,88,45,43,51,34,47,45,50,44,40,45,49,47,50,36,48
+2020-10-18 02:31:58,2020-10-18 02:36:13,IP Address,147.10.89.56,100,254,True,2020-10-18 02:36:13,R_2YL14gvObOmAtbv,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,,,131313,,Brazil,,,,,,,,,8,75,70,60,100,75,71,100,52,23,54,100,100,13,54,37,47,82,60,49
+2020-10-18 02:34:25,2020-10-18 02:41:30,IP Address,122.110.175.36,100,424,True,2020-10-18 02:41:30,R_bvicBLI4En8uYfL,,,,,-37.810394287109375,144.95440673828125,anonymous,EN,,,482455,,Australia,,,,,,,,,55,75,100,75,90,31,51,62,50,27,95,59,58,32,82,36,4,80,35,9
+2020-10-18 02:48:29,2020-10-18 02:54:01,IP Address,124.189.212.202,100,331,True,2020-10-18 02:54:01,R_1mmINAMG5tvz7UY,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,,,mabedi,,India,,,,,,,,,40,75,85,80,90,43,66,71,64,53,81,81,79,53,74,64,32,67,23,39
+2020-10-18 02:33:05,2020-10-18 03:04:22,IP Address,120.21.170.236,100,1877,True,2020-10-18 03:04:22,R_3QQr7DnBrMFlT9C,,,,,-37.841094970703125,144.979888916015625,anonymous,EN,,,772020,,Nepal,,,,,,,,,100,100,100,80,100,68,70,74,75,78,57,69,77,74,87,80,58,76,75,82
+2020-10-18 03:09:43,2020-10-18 03:15:00,IP Address,194.193.189.149,100,317,True,2020-10-18 03:15:00,R_3mb3saX8lttkr43,,,,,-37.896697998046875,144.65618896484375,anonymous,EN,,,100491,,Australia,,,,,,,,,50,60,50,60,100,26,72,77,0,74,67,68,73,0,25,75,24,100,51,22
+2020-10-18 03:28:06,2020-10-18 03:35:12,IP Address,194.193.53.229,100,426,True,2020-10-18 03:35:12,R_2U9O4mUVoWV3AdZ,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,,,600606,,Australia,,,,,,,,,40,30,50,40,93,21,50,26,16,15,43,81,83,32,47,17,49,76,55,29
+2020-10-18 04:55:28,2020-10-18 05:00:22,IP Address,101.116.25.20,100,294,True,2020-10-18 05:00:22,R_1RZqjn81WD0wssp,,,,,-38.069793701171875,145.17529296875,anonymous,EN,,,080596,,Australia,,,,,,,,,70,83,81,80,100,65,100,100,74,98,77,96,100,100,79,31,77,100,100,31
+2020-10-18 04:55:16,2020-10-18 05:00:57,IP Address,101.176.86.203,100,340,True,2020-10-18 05:00:57,R_qQkSxz7ZLy3BBV7,,,,,-37.879302978515625,145.12689208984375,anonymous,EN,,,137920,,Greece,,,,,,,,,50,90,85,45,100,16,84,0,56,63,100,100,100,0,0,83,31,100,50,0
+2020-10-18 05:58:18,2020-10-18 06:03:27,IP Address,1.159.3.187,100,308,True,2020-10-18 06:03:27,R_wNoT3zpmKrPJlC1,,,,,-37.841094970703125,144.979888916015625,anonymous,EN,,,262650,,United Kingdom of Great Britain and Northern Ireland,,,,,,,,,30,80,100,40,100,21,100,71,31,63,100,95,100,0,58,43,21,59,100,11
+2020-10-18 06:15:51,2020-10-18 06:20:28,IP Address,118.208.113.124,100,277,True,2020-10-18 06:20:29,R_Tuz8XejXeYwHtZf,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,,,020519,,Brazil,,,,,,,,,50,72,78,100,100,22,28,49,27,31,76,67,69,16,63,39,24,50,27,11
+2020-10-18 06:34:27,2020-10-18 06:40:07,IP Address,120.148.189.167,100,340,True,2020-10-18 06:40:07,R_3Ehc7dRdrYSuIno,,,,,-37.8267059326171875,145.210906982421875,anonymous,EN,,,290420,,Australia,,,,,,,,,70,100,80,70,100,28,88,11,0,100,100,70,100,0,86,21,0,100,100,0
+2020-10-18 03:03:53,2020-10-18 07:59:35,IP Address,1.152.110.174,100,17741,True,2020-10-18 07:59:35,R_1oo6TENzXl7CMtl,,,,,-37.841094970703125,144.979888916015625,anonymous,EN,,,Nathan55,,Mexico,,,,,,,,,85,95,95,100,100,46,70,85,70,73,100,100,80,18,76,85,9,100,75,6
+2020-10-18 08:03:50,2020-10-18 08:15:58,IP Address,101.161.104.33,100,727,True,2020-10-18 08:15:58,R_1rABJm45a3Yjgbq,,,,,-37.9622955322265625,145.067901611328125,anonymous,EN,,,379911,,Australia,,,,,,,,,40,58,40,50,92,3,84,37,9,85,100,77,95,18,89,5,30,100,87,8
+2020-10-18 09:04:23,2020-10-18 09:08:46,IP Address,175.33.186.193,100,262,True,2020-10-18 09:08:46,R_2qF6ruau3jO6YJ0,,,,,-37.841094970703125,144.979888916015625,anonymous,EN,,,135790,,Portugal,,,,,,,,,65,80,70,100,100,47,75,78,60,5,100,100,100,20,65,100,13,100,48,0
+2020-10-18 15:31:04,2020-10-18 15:34:16,IP Address,49.199.2.49,100,192,True,2020-10-18 15:34:17,R_2S2CakCmglz1Gmu,,,,,-37.810394287109375,144.95440673828125,anonymous,EN,,,020297,,Australia,,,,,,,,,50,81,74,100,100,44,51,99,12,46,45,47,24,0,29,45,0,100,40,16
+2020-10-18 17:55:04,2020-10-18 18:00:27,IP Address,110.22.86.161,100,323,True,2020-10-18 18:00:27,R_1Fs3c6HMzma8Oxh,,,,,-37.7151947021484375,145.007598876953125,anonymous,EN,,,248248,,Australia,,,,,,,,,55,100,80,65,100,74,60,84,25,59,100,100,100,4,54,75,0,70,68,16
+2020-10-18 18:33:31,2020-10-18 18:37:29,IP Address,124.188.70.41,100,238,True,2020-10-18 18:37:29,R_3fvk7LLJ39elqEO,,,,,-37.810394287109375,144.95440673828125,anonymous,EN,,,160191,,Australia,,,,,,,,,8,69,100,43,100,47,100,50,17,89,100,100,100,18,74,90,34,100,79,26
+2020-10-18 18:50:44,2020-10-18 18:58:23,IP Address,124.170.27.117,100,458,True,2020-10-18 18:58:24,R_rdreCcWqtAQh3c5,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,,,931104,,Colombia,,,,,,,,,80,74,71,92,100,37,46,76,8,37,56,72,58,34,46,42,10,37,61,5
+2020-10-18 23:26:28,2020-10-18 23:32:17,IP Address,120.148.3.227,100,349,True,2020-10-18 23:32:18,R_2YRlSDukYBdwjND,,,,,-38.190399169921875,145.09149169921875,anonymous,EN,,,199777,,Australia,,,,,,,,,50,100,85,100,100,1,100,49,0,50,52,100,100,0,0,52,0,100,100,0
+2020-10-18 23:27:56,2020-10-18 23:32:20,IP Address,120.148.3.227,100,264,True,2020-10-18 23:32:20,R_22GmhiCeePUHKSr,,,,,-38.190399169921875,145.09149169921875,anonymous,EN,,,292769,,Australia,,,,,,,,,10,50,69,21,100,48,100,55,0,100,85,55,100,0,94,50,0,100,55,0
+2020-10-20 03:56:46,2020-10-20 04:01:26,IP Address,202.142.62.94,100,279,True,2020-10-20 04:01:26,R_1NzeImJUKhZs8iV,,,,,-37.8339996337890625,144.983184814453125,anonymous,EN,,,333999,,Australia,,,,,,,,,51,78,79,88,91,9,78,82,1,100,69,94,93,13,56,76,10,92,94,45
+2020-10-20 03:58:20,2020-10-20 04:04:44,IP Address,218.214.191.206,100,383,True,2020-10-20 04:04:45,R_1dtyHM5CfaPnSG1,,,,,-37.82989501953125,145.24310302734375,anonymous,EN,,,091094,,Australia,,,,,,,,,74,50,62,31,87,54,53,68,20,95,94,82,100,17,57,76,59,100,85,69
+2020-10-20 03:56:14,2020-10-20 04:05:48,IP Address,101.176.16.53,100,573,True,2020-10-20 04:05:48,R_3fZZCU5B07yFcI8,,,,,-37.880706787109375,144.986602783203125,anonymous,EN,,,081190,,Australia,,,,,,,,,60,90,75,90,100,72,88,71,69,70,100,100,90,87,95,59,73,100,77,60
+2020-10-20 04:05:47,2020-10-20 04:09:57,IP Address,121.211.65.21,100,249,True,2020-10-20 04:09:57,R_1Izze0lu69U3qOk,,,,,-37.85699462890625,145.03448486328125,anonymous,EN,,,9991212,,Bangladesh,,,,,,,,,80,60,55,80,100,36,76,77,79,49,83,83,82,61,81,80,8,62,77,6
+2020-10-20 04:16:31,2020-10-20 04:21:01,IP Address,101.161.211.236,100,269,True,2020-10-20 04:21:01,R_1pJXDbjqamcmiMs,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,,,859885,,Pakistan,,,,,,,,,10,50,75,85,100,95,89,91,92,91,87,89,89,75,97,93,63,90,80,70
+2020-10-20 04:35:06,2020-10-20 04:44:26,IP Address,122.105.0.31,100,559,True,2020-10-20 04:44:26,R_2QSWEh0qMFQME08,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,,,199766,,Australia,,,,,,,,,95,100,100,75,100,0,16,14,0,64,93,100,92,22,90,0,5,100,93,0
+2020-10-20 04:57:57,2020-10-20 05:04:19,IP Address,124.150.51.52,100,381,True,2020-10-20 05:04:20,R_1gRtPtkgwd7R1lD,,,,,-37.810394287109375,144.95440673828125,anonymous,EN,,,565996,,Australia,,,,,,,,,76,95,70,70,100,4,100,59,0,53,100,78,87,1,65,77,12,100,67,0
+2020-10-20 05:12:45,2020-10-20 05:16:20,IP Address,125.168.230.79,100,214,True,2020-10-20 05:16:20,R_2EEkkwGQjECo1R5,,,,,-37.841094970703125,144.979888916015625,anonymous,EN,,,130303,,Australia,,,,,,,,,65,75,75,75,90,28,31,63,9,64,94,91,89,13,72,62,30,86,8,22
+2020-10-20 05:36:56,2020-10-20 05:41:55,IP Address,120.147.43.50,100,298,True,2020-10-20 05:41:55,R_2EnM55QS5MsYyC8,,,,,-37.7765960693359375,144.97918701171875,anonymous,EN,,,936157,,Australia,,,,,,,,,65,90,71,70,100,26,28,15,1,24,72,73,49,0,10,22,0,91,23,0
+2020-10-20 07:15:00,2020-10-20 07:22:56,IP Address,211.27.71.191,100,476,True,2020-10-20 07:22:57,R_bCyTtC28Qf2dyJH,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,,,681465,,Australia,,,,,,,,,65,90,95,40,100,33,55,97,85,10,100,100,100,39,90,93,8,100,13,6
+2020-10-20 14:54:23,2020-10-20 15:00:13,IP Address,121.200.4.44,100,350,True,2020-10-20 15:00:13,R_12MFPmhbEfjsxHD,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,,,100899,,Romania,,,,,,,,,50,100,100,100,100,9,73,52,29,56,94,83,78,21,100,2,50,83,89,10
+2020-10-20 16:35:12,2020-10-20 16:44:57,IP Address,122.105.89.29,100,585,True,2020-10-20 16:44:58,R_1LA4d3VhK6yjUs1,,,,,-37.810394287109375,144.95440673828125,anonymous,EN,,,Mariella,,Philippines,,,,,,,,,80,75,70,50,95,44,82,49,19,34,77,90,27,4,43,67,25,100,36,0
+2020-10-20 20:29:54,2020-10-20 20:34:49,IP Address,115.64.190.4,100,294,True,2020-10-20 20:34:49,R_1E50KoRz4c3wKWX,,,,,-37.810394287109375,144.95440673828125,anonymous,EN,,,139127,,Philippines,,,,,,,,,52,45,52,50,84,59,60,57,28,49,68,66,65,41,55,68,48,35,60,54
+2020-10-20 22:57:57,2020-10-20 22:59:22,IP Address,203.63.75.7,100,84,True,2020-10-20 22:59:22,R_3gYjkumFKOIWUug,,,,,-35.12139892578125,138.5303955078125,anonymous,EN,,,786786,,Pakistan,,,,,,,,,64,64,66,64,71,67,45,54,62,61,66,62,56,62,55,60,65,49,59,61
+2020-10-20 23:01:17,2020-10-20 23:02:56,IP Address,1.159.3.187,100,98,True,2020-10-20 23:02:56,R_ThosuNk1hXLLdCN,,,,,-37.841094970703125,144.979888916015625,anonymous,EN,,,120999,,Australia,,,,,,,,,47,85,84,98,98,72,15,49,60,55,86,23,71,29,63,38,63,69,67,83
+2020-10-20 23:22:47,2020-10-20 23:43:03,IP Address,27.32.251.144,100,1215,True,2020-10-20 23:43:03,R_115wvz5gD2jTSPK,,,,,-37.746795654296875,145.068115234375,anonymous,EN,,,720764,,Australia,,,,,,,,,25,100,95,75,100,22,81,74,3,16,54,100,66,0,61,80,34,30,83,12
+2020-10-21 00:27:36,2020-10-21 00:31:24,IP Address,203.63.75.7,100,227,True,2020-10-21 00:31:24,R_1mE2SFosSZ6phR8,,,,,-35.12139892578125,138.5303955078125,anonymous,EN,,,098765,,Pakistan,,,,,,,,,76,55,68,58,100,3,53,1,1,2,100,100,100,2,100,100,0,100,100,0
+2020-10-21 01:26:13,2020-10-21 01:30:05,IP Address,103.225.240.38,100,232,True,2020-10-21 01:30:05,R_r91vEUzquNZEZLH,,,,,-37.9279022216796875,145.177001953125,anonymous,EN,,,CHELSE,,Australia,,,,,,,,,40,60,70,20,100,43,73,96,28,56,89,99,59,37,87,67,25,88,40,18
+2020-10-18 02:37:27,2020-10-18 02:43:47,IP Address,120.21.162.105,90,380,False,2020-10-25 02:43:51,R_3O7iInzfxUURXcK,,,,,,,anonymous,EN,,,020221,,Australia,,,,,,,,,70,90,53,90,100,25,71,68,12,83,65,73,30,11,56,61,9,87,50,5
+2020-10-18 02:47:10,2020-10-18 02:52:08,IP Address,60.241.201.157,90,297,False,2020-10-25 02:52:28,R_2TnSVEPJ2p1scH9,,,,,,,anonymous,EN,,,365912,,Australia,,,,,,,,,70,90,100,40,100,43,100,24,0,96,100,100,100,0,0,19,0,100,100,0
+2020-10-20 02:05:32,2020-10-20 02:10:13,IP Address,122.105.32.80,90,281,False,2020-10-27 02:10:54,R_1YApPbp4YHZZ2N3,,,,,,,anonymous,EN,,,201193,,Timor-Leste,,,,,,,,,20,70,89,60,100,52,100,84,0,90,100,100,100,0,100,100,0,99,100,0
+2020-10-20 03:57:47,2020-10-20 04:04:32,IP Address,121.211.65.21,90,405,False,2020-10-27 04:04:50,R_Z1xPlunL2ffPT4B,,,,,,,anonymous,EN,,,9991212,,Bangladesh,,,,,,,,,70,55,45,75,100,22,65,80,77,38,78,91,66,65,86,90,15,50,72,3
+2020-10-27 05:10:37,2020-10-27 05:16:26,IP Address,1.143.58.75,100,348,True,2020-10-27 05:16:26,R_3D6XvSD5H0wpxfK,,,,,-37.810394287109375,144.95440673828125,anonymous,EN,I understand the research project detailed above and consent to my participation.,I hereby agree and consent to use of my data in future research.,776123,41,Viet Nam,Viet Nam,Female,Metro Melbourne,No,No,Yes,tthuyen79@yahoo.com,0451087309,100,100,100,100,100,41,88,96,4,9,46,99,94,47,39,97,9,100,98,0
+2020-10-27 05:10:06,2020-10-27 05:26:51,IP Address,175.34.227.113,100,1004,True,2020-10-27 05:26:51,R_3PppMzI2DZtLBYn,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,I understand the research project detailed above and consent to my participation.,I hereby agree and consent to use of my data in future research.,181984,36,Viet Nam,Viet Nam,Female,Metro Melbourne,No,No,Yes,anhphamvulan@gmail.com,0449866990,60,90,70,100,82,0,2,67,0,69,1,5,49,9,0,50,0,49,15,0
+2020-10-27 05:22:02,2020-10-27 05:32:47,IP Address,49.199.21.71,100,645,True,2020-10-27 05:32:48,R_2YS9Rf6ZEW5aiB3,,,,,-37.810394287109375,144.95440673828125,anonymous,EN,I understand the research project detailed above and consent to my participation.,I hereby agree and consent to use of my data in future research.,311085,34,Viet Nam,Viet Nam,Female,Metro Melbourne,No,No,Yes,hangnguyeniir@gmail.com,0423339806,88,74,63,37,97,73,77,84,65,76,83,78,85,64,81,75,69,79,79,30
+2020-10-27 16:15:09,2020-10-27 16:27:36,IP Address,116.240.67.227,100,746,True,2020-10-27 16:27:36,R_30pKi8K483Mm1v3,,,,,-27.47320556640625,153.021514892578125,anonymous,EN,I understand the research project detailed above and consent to my participation.,I hereby agree and consent to use of my data in future research.,181989,31,Viet Nam,Uruguay,Female,Regional Vic,No,No,Yes,nguyenthithanhkieu.vn@gmail.com,0421937684,70,100,90,90,100,13,17,82,20,90,63,14,72,29,90,8,16,25,47,37
+2020-10-27 16:17:51,2020-10-27 16:32:23,IP Address,49.184.184.252,100,871,True,2020-10-27 16:32:23,R_2S7BuimWtXUpHpn,,,,,-37.841094970703125,144.979888916015625,anonymous,EN,I understand the research project detailed above and consent to my participation.,I hereby agree and consent to use of my data in future research.,271279,35,Viet Nam,Viet Nam,Female,Metro Melbourne,Yes,No,Yes,giangttt@huc.edu.vn,0481963033,61,100,100,100,100,71,74,59,40,78,80,77,75,26,74,65,42,77,44,26
+2020-10-20 16:56:06,2020-10-20 17:04:05,IP Address,101.165.22.71,80,479,False,2020-10-27 17:04:46,R_3NBSBVjr7H9xW3s,,,,,,,anonymous,EN,,,108180,,Australia,,,,,,,,,70,75,75,50,100,41,57,94,59,30,90,74,87,27,86,,,72,66,27
+2020-10-20 18:36:11,2020-10-20 18:36:48,IP Address,124.188.70.41,20,37,False,2020-10-27 18:37:00,R_27qbC7RQnyDyL9q,,,,,,,anonymous,EN,,,160191,,Australia,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2020-10-28 01:36:15,2020-10-28 01:45:24,IP Address,124.148.217.214,100,548,True,2020-10-28 01:45:25,R_Y3yInJNTSmbXlx7,,,,,-37.8159942626953125,145.196502685546875,anonymous,EN,I understand the research project detailed above and consent to my participation.,I hereby agree and consent to use of my data in future research.,172448,34,Viet Nam,Viet Nam,Female,Metro Melbourne,No,No,Yes,nhanthuy206@gmail.com,0402162766,55,78,69,100,100,26,5,15,0,0,61,85,56,0,75,0,0,8,0,0
+2020-10-28 06:04:02,2020-10-28 06:12:01,IP Address,49.193.242.12,100,479,True,2020-10-28 06:12:02,R_2zdo2NW8zktnL8P,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,I understand the research project detailed above and consent to my participation.,I hereby agree and consent to use of my data in future research.,792109,33,Viet Nam,Viet Nam,Female,Metro Melbourne,No,No,Yes,nhanphan1987@gmail.com,0452531387,81,100,75,100,100,0,49,52,0,49,100,100,100,0,0,46,0,100,48,0
+2020-10-28 16:28:02,2020-10-28 16:36:57,IP Address,49.184.181.99,100,534,True,2020-10-28 16:36:57,R_1IrQfcFqon4TJ78,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,I understand the research project detailed above and consent to my participation.,I hereby agree and consent to use of my data in future research.,190180,33,Viet Nam,Viet Nam,Female,Metro Melbourne,Yes,No,Yes,Phuongdungle191@gmail.com,0478826948,97,91,85,95,100,61,64,75,10,77,72,35,47,27,35,60,18,70,11,37
+2020-10-29 01:32:26,2020-10-29 01:39:32,IP Address,175.34.227.113,100,425,True,2020-10-29 01:39:32,R_PUlgdfvoFheogwN,,,,,-37.8159027099609375,144.966888427734375,anonymous,EN,I understand the research project detailed above and consent to my participation.,I hereby agree and consent to use of my data in future research.,050399,21,Viet Nam,Viet Nam,Female,Metro Melbourne,No,No,Yes,tinkerbellvapeterpan@gmail.com,0481777200,51,97,53,67,57,11,36,48,15,22,25,23,22,15,19,38,22,35,42,5
+2020-10-29 02:48:27,2020-10-29 02:56:18,IP Address,121.45.247.254,100,470,True,2020-10-29 02:56:19,R_1rw9Z0U7h8sku6N,,,,,-37.9221038818359375,145.0430908203125,anonymous,EN,I understand the research project detailed above and consent to my participation.,I hereby agree and consent to use of my data in future research.,123456,38,Viet Nam,Viet Nam,Female,Metro Melbourne,Yes,No,Yes,lananh289@gmail.com,0406791688,90,90,60,100,100,0,57,99,82,98,19,77,79,36,100,81,1,51,88,0
+2020-10-22 05:36:25,2020-10-22 05:43:59,IP Address,14.202.116.213,90,454,False,2020-10-29 05:44:11,R_Z9TTAzeWm636HoR,,,,,,,anonymous,EN,,,155058,,Viet Nam,,,,,,,,,97,99,68,97,100,11,7,87,8,8,9,17,94,6,10,7,8,89,6,9
