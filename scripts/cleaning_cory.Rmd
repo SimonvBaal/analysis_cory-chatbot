@@ -15,10 +15,10 @@ library(stringr)
 ```
 
 ```{r loading data}
-eligibility <- read_csv("Eligibility_Survey_UAT.csv")
-preTestData <- read_csv("Pre-Test_Survey_UAT.csv")
-postTestData <- read_csv("Post-Test_Survey_UAT.csv")
-coryData <- read_csv("Cory_Data_UAT.csv")
+eligibility <- read_csv("./proc/Eligibility_Survey_UAT.csv")
+preTestData <- read_csv("./proc/Pre-Test_Survey_UAT.csv")
+postTestData <- read_csv("./proc/Post-Test_Survey_UAT.csv")
+coryData <- read_csv("./proc/Cory_Data_UAT.csv")
 
 ```
 
