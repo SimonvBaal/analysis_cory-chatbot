@@ -1,0 +1,1621 @@
+ParticipantID,TestImportance,Risk,Question,Attitude,Study_Type,Condition,Timepoint,StartDate,Age,Sex,Vic,Childhood,Essential,Reading,FM
+P1,100,Low,1,-22,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Minimal,3,38,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,5,-39,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,7,-50,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Minimal,9,50,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Minimal,11,50,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Minimal,13,20,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Minimal,15,50,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,17,-50,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Low,19,36,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Low,21,-29,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,23,-50,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,25,50,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Low,27,50,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,29,-50,Pre-Test,Control,Pre-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P10,100,Low,1,-25,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,Minimal,3,21,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,High,5,18,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,High,7,-38,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,Minimal,9,33,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,Minimal,11,15,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,Minimal,13,23,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,Minimal,15,-20,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,High,17,-39,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,Low,19,6,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,Low,21,11,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,High,23,-41,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,High,25,37,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,Low,27,0,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,100,High,29,-45,Pre-Test,Control,Pre-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P11,100,Low,1,-24,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Minimal,3,22,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,5,27,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,7,-50,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Minimal,9,24,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Minimal,11,17,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Minimal,13,18,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Minimal,15,23,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,17,-50,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Low,19,-25,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Low,21,25,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,23,-26,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,25,50,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Low,27,1,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,29,-28,Pre-Test,Control,Pre-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P12,100,Low,1,-29,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,Minimal,3,50,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,High,5,21,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,High,7,-19,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,Minimal,9,13,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,Minimal,11,50,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,Minimal,13,45,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,Minimal,15,50,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,High,17,-50,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,Low,19,8,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,Low,21,-7,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,High,23,-29,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,High,25,9,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,Low,27,50,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,100,High,29,-39,Pre-Test,Control,Pre-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P13,100,Low,1,-28,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Minimal,3,-22,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,5,-1,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,7,-23,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Minimal,9,-19,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Minimal,11,26,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Minimal,13,17,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Minimal,15,19,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,17,-34,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Low,19,13,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Low,21,-11,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,23,-26,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,25,0,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Low,27,-23,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,29,-39,Pre-Test,Control,Pre-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P14,90,Low,1,-19,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,Minimal,3,1,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,High,5,12,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,High,7,0,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,Minimal,9,-23,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,Minimal,11,45,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,Minimal,13,9,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,Minimal,15,8,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,High,17,-18,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,Low,19,32,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,Low,21,-14,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,High,23,-46,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,High,25,30,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,Low,27,-15,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,90,High,29,-41,Pre-Test,Control,Pre-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P2,100,Low,1,18,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Minimal,3,20,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,5,24,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,7,25,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Minimal,9,28,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Minimal,11,7,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Minimal,13,19,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Minimal,15,27,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,17,24,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Low,19,37,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Low,21,30,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,23,8,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,25,26,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Low,27,25,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,29,32,Pre-Test,Control,Pre-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P20,92,Low,1,-47,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,Minimal,3,34,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,High,5,-13,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,High,7,-41,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,Minimal,9,35,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,Minimal,11,50,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,Minimal,13,27,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,Minimal,15,45,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,High,17,-32,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,Low,19,39,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,Low,21,-45,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,High,23,-20,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,High,25,50,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,Low,27,37,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,92,High,29,-42,Pre-Test,Compassion,Pre-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Low,1,-2,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Minimal,3,50,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,5,5,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,7,-50,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Minimal,9,50,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Minimal,11,35,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Minimal,13,5,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Minimal,15,50,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,17,-50,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Low,19,44,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Low,21,0,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,23,-50,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,25,50,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Low,27,5,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,29,-50,Pre-Test,Compassion,Pre-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Low,1,-6,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Minimal,3,1,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,5,49,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,7,-38,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Minimal,9,-4,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Minimal,11,-5,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Minimal,13,-3,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Minimal,15,-26,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,17,-50,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Low,19,-21,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Low,21,-5,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,23,-50,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,25,50,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Low,27,-10,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,29,-34,Pre-Test,Compassion,Pre-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P24,100,Low,1,25,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Minimal,3,21,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,5,50,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,7,2,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Minimal,9,-27,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Minimal,11,4,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Minimal,13,50,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Minimal,15,50,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,17,-37,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Low,19,4,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Low,21,-13,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,23,-3,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,25,32,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Low,27,10,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,29,-1,Pre-Test,Compassion,Pre-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P25,95,Low,1,-6,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,Minimal,3,32,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,High,5,-1,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,High,7,-31,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,Minimal,9,-16,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,Minimal,11,27,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,Minimal,13,40,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,Minimal,15,-23,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,High,17,-46,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,Low,19,-7,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,Low,21,17,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,High,23,-25,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,High,25,50,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,Low,27,-14,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,95,High,29,-50,Pre-Test,Compassion,Pre-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P26,100,Low,1,-46,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Minimal,3,50,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,5,9,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,7,-50,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Minimal,9,3,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Minimal,11,50,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Minimal,13,28,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Minimal,15,37,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,17,-49,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Low,19,15,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Low,21,27,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,23,-38,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,25,50,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Low,27,17,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,29,-50,Pre-Test,Compassion,Pre-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P27,91,Low,1,-41,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,Minimal,3,28,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,High,5,32,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,High,7,-49,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,Minimal,9,50,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,Minimal,11,19,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,Minimal,13,44,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,Minimal,15,43,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,High,17,-37,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,Low,19,6,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,Low,21,26,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,High,23,-40,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,High,25,42,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,Low,27,44,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,91,High,29,-5,Pre-Test,Compassion,Pre-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P29,100,Low,1,-41,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Minimal,3,23,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,5,2,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,7,-21,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Minimal,9,6,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Minimal,11,44,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Minimal,13,33,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Minimal,15,28,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,17,-29,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Low,19,50,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Low,21,-48,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,23,0,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,25,33,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Low,27,39,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,29,-40,Pre-Test,Compassion,Pre-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P3,93,Low,1,-29,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,Minimal,3,0,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,High,5,-24,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,High,7,-34,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,Minimal,9,-35,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,Minimal,11,-7,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,Minimal,13,31,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,Minimal,15,33,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,High,17,-18,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,Low,19,-3,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,Low,21,-33,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,High,23,-1,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,High,25,26,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,Low,27,5,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,93,High,29,-21,Pre-Test,Control,Pre-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P30,87,Low,1,4,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,Minimal,3,3,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,High,5,18,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,High,7,-30,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,Minimal,9,45,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,Minimal,11,44,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,Minimal,13,32,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,Minimal,15,50,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,High,17,-33,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,Low,19,7,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,Low,21,26,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,High,23,9,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,High,25,50,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,Low,27,35,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,87,High,29,19,Pre-Test,Compassion,Pre-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P31,98,Low,1,22,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,Minimal,3,-35,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,High,5,-1,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,High,7,10,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,Minimal,9,5,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,Minimal,11,36,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,Minimal,13,-27,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,Minimal,15,21,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,High,17,-21,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,Low,19,13,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,Low,21,-12,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,High,23,13,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,High,25,19,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,Low,27,17,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,98,High,29,33,Pre-Test,Compassion,Pre-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Low,1,-17,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Minimal,3,5,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,5,47,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,7,35,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Minimal,9,-40,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Minimal,11,50,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Minimal,13,50,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Minimal,15,50,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,17,-11,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Low,19,40,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Low,21,43,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,23,-42,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,25,50,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Low,27,-37,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,29,-44,Pre-Test,Compassion,Pre-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P33,90,Low,1,-22,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,Minimal,3,-19,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,High,5,13,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,High,7,-41,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,Minimal,9,14,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,Minimal,11,44,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,Minimal,13,41,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,Minimal,15,39,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,High,17,-37,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,Low,19,22,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,Low,21,12,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,High,23,-20,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,High,25,36,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,Low,27,-42,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,90,High,29,-28,Pre-Test,Compassion,Pre-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P34,84,Low,1,9,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,Minimal,3,10,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,High,5,7,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,High,7,-22,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,Minimal,9,-1,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,Minimal,11,18,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,Minimal,13,16,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,Minimal,15,15,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,High,17,-9,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,Low,19,5,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,Low,21,18,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,High,23,-2,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,High,25,-15,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,Low,27,10,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,84,High,29,4,Pre-Test,Compassion,Pre-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P35,100,Low,1,45,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Minimal,3,39,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,5,41,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,7,42,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Minimal,9,41,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Minimal,11,37,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Minimal,13,39,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Minimal,15,39,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,17,25,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Low,19,47,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Low,21,43,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,23,13,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,25,40,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Low,27,30,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,29,20,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Low,1,22,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Minimal,3,38,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,5,21,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,7,19,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Minimal,9,20,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Minimal,11,50,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Minimal,13,50,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Minimal,15,40,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,17,37,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Low,19,45,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Low,21,9,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,23,23,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,25,50,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Low,27,27,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,29,10,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P4,100,Low,1,15,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Minimal,3,50,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,5,50,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,7,24,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Minimal,9,48,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Minimal,11,27,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Minimal,13,46,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Minimal,15,50,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,17,50,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Low,19,29,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Low,21,-19,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,23,27,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,25,50,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Low,27,50,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,29,-19,Pre-Test,Control,Pre-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P40,71,Low,1,17,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,Minimal,3,-5,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,High,5,4,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,High,7,12,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,Minimal,9,11,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,Minimal,11,16,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,Minimal,13,12,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,Minimal,15,6,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,High,17,12,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,Low,19,5,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,Low,21,10,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,High,23,15,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,High,25,-1,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,Low,27,9,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,71,High,29,11,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P41,100,Low,1,-47,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Minimal,3,3,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,5,-49,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,7,-49,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Minimal,9,-48,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Minimal,11,50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Minimal,13,50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Minimal,15,50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,17,-48,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Low,19,50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Low,21,50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,23,-50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,25,50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Low,27,50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,29,-50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P42,100,Low,1,-34,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,Minimal,3,34,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,High,5,-50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,High,7,6,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,Minimal,9,13,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,Minimal,11,50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,Minimal,13,50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,Minimal,15,50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,High,17,-50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,Low,19,-50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,Low,21,33,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,High,23,-19,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,High,25,50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,Low,27,0,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,100,High,29,-50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P43,100,Low,1,-24,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Minimal,3,-22,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,5,-35,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,7,-49,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Minimal,9,-26,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Minimal,11,22,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Minimal,13,23,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Minimal,15,-1,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,17,-50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Low,19,-40,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Low,21,-28,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,23,-50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,25,41,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Low,27,-27,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,29,-50,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P44,100,Low,1,-7,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Minimal,3,23,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,5,46,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,7,-22,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Minimal,9,6,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Minimal,11,39,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Minimal,13,49,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Minimal,15,9,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,17,-13,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Low,19,37,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Low,21,17,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,23,-25,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,25,38,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Low,27,-10,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,29,-32,Pre-Test,Exponential Growth,Pre-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P45,100,Low,1,-3,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Minimal,3,50,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,5,0,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,7,-33,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Minimal,9,39,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Minimal,11,50,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Minimal,13,50,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Minimal,15,50,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,17,-32,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Low,19,24,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Low,21,40,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,23,-16,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,25,50,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Low,27,29,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,29,-24,Pre-Test,Exponential Growth,Pre-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P46,100,Low,1,-49,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Low,1,-50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Minimal,3,50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Minimal,3,-34,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,5,-1,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,5,-36,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,7,-50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,7,-50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Minimal,9,0,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Minimal,9,14,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Minimal,11,2,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Minimal,11,43,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Minimal,13,50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Minimal,13,50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Minimal,15,50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Minimal,15,42,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,17,-50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,17,-28,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Low,19,-50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Low,19,40,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Low,21,2,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Low,21,-50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,23,-50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,23,-45,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,25,50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,25,50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Low,27,50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Low,27,43,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,29,-50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,29,-50,Pre-Test,Exponential Growth,Pre-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P47,100,Low,1,-28,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Minimal,3,31,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,5,24,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,7,-47,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Minimal,9,-34,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Minimal,11,4,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Minimal,13,50,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Minimal,15,16,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,17,-50,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Low,19,11,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Low,21,30,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,23,-16,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,25,-20,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Low,27,33,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,29,-38,Pre-Test,Exponential Growth,Pre-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P48,100,Low,1,-14,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Minimal,3,26,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,5,27,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,7,29,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Minimal,9,-1,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Minimal,11,33,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Minimal,13,33,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Minimal,15,32,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,17,11,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Low,19,31,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Low,21,30,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,23,-42,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,25,12,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Low,27,27,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,29,-44,Pre-Test,Exponential Growth,Pre-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P5,100,Low,1,-4,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Minimal,3,20,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,5,35,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,7,20,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Minimal,9,23,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Minimal,11,50,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Minimal,13,50,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Minimal,15,30,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,17,-32,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Low,19,26,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Low,21,35,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,23,-41,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,25,50,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Low,27,25,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,29,-44,Pre-Test,Control,Pre-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P50,100,Low,1,21,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Minimal,3,24,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,5,9,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,7,-10,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Minimal,9,28,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Minimal,11,30,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Minimal,13,27,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Minimal,15,25,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,17,-24,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Low,19,24,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Low,21,15,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,23,-8,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,25,27,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Low,27,-6,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,29,-24,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P51,100,Low,1,-37,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Minimal,3,-33,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,5,32,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,7,-30,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Minimal,9,40,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Minimal,11,13,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Minimal,13,-36,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Minimal,15,22,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,17,-21,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Low,19,40,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Low,21,-42,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,23,-34,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,25,-25,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Low,27,-3,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,29,-13,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P52,100,Low,1,-24,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Minimal,3,-45,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,5,-35,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,7,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Minimal,9,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Minimal,11,11,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Minimal,13,35,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Minimal,15,6,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,17,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Low,19,25,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Low,21,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,23,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,25,-42,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Low,27,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,29,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P53,100,Low,1,11,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,Minimal,3,14,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,High,5,25,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,High,7,-40,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,Minimal,9,27,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,Minimal,11,22,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,Minimal,13,-15,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,Minimal,15,-3,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,High,17,-23,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,Low,19,-15,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,Low,21,10,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,High,23,-32,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,High,25,20,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,Low,27,-39,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,100,High,29,-13,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P54,100,Low,1,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Minimal,3,-1,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,5,2,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,7,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Minimal,9,-1,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Minimal,11,50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Minimal,13,50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Minimal,15,50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,17,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Low,19,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Low,21,-4,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,23,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,25,50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Low,27,-2,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,29,-50,Pre-Test,Exponential Growth,Pre-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,Low,1,-39,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,Minimal,3,-14,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,High,5,-2,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,High,7,-35,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,Minimal,9,-28,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,Minimal,11,-25,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,Minimal,13,-27,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,Minimal,15,-28,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,High,17,-35,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,Low,19,-31,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,Low,21,-12,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,High,23,-28,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,High,25,-15,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,Low,27,-8,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,57,High,29,-45,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P56,100,Low,1,-50,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Minimal,3,7,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,5,49,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,7,32,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Minimal,9,48,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Minimal,11,-31,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Minimal,13,27,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Minimal,15,29,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,17,-14,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Low,19,50,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Low,21,31,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,23,-49,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,25,1,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Low,27,38,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,29,-50,Pre-Test,Exponential Growth,Pre-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P57,100,Low,1,-39,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Minimal,3,-43,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,5,37,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,7,-42,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Minimal,9,-42,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Minimal,11,-41,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Minimal,13,-33,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Minimal,15,44,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,17,-44,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Low,19,-40,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Low,21,-43,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,23,-42,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,25,39,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Low,27,-44,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,29,-41,Pre-Test,Exponential Growth,Pre-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P58,82,Low,1,-50,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,Minimal,3,-48,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,High,5,17,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,High,7,-50,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,Minimal,9,19,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,Minimal,11,-49,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,Minimal,13,-45,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,Minimal,15,-1,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,High,17,-41,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,Low,19,-50,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,Low,21,0,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,High,23,-50,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,High,25,-1,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,Low,27,-35,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,82,High,29,-50,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,Low,1,23,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,Minimal,3,27,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,High,5,34,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,High,7,15,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,Minimal,9,26,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,Minimal,11,33,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,Minimal,13,28,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,Minimal,15,35,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,High,17,14,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,Low,19,31,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,Low,21,25,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,High,23,19,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,High,25,29,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,Low,27,29,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,97,High,29,-20,Pre-Test,Exponential Growth,Pre-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P6,90,Low,1,-7,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,Minimal,3,16,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,High,5,21,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,High,7,14,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,Minimal,9,3,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,Minimal,11,31,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,Minimal,13,31,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,Minimal,15,29,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,High,17,3,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,Low,19,24,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,Low,21,14,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,High,23,-18,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,High,25,17,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,Low,27,-27,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,90,High,29,-11,Pre-Test,Control,Pre-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P7,100,Low,1,-3,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Minimal,3,25,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,5,28,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,7,10,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Minimal,9,-45,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Minimal,11,50,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Minimal,13,50,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Minimal,15,50,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,17,-30,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Low,19,15,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Low,21,50,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,23,-37,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,25,50,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Low,27,-2,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,29,-50,Pre-Test,Control,Pre-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P8,100,Low,1,24,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Minimal,3,10,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,5,34,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,7,-25,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Minimal,9,9,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Minimal,11,50,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Minimal,13,50,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Minimal,15,50,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,17,-46,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Low,19,4,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Low,21,25,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,23,-50,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,25,20,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Low,27,18,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,29,-34,Pre-Test,Control,Pre-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P9,100,Low,1,-13,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Minimal,3,-4,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,5,26,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,7,-42,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Minimal,9,-13,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Minimal,11,6,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Minimal,13,22,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Minimal,15,8,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,17,-16,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Low,19,-4,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Low,21,-8,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,23,-40,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,25,-13,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Low,27,11,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,29,-45,Pre-Test,Control,Pre-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P1,100,High,2,-50,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,4,-21,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Low,6,16,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,8,27,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,10,-50,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,12,28,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Minimal,14,50,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Low,16,50,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Low,18,20,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,20,-39,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,22,-35,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,Minimal,24,50,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,26,50,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,28,-50,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P1,100,High,30,-50,Post-Test,Control,Post-Test,14/10/2020 22:43,23,Female,Regional Vic,Australia,No,No,Yes
+P10,95,High,2,-26,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,High,4,12,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,Low,6,10,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,High,8,-33,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,High,10,-46,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,High,12,-2,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,Minimal,14,-26,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,Low,16,-18,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,Low,18,12,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,High,20,-27,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,High,22,18,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,Minimal,24,29,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,High,26,-31,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,High,28,-36,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P10,95,High,30,-37,Post-Test,Control,Post-Test,15/10/2020 5:03,25,Female,Metro Melbourne,Australia,Yes,No,Yes
+P11,100,High,2,-50,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,4,19,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Low,6,-3,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,8,0,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,10,-50,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,12,-50,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Minimal,14,17,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Low,16,13,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Low,18,-1,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,20,-20,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,22,50,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,Minimal,24,34,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,26,30,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,28,-6,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P11,100,High,30,-50,Post-Test,Control,Post-Test,15/10/2020 1:24,29,Female,Metro Melbourne,Australia,No,No,Yes
+P12,74,High,2,-27,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,High,4,-8,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,Low,6,16,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,High,8,-5,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,High,10,-48,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,High,12,18,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,Minimal,14,25,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,Low,16,-8,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,Low,18,21,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,High,20,-28,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,High,22,-35,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,Minimal,24,22,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,High,26,-34,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,High,28,-9,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P12,74,High,30,-36,Post-Test,Control,Post-Test,15/10/2020 1:53,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes
+P13,100,High,2,50,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,4,50,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Low,6,3,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,8,-10,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,10,-50,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,12,-26,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Minimal,14,50,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Low,16,50,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Low,18,50,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,20,50,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,22,-19,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,Minimal,24,50,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,26,21,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,28,-24,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P13,100,High,30,-3,Post-Test,Control,Post-Test,15/10/2020 0:13,26,Female,Metro Melbourne,Brazil,No,No,Yes
+P14,80,High,2,-27,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,High,4,19,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,Low,6,-31,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,High,8,-16,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,High,10,-50,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,High,12,40,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,Minimal,14,50,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,Low,16,35,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,Low,18,12,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,High,20,-33,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,High,22,48,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,Minimal,24,44,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,High,26,-26,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,High,28,22,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P14,80,High,30,-39,Post-Test,Control,Post-Test,17/10/2020 20:52,22,Male,Metro Melbourne,Australia,No,No,Yes
+P15,95,High,2,50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,High,4,50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,Low,6,50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,High,8,50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,High,10,-50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,High,12,-50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,Minimal,14,50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,Low,16,50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,Low,18,2,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,High,20,50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,High,22,50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,Minimal,24,50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,High,26,-32,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,High,28,-50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P15,95,High,30,-50,Post-Test,Control,Post-Test,17/10/2020 21:54,25,Female,Metro Melbourne,Australia,No,No,Yes
+P16,100,High,2,-17,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,High,4,39,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,Low,6,38,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,High,8,31,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,High,10,-50,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,High,12,21,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,Minimal,14,37,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,Low,16,29,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,Low,18,-3,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,High,20,43,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,High,22,19,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,Minimal,24,50,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,High,26,-27,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,High,28,-8,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P16,100,High,30,-50,Post-Test,Control,Post-Test,17/10/2020 20:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,High,2,-28,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,High,4,50,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,Low,6,50,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,High,8,-50,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,High,10,-50,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,High,12,-50,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,Minimal,14,-26,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,Low,16,-25,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,Low,18,4,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,High,20,-50,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,High,22,50,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,Minimal,24,50,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,High,26,-39,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,High,28,0,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P17,100,High,30,-40,Post-Test,Control,Post-Test,15/10/2020 20:42,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,High,2,-50,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,High,4,-24,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,Low,6,-17,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,High,8,-7,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,High,10,-23,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,High,12,50,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,Minimal,14,19,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,Low,16,32,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,Low,18,23,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,High,20,-45,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,High,22,-35,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,Minimal,24,40,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,High,26,16,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,High,28,-15,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P18,100,High,30,-33,Post-Test,Compassion,Post-Test,15/10/2020 0:32,27,Male,Metro Melbourne,Australia,Yes,No,Yes
+P19,100,High,2,-38,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,2,-38,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,4,41,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,4,41,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,Low,6,38,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,Low,6,38,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,8,29,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,8,29,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,10,-50,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,10,-50,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,12,-44,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,12,-44,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,Minimal,14,50,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,Minimal,14,50,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,Low,16,-50,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,Low,16,-50,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,Low,18,-27,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,Low,18,-27,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,20,-13,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,20,-13,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,22,37,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,22,37,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,Minimal,24,50,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,Minimal,24,50,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,26,41,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,26,41,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,28,-44,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,28,-44,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,30,-50,Post-Test,Compassion,Post-Test,14/10/2020 22:25,26,Male,Metro Melbourne,Australia,No,No,Yes
+P19,100,High,30,-50,Post-Test,Compassion,Post-Test,17/10/2020 20:01,26,Male,Metro Melbourne,Australia,No,No,Yes
+P2,100,High,2,-4,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,4,50,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Low,6,33,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,8,18,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,10,-5,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,12,-12,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Minimal,14,12,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Low,16,50,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Low,18,7,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,20,13,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,22,50,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,Minimal,24,32,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,26,25,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,28,0,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P2,100,High,30,-1,Post-Test,Control,Post-Test,17/10/2020 21:18,27,Female,Metro Melbourne,Nepal,Yes,No,Yes
+P20,100,High,2,-42,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,High,4,36,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,Low,6,25,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,High,8,33,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,High,10,-50,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,High,12,17,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,Minimal,14,50,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,Low,16,30,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,Low,18,39,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,High,20,-42,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,High,22,30,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,Minimal,24,50,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,High,26,-30,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,High,28,27,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P20,100,High,30,-37,Post-Test,Compassion,Post-Test,15/10/2020 5:34,25,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,2,-27,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,4,4,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Low,6,-7,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,8,16,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,10,-50,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,12,-50,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Minimal,14,-50,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Low,16,-29,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Low,18,-9,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,20,14,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,22,-32,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,Minimal,24,-4,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,26,12,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,28,-50,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P21,100,High,30,-13,Post-Test,Compassion,Post-Test,16/10/2020 0:14,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P22,100,High,2,-50,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,High,4,-5,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,Low,6,49,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,High,8,50,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,High,10,-50,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,High,12,-17,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,Minimal,14,-50,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,Low,16,-47,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,Low,18,44,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,High,20,-4,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,High,22,50,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,Minimal,24,50,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,High,26,48,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,High,28,-50,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P22,100,High,30,-50,Post-Test,Compassion,Post-Test,17/10/2020 20:10,23,Female,Metro Melbourne,Australia,No,No,Yes
+P23,100,High,2,-3,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,4,-1,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Low,6,-4,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,8,-1,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,10,-7,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,12,-7,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Minimal,14,-4,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Low,16,-3,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Low,18,-1,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,20,-2,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,22,4,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,Minimal,24,-6,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,26,-3,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,28,3,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P23,100,High,30,-6,Post-Test,Compassion,Post-Test,15/10/2020 5:05,23,Male,Metro Melbourne,Australia,Yes,No,Yes
+P24,100,High,2,-50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,4,50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Low,6,50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,8,50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,10,-50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,12,-50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Minimal,14,50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Low,16,50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Low,18,0,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,20,50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,22,50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,Minimal,24,50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,26,36,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,28,-50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P24,100,High,30,-50,Post-Test,Compassion,Post-Test,14/10/2020 22:18,25,Male,Metro Melbourne,Brazil,Yes,No,Yes
+P25,100,High,2,-6,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,High,4,11,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,Low,6,13,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,High,8,7,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,High,10,-44,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,High,12,-12,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,Minimal,14,35,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,Low,16,26,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,Low,18,-8,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,High,20,-12,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,High,22,12,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,Minimal,24,40,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,High,26,16,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,High,28,-10,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P25,100,High,30,-21,Post-Test,Compassion,Post-Test,18/10/2020 18:14,21,Female,Metro Melbourne,Australia,No,No,Yes
+P26,100,High,2,-40,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,4,50,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Low,6,42,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,8,35,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,10,-49,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,12,-35,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Minimal,14,50,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Low,16,50,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Low,18,42,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,20,50,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,22,50,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,Minimal,24,50,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,26,-35,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,28,29,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P26,100,High,30,-50,Post-Test,Compassion,Post-Test,15/10/2020 3:06,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P27,100,High,2,17,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,High,4,50,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,Low,6,18,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,High,8,50,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,High,10,-50,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,High,12,18,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,Minimal,14,50,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,Low,16,50,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,Low,18,-37,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,High,20,-10,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,High,22,50,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,Minimal,24,50,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,High,26,-27,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,High,28,-25,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P27,100,High,30,-34,Post-Test,Compassion,Post-Test,18/10/2020 1:14,28,Female,Metro Melbourne,Australia,No,No,Yes
+P28,100,High,2,5,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,High,4,9,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,Low,6,10,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,High,8,-23,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,High,10,-29,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,High,12,40,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,Minimal,14,50,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,Low,16,30,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,Low,18,20,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,High,20,-15,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,High,22,22,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,Minimal,24,28,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,High,26,9,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,High,28,9,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P28,100,High,30,-20,Post-Test,Compassion,Post-Test,18/10/2020 16:32,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P29,100,High,2,33,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,4,29,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Low,6,24,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,8,34,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,10,-37,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,12,-36,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Minimal,14,27,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Low,16,33,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Low,18,21,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,20,-37,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,22,28,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,Minimal,24,32,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,26,32,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,28,32,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P29,100,High,30,-37,Post-Test,Compassion,Post-Test,17/10/2020 22:24,21,Female,Metro Melbourne,Spain,No,No,Yes
+P3,100,High,2,8,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,High,4,10,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,Low,6,7,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,High,8,19,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,High,10,-34,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,High,12,10,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,Minimal,14,32,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,Low,16,22,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,Low,18,4,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,High,20,-14,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,High,22,-1,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,Minimal,24,37,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,High,26,28,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,High,28,-18,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P3,100,High,30,-20,Post-Test,Control,Post-Test,14/10/2020 22:12,26,Female,Regional Vic,Australia,Yes,No,Yes
+P30,98,High,2,-45,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,High,4,46,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,Low,6,50,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,High,8,38,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,High,10,-45,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,High,12,-44,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,Minimal,14,47,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,Low,16,50,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,Low,18,16,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,High,20,35,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,High,22,44,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,Minimal,24,49,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,High,26,-48,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,High,28,-3,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P30,98,High,30,-50,Post-Test,Compassion,Post-Test,18/10/2020 0:30,24,Female,Metro Melbourne,Australia,No,No,Yes
+P31,100,High,2,-31,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,High,4,32,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,Low,6,-32,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,High,8,-27,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,High,10,29,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,High,12,-28,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,Minimal,14,-27,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,Low,16,-25,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,Low,18,-30,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,High,20,-28,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,High,22,-26,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,Minimal,24,-30,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,High,26,-26,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,High,28,11,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P31,100,High,30,-28,Post-Test,Compassion,Post-Test,18/10/2020 2:05,25,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,2,-31,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,4,50,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Low,6,-15,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,8,-39,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,10,-50,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,12,11,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Minimal,14,50,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Low,16,50,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Low,18,30,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,20,-27,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,22,50,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,Minimal,24,50,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,26,38,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,28,-40,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P32,100,High,30,-39,Post-Test,Compassion,Post-Test,18/10/2020 2:58,19,Male,Metro Melbourne,Australia,No,No,Yes
+P33,100,High,2,14,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,High,4,35,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,Low,6,12,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,High,8,-30,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,High,10,-40,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,High,12,33,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,Minimal,14,9,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,Low,16,20,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,Low,18,15,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,High,20,-50,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,High,22,17,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,Minimal,24,42,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,High,26,21,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,High,28,4,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P33,100,High,30,-20,Post-Test,Compassion,Post-Test,17/10/2020 22:19,22,Female,Metro Melbourne,Australia,Yes,No,Yes
+P34,96,High,2,5,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,High,4,-19,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,Low,6,6,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,High,8,32,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,High,10,-27,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,High,12,21,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,Minimal,14,35,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,Low,16,42,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,Low,18,11,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,High,20,18,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,High,22,20,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,Minimal,24,48,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,High,26,4,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,High,28,27,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P34,96,High,30,-15,Post-Test,Compassion,Post-Test,17/10/2020 19:53,25,Female,Metro Melbourne,Australia,No,No,Yes
+P35,100,High,2,48,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,4,46,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Low,6,43,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,8,39,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,10,46,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,12,47,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Minimal,14,46,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Low,16,48,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Low,18,48,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,20,48,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,22,46,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,Minimal,24,48,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,26,46,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,28,47,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P35,100,High,30,48,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:43,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,2,30,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,4,16,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Low,6,20,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,8,14,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,10,27,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,12,37,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Minimal,14,50,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Low,16,24,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Low,18,27,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,20,7,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,22,31,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,Minimal,24,28,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,26,24,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,28,22,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P36,100,High,30,35,Post-Test,Exponential Growth,Post-Test,16/10/2020 22:40,29,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,High,2,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,High,4,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,Low,6,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,High,8,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,High,10,-50,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,High,12,-50,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,Minimal,14,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,Low,16,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,Low,18,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,High,20,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,High,22,46,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,Minimal,24,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,High,26,-50,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,High,28,-43,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P37,100,High,30,-1,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:29,27,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,High,2,50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,High,4,50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,Low,6,50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,High,8,50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,High,10,-50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,High,12,-50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,Minimal,14,50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,Low,16,50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,Low,18,-50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,High,20,50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,High,22,50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,Minimal,24,50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,High,26,-50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,High,28,-50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P38,100,High,30,-50,Post-Test,Exponential Growth,Post-Test,18/10/2020 7:45,20,Female,Metro Melbourne,Australia,Yes,No,Yes
+P4,100,High,2,-33,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,4,50,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Low,6,50,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,8,-15,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,10,-50,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,12,-50,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Minimal,14,50,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Low,16,50,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Low,18,50,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,20,-17,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,22,50,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,Minimal,24,50,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,26,50,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,28,-48,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P4,100,High,30,-49,Post-Test,Control,Post-Test,17/10/2020 20:18,24,Female,Metro Melbourne,Australia,No,No,Yes
+P40,84,High,2,25,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,High,4,26,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,Low,6,17,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,High,8,33,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,High,10,13,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,High,12,30,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,Minimal,14,26,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,Low,16,24,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,Low,18,23,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,High,20,31,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,High,22,19,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,Minimal,24,20,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,High,26,21,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,High,28,24,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P40,84,High,30,21,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:27,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes
+P41,100,High,2,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,4,0,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Low,6,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,8,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,10,-49,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,12,-50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Minimal,14,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Low,16,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Low,18,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,20,-49,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,22,2,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,Minimal,24,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,26,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,28,-50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P41,100,High,30,-49,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:38,29,Female,Metro Melbourne,Pakistan,No,No,Yes
+P42,90,High,2,-38,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,High,4,35,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,Low,6,-37,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,High,8,24,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,High,10,-50,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,High,12,8,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,Minimal,14,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,Low,16,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,Low,18,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,High,20,-35,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,High,22,-26,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,Minimal,24,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,High,26,50,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,High,28,-7,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P42,90,High,30,-50,Post-Test,Exponential Growth,Post-Test,17/10/2020 23:08,20,Female,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,2,-39,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,4,14,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Low,6,-33,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,8,9,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,10,-50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,12,4,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Minimal,14,2,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Low,16,-25,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Low,18,-29,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,20,-50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,22,-1,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,Minimal,24,36,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,26,-20,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,28,-50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P43,100,High,30,-50,Post-Test,Exponential Growth,Post-Test,17/10/2020 22:42,27,Male,Metro Melbourne,Australia,No,No,Yes
+P44,100,High,2,-3,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,4,1,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Low,6,23,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,8,-26,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,10,-38,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,12,30,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Minimal,14,49,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Low,16,38,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Low,18,29,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,20,-46,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,22,7,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,Minimal,24,32,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,26,25,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,28,-17,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P44,100,High,30,-18,Post-Test,Exponential Growth,Post-Test,17/10/2020 20:19,26,Female,Metro Melbourne,Australia,Yes,No,Yes
+P45,100,High,2,-10,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,4,10,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Low,6,38,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,8,50,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,10,-25,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,12,-6,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Minimal,14,50,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Low,16,24,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Low,18,50,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,20,50,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,22,19,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,Minimal,24,50,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,26,17,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,28,30,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P45,100,High,30,-30,Post-Test,Exponential Growth,Post-Test,14/10/2020 22:50,25,Female,Metro Melbourne,Australia,No,No,Yes
+P46,100,High,2,-50,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,4,50,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Low,6,40,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,8,-49,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,10,-49,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,12,-2,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Minimal,14,50,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Low,16,50,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Low,18,50,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,20,-50,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,22,39,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,Minimal,24,50,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,26,-34,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,28,-50,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P46,100,High,30,-28,Post-Test,Exponential Growth,Post-Test,19/10/2020 0:52,23,Female,Metro Melbourne,Australia,Yes,No,Yes
+P47,100,High,2,22,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,4,35,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Low,6,16,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,8,40,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,10,-42,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,12,50,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Minimal,14,50,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Low,16,50,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Low,18,37,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,20,-50,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,22,43,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,Minimal,24,50,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,26,13,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,28,10,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P47,100,High,30,36,Post-Test,Exponential Growth,Post-Test,20/10/2020 23:00,15,Female,Metro Melbourne,Australia,No,No,Yes
+P48,100,High,2,50,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,4,43,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Low,6,50,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,8,3,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,10,50,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,12,50,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Minimal,14,50,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Low,16,50,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Low,18,50,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,20,50,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,22,50,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,Minimal,24,50,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,26,50,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,28,49,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P48,100,High,30,2,Post-Test,Exponential Growth,Post-Test,16/10/2020 8:55,22,Female,Metro Melbourne,Bangladesh,No,No,Yes
+P49,100,High,2,20,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,High,4,50,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,Low,6,40,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,High,8,40,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,High,10,-45,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,High,12,-50,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,Minimal,14,44,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,Low,16,37,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,Low,18,17,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,High,20,20,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,High,22,-2,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,Minimal,24,50,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,High,26,-11,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,High,28,-1,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P49,100,High,30,-22,Post-Test,Exponential Growth,Post-Test,15/10/2020 21:36,26,Male,Metro Melbourne,Australia,Yes,No,Yes
+P5,100,High,2,15,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,4,43,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Low,6,40,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,8,35,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,10,-19,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,12,-25,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Minimal,14,-18,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Low,16,26,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Low,18,17,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,20,33,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,22,34,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,Minimal,24,50,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,26,30,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,28,20,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P5,100,High,30,24,Post-Test,Control,Post-Test,17/10/2020 21:11,28,Male,Metro Melbourne,Mexico,Yes,No,Yes
+P50,100,High,2,-39,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,4,-31,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Low,6,-25,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,8,-15,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,10,-36,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,12,35,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Minimal,14,-35,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Low,16,46,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Low,18,-32,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,20,-30,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,22,-32,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,Minimal,24,41,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,26,-5,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,28,-7,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P50,100,High,30,-15,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:17,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P51,100,High,2,14,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,4,-16,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Low,6,50,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,8,-29,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,10,-29,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,12,17,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Minimal,14,-35,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Low,16,42,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Low,18,-41,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,20,24,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,22,27,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,Minimal,24,45,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,26,39,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,28,-42,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P51,100,High,30,8,Post-Test,Exponential Growth,Post-Test,27/10/2020 16:15,31,Female,Regional Vic,Viet Nam,No,No,Yes
+P52,100,High,2,-50,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,4,20,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Low,6,-50,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,8,-26,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,10,-50,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,12,30,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Minimal,14,-20,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Low,16,47,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Low,18,-50,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,20,-50,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,22,-19,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,Minimal,24,5,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,26,13,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,28,-35,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P52,100,High,30,-50,Post-Test,Exponential Growth,Post-Test,28/10/2020 1:36,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P53,95,High,2,-31,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,High,4,-14,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,Low,6,44,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,High,8,-20,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,High,10,44,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,High,12,24,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,Minimal,14,-47,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,Low,16,-36,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,Low,18,-45,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,High,20,18,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,High,22,46,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,Minimal,24,-2,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,High,26,7,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,High,28,18,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P53,95,High,30,24,Post-Test,Exponential Growth,Post-Test,28/10/2020 16:28,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P54,100,High,2,-50,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,4,2,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Low,6,23,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,8,24,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,10,-50,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,12,50,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Minimal,14,12,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Low,16,50,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Low,18,-49,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,20,-50,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,22,40,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,Minimal,24,50,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,26,34,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,28,3,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P54,100,High,30,50,Post-Test,Exponential Growth,Post-Test,28/10/2020 6:04,33,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,High,2,-33,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,High,4,-42,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,Low,6,-3,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,High,8,-36,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,High,10,-33,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,High,12,-38,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,Minimal,14,-32,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,Low,16,-31,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,Low,18,-35,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,High,20,-44,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,High,22,0,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,Minimal,24,-39,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,High,26,-42,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,High,28,-31,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P55,47,High,30,-46,Post-Test,Exponential Growth,Post-Test,29/10/2020 1:32,21,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P56,100,High,2,9,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,4,-22,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Low,6,-48,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,8,50,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,10,-45,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,12,50,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Minimal,14,27,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Low,16,50,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Low,18,50,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,20,-30,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,22,-35,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,Minimal,24,50,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,26,44,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,28,-49,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P56,100,High,30,49,Post-Test,Exponential Growth,Post-Test,29/10/2020 2:48,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes
+P57,100,High,2,50,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,4,50,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Low,6,50,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,8,5,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,10,-50,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,12,50,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Minimal,14,50,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Low,16,50,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Low,18,-38,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,20,-43,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,22,50,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,Minimal,24,49,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,26,49,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,28,50,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P57,100,High,30,50,Post-Test,Exponential Growth,Post-Test,22/10/2020 5:36,NA,NA,NA,Viet Nam,NA,NA,NA
+P58,85,High,2,-38,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,High,4,-43,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,Low,6,-50,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,High,8,-50,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,High,10,-50,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,High,12,46,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,Minimal,14,-50,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,Low,16,-33,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,Low,18,-50,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,High,20,-32,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,High,22,-30,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,Minimal,24,33,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,High,26,-41,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,High,28,-50,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P58,85,High,30,5,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:10,36,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,High,2,26,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,High,4,27,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,Low,6,34,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,High,8,29,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,High,10,12,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,High,12,45,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,Minimal,14,25,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,Low,16,43,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,Low,18,45,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,High,20,15,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,High,22,0,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,Minimal,24,30,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,High,26,44,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,High,28,30,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P59,100,High,30,32,Post-Test,Exponential Growth,Post-Test,27/10/2020 5:22,34,Female,Metro Melbourne,Viet Nam,No,No,Yes
+P6,87,High,2,-1,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,High,4,-2,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,Low,6,31,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,High,8,24,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,High,10,-28,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,High,12,11,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,Minimal,14,37,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,Low,16,25,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,Low,18,37,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,High,20,-30,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,High,22,12,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,Minimal,24,18,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,High,26,29,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,High,28,16,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P6,87,High,30,-15,Post-Test,Control,Post-Test,NA,NA,NA,NA,NA,NA,NA,NA
+P7,100,High,2,-12,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,4,50,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Low,6,-11,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,8,2,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,10,-31,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,12,50,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Minimal,14,50,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Low,16,50,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Low,18,50,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,20,-38,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,22,50,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,Minimal,24,50,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,26,35,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,28,50,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P7,100,High,30,-4,Post-Test,Control,Post-Test,15/10/2020 3:32,22,Male,Metro Melbourne,Australia,Yes,No,Yes
+P8,100,High,2,12,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,4,1,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Low,6,31,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,8,-11,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,10,-50,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,12,49,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Minimal,14,49,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Low,16,50,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Low,18,32,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,20,-31,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,22,16,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,Minimal,24,49,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,26,17,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,28,50,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P8,100,High,30,-50,Post-Test,Control,Post-Test,17/10/2020 22:22,20,Female,Metro Melbourne,Australia,No,No,Yes
+P9,100,High,2,-33,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,4,-15,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Low,6,-24,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,8,-40,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,10,-42,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,12,18,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Minimal,14,45,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Low,16,48,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Low,18,17,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,20,-14,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,22,0,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,Minimal,24,28,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,26,31,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,28,-28,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes
+P9,100,High,30,25,Post-Test,Control,Post-Test,17/10/2020 19:38,26,Male,Metro Melbourne,Colombia,No,No,Yes

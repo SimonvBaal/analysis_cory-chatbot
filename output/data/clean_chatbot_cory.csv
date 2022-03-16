@@ -1,0 +1,61 @@
+StartDate,ParticipantID,Age,Sex,Vic,Childhood,Essential,Reading,FM,testingLikelihood,Condition
+14/10/2020 22:12,P3,26,Female,Regional Vic,Australia,Yes,No,Yes,NA,NA
+14/10/2020 22:18,P24,25,Male,Metro Melbourne,Brazil,Yes,No,Yes,NA,NA
+14/10/2020 22:25,P19,26,Male,Metro Melbourne,Australia,No,No,Yes,Very Likely,Compassion
+14/10/2020 22:43,P1,23,Female,Regional Vic,Australia,No,No,Yes,NA,NA
+14/10/2020 22:50,P45,25,Female,Metro Melbourne,Australia,No,No,Yes,Very Likely,Exponential Growth
+15/10/2020 0:13,P13,26,Female,Metro Melbourne,Brazil,No,No,Yes,I don't know,Control
+15/10/2020 0:32,P18,27,Male,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
+15/10/2020 0:03,P60,18,Female,Metro Melbourne,Australia,No,No,Yes,Very Likely,Control
+15/10/2020 1:24,P11,29,Female,Metro Melbourne,Australia,No,No,Yes,NA,NA
+15/10/2020 1:53,P12,26,Male,Metro Melbourne,United Kingdom of Great Britain and Northern Ireland,No,No,Yes,Very Unlikely,Control
+15/10/2020 3:06,P26,27,Female,Metro Melbourne,Australia,Yes,No,Yes,Very Likely,Compassion
+15/10/2020 3:32,P7,22,Male,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
+15/10/2020 5:05,P23,23,Male,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
+15/10/2020 5:03,P10,25,Female,Metro Melbourne,Australia,Yes,No,Yes,Very Likely,Control
+15/10/2020 5:34,P20,25,Male,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
+15/10/2020 20:42,P17,23,Female,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
+15/10/2020 21:36,P49,26,Male,Metro Melbourne,Australia,Yes,No,Yes,Very Likely,Exponential Growth
+16/10/2020 0:14,P21,26,Male,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
+16/10/2020 8:55,P48,22,Female,Metro Melbourne,Bangladesh,No,No,Yes,NA,NA
+16/10/2020 22:40,P36,29,Female,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
+17/10/2020 19:38,P9,26,Male,Metro Melbourne,Colombia,No,No,Yes,NA,NA
+17/10/2020 20:01,P19,26,Male,Metro Melbourne,Australia,No,No,Yes,Very Likely,Compassion
+17/10/2020 19:53,P34,25,Female,Metro Melbourne,Australia,No,No,Yes,NA,NA
+17/10/2020 20:10,P22,23,Female,Metro Melbourne,Australia,No,No,Yes,Very Likely,Compassion
+17/10/2020 20:18,P4,24,Female,Metro Melbourne,Australia,No,No,Yes,Very Likely,Control
+17/10/2020 20:19,P44,26,Female,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
+17/10/2020 20:29,P37,27,Female,Metro Melbourne,Australia,Yes,No,Yes,Very Likely,Exponential Growth
+17/10/2020 20:40,P16,29,Female,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
+17/10/2020 20:43,P35,22,Male,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
+17/10/2020 20:52,P14,22,Male,Metro Melbourne,Australia,No,No,Yes,Very Unlikely,Control
+17/10/2020 20:57,P60,18,Male,Metro Melbourne,Australia,Yes,No,Yes,Very Likely,Control
+17/10/2020 21:11,P5,28,Male,Metro Melbourne,Mexico,Yes,No,Yes,NA,NA
+17/10/2020 21:18,P2,27,Female,Metro Melbourne,Nepal,Yes,No,Yes,NA,NA
+17/10/2020 21:54,P15,25,Female,Metro Melbourne,Australia,No,No,Yes,NA,NA
+17/10/2020 22:19,P33,22,Female,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
+17/10/2020 22:22,P8,20,Female,Metro Melbourne,Australia,No,No,Yes,NA,NA
+17/10/2020 22:27,P40,33,Male,Metro Melbourne,Pakistan,Yes,No,Yes,Very Likely,Exponential Growth
+17/10/2020 22:38,P41,29,Female,Metro Melbourne,Pakistan,No,No,Yes,NA,NA
+17/10/2020 22:42,P43,27,Male,Metro Melbourne,Australia,No,No,Yes,NA,NA
+17/10/2020 22:24,P29,21,Female,Metro Melbourne,Spain,No,No,Yes,Very Likely,Compassion
+17/10/2020 23:08,P42,20,Female,Metro Melbourne,Australia,No,No,Yes,Very Likely,Exponential Growth
+18/10/2020 0:30,P30,24,Female,Metro Melbourne,Australia,No,No,Yes,Very Likely,Compassion
+18/10/2020 1:14,P27,28,Female,Metro Melbourne,Australia,No,No,Yes,I don't know,Compassion
+18/10/2020 2:05,P31,25,Male,Metro Melbourne,Australia,No,No,Yes,Very Likely,Compassion
+18/10/2020 2:58,P32,19,Male,Metro Melbourne,Australia,No,No,Yes,NA,NA
+18/10/2020 7:45,P38,20,Female,Metro Melbourne,Australia,Yes,No,Yes,Very Likely,Exponential Growth
+18/10/2020 16:32,P28,20,Female,Metro Melbourne,Australia,Yes,No,Yes,Very Unlikely,Compassion
+18/10/2020 18:14,P25,21,Female,Metro Melbourne,Australia,No,No,Yes,Very Likely,Compassion
+19/10/2020 0:52,P46,23,Female,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
+20/10/2020 23:00,P47,15,Female,Metro Melbourne,Australia,No,No,Yes,Very Likely,Exponential Growth
+27/10/2020 5:10,P58,36,Female,Metro Melbourne,Viet Nam,No,No,Yes,NA,NA
+27/10/2020 5:22,P59,34,Female,Metro Melbourne,Viet Nam,No,No,Yes,NA,NA
+27/10/2020 16:15,P51,31,Female,Regional Vic,Viet Nam,No,No,Yes,NA,NA
+27/10/2020 16:17,P50,35,Female,Metro Melbourne,Viet Nam,Yes,No,Yes,NA,NA
+28/10/2020 1:36,P52,34,Female,Metro Melbourne,Viet Nam,No,No,Yes,NA,NA
+28/10/2020 6:04,P54,33,Female,Metro Melbourne,Viet Nam,No,No,Yes,NA,NA
+28/10/2020 16:28,P53,33,Female,Metro Melbourne,Viet Nam,Yes,No,Yes,Very Likely,Exponential Growth
+29/10/2020 1:32,P55,21,Female,Metro Melbourne,Viet Nam,No,No,Yes,NA,NA
+29/10/2020 2:48,P56,38,Female,Metro Melbourne,Viet Nam,Yes,No,Yes,NA,NA
+22/10/2020 5:36,P57,NA,NA,NA,Viet Nam,NA,NA,NA,NA,NA

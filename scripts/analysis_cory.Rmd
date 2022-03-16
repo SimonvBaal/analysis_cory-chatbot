@@ -13,32 +13,35 @@ library(kableExtra)
 library(ordinal)
 library(emmeans)
 library(onewaytests)
+
+surveyData <- read_csv(here("./output/data/clean_surveys_cory.csv"))
+chatbotData <- read_csv(here("./output/data/clean_chatbot_cory.csv"))
 ```
 
 
 ```{r Descriptive statistics}
 
-ComparisonData %>%
+surveyData %>%
   group_by(Sex) %>%
   summarise(Mean_Age = mean(as.numeric(Age), na.rm = T),
             Min_Age = min(as.numeric(Age), na.rm = T),
             Max_Age = max(as.numeric(Age), na.rm = T),
             n = n()/30)
 
-eligibility %>%
+surveyData %>%
   group_by(Childhood) %>%
-  summarise(n = n())
+  summarise(n = n()/30)
 
-preTestData %>%
+surveyData %>%
   group_by(Nationality) %>%
   summarise(n = n())
 
 TestJudgments <-
-  ComparisonData %>%
+  surveyData %>%
   group_by(ID, Study_Type, Condition) %>%
   summarise(TestImportance = mean(Test)) 
 
-ComparisonData %>%
+surveyData %>%
   group_by(Study_Type, Condition) %>%
   summarise(TestImportance = mean(Test)) %>%
   arrange(Condition, desc(Study_Type))
@@ -147,13 +150,13 @@ colnames(df) <- c("Country", rep(c("Age", "N"), times = 4))
 # 
 # #================================================================================= Density plots for attitudes
 # 
- ComparisonData <- 
-   ComparisonData %>%
+ surveyData <- 
+   surveyData %>%
    mutate(StudyTypeNumeric = ifelse(Timepoint == "Pre-Test",0,1))
 # 
 # 
 # AggregateAttitudePlot <-
-#   ggplot(ComparisonData, aes(x = Attitude, fill = Study_Type)) +
+#   ggplot(surveyData, aes(x = Attitude, fill = Study_Type)) +
 #   geom_density(alpha = .5) +
 #   geom_boxplot(aes(x = Attitude, y = StudyTypeNumeric *-.0015 + 0.0275),
 #                alpha = .4, colour = "black", notch = T, coef = 1) +
@@ -166,7 +169,7 @@ colnames(df) <- c("Country", rep(c("Age", "N"), times = 4))
 # AggregateAttitudePlot
 # 
  HighRiskAttitudePlot <- 
-  ggplot(ComparisonData %>%
+  ggplot(surveyData %>%
            filter(Risk == "High_Risk"),
          aes(x = Attitude, fill = Timepoint)) +
   geom_density(alpha = .4) +
@@ -178,7 +181,7 @@ colnames(df) <- c("Country", rep(c("Age", "N"), times = 4))
   theme(axis.title.x = element_blank())
 
 LowRiskAttitudePlot <-
-  ggplot(ComparisonData %>%
+  ggplot(surveyData %>%
            filter(Risk == "Low_Risk"),
          aes(x = Attitude, fill = Timepoint)) +
   geom_density(alpha = .4) +
@@ -190,7 +193,7 @@ LowRiskAttitudePlot <-
   theme(axis.title = element_blank()) 
 
 MinimalRiskAttitudePlot <-
-  ggplot(ComparisonData %>%
+  ggplot(surveyData %>%
            filter(Risk == "Minimal_Risk"),
          aes(x = Attitude, fill = Timepoint)) +
   geom_density(alpha = .4) +
@@ -283,7 +286,7 @@ pairs(EmmeansTestingLikelihood, reverse = T)
 ```{r Certainty testing}
 
 CertaintyData <- 
-  ComparisonData %>%
+  surveyData %>%
   mutate(AbsCertainty = abs(Attitude - 50))
 
 meanCertaintyLMM <- 
@@ -305,20 +308,20 @@ pairs(emmeansCertainty, reverse = T)
 
 # Equal variances testing
 
-HighRiskComparisonData <- 
-  ComparisonData %>% filter(Risk == "High_Risk")
+HighRisksurveyData <- 
+  surveyData %>% filter(Risk == "High_Risk")
 HighRiskEqVariancesTest <- 
-  levene.test(HighRiskComparisonData$Attitude, HighRiskComparisonData$Study_Type)
+  levene.test(HighRisksurveyData$Attitude, HighRisksurveyData$Study_Type)
 
-LowRiskComparisonData <- 
-  ComparisonData %>% filter(Risk == "Low_Risk")
+LowRisksurveyData <- 
+  surveyData %>% filter(Risk == "Low_Risk")
 LowRiskEqVariancesTest <- 
-  levene.test(LowRiskComparisonData$Attitude, LowRiskComparisonData$Study_Type)
+  levene.test(LowRisksurveyData$Attitude, LowRisksurveyData$Study_Type)
 
-MinimalRiskComparisonData <- 
-  ComparisonData %>% filter(Risk == "Minimal_Risk")
+MinimalRisksurveyData <- 
+  surveyData %>% filter(Risk == "Minimal_Risk")
 MinimalRiskEqVariancesTest <- 
-  levene.test(MinimalRiskComparisonData$Attitude, MinimalRiskComparisonData$Study_Type)
+  levene.test(MinimalRisksurveyData$Attitude, MinimalRisksurveyData$Study_Type)
 
 ```
 
@@ -326,7 +329,7 @@ MinimalRiskEqVariancesTest <-
 
 # Testing importance of getting tested before and after Cory.
 TestImportanceData <- 
-  ComparisonData %>% 
+  surveyData %>% 
   group_by(ID, Study_Type, Condition) %>%
   summarise(TestImportance = mean(Test)) %>%
   pivot_wider(id_cols = c("ID", "Condition"),

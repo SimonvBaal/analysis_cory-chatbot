@@ -12,13 +12,14 @@ library(dplyr)
 library(readr)
 library(tidyr)
 library(stringr)
+library(here)
 ```
 
 ```{r loading data}
-eligibility <- read_csv("./proc/Eligibility_Survey_UAT.csv")
-preTestData <- read_csv("./proc/Pre-Test_Survey_UAT.csv")
-postTestData <- read_csv("./proc/Post-Test_Survey_UAT.csv")
-coryData <- read_csv("./proc/Cory_Data_UAT.csv")
+eligibility <- read_csv(here("data/proc/comb_proc_demo_cory.csv"))
+preTestData <- read_csv(here("data/proc/comb_proc_pre-test_cory.csv"))
+postTestData <- read_csv(here("data/proc/comb_proc_post-test_cory.csv"))
+chatbotData <- read_csv(here("data/proc/comb_proc_chatbot_cory.csv"))
 
 ```
 
@@ -42,7 +43,7 @@ preTestData <-
   preTestData %>%
   select(StartDate,
          ParticipantID,
-         Childhood,
+         Nationality,
          Concern_Rank_1:Study_Type)
 
 # Transform to long data
@@ -79,18 +80,31 @@ preTestData <-
 preTestData <-
   preTestData %>%
   mutate(
-    Question = as.factor(str_extract(Question, "\\d{1,2}")),
+    Question = as.numeric(str_extract(Question, "\\d{1,2}")),
     Risk = ifelse(
-    Question %in% c("5", "7", "17", "23", "25", "29"),
-    "High",
-    ifelse(
-      Question %in% c("1", "19", "21", "27"),
-      "Low",
-      ifelse(Question %in% c("3", "9", "11", "13", "15"),
-             "Minimal",
-             NA)
+      Question %in% c("5", "7", "17", "23", "25", "29"),
+      "High",
+      ifelse(
+        Question %in% c("1", "19", "21", "27"),
+        "Low",
+        ifelse(Question %in% c("3", "9", "11", "13", "15"),
+               "Minimal",
+               NA)
+      )
     )
-  ))
+  )
+
+# Generate list of participant in the three groups.
+participantList <-
+  tibble(ParticipantID = paste0("P", seq(1:60)),
+         Condition = c(rep("Control", 17),
+                       rep("Compassion", 17),
+                       rep("Exponential Growth", 26)))
+
+preTestData <-
+  preTestData %>%
+  left_join(participantList, by = "ParticipantID")
+
 
 # Create summaries per risk level and add it to the data set
 
@@ -104,7 +118,7 @@ preTestData <-
   preTestData %>%
   left_join(attitudeAveragePreTest, by = c("ParticipantID"))
 
-rm(attitudeAveragePreTest)
+rm(attitudeAveragePreTest, participantList)
 ```
 
 
@@ -124,7 +138,7 @@ postTestData <-
          Pleasure = Experience_8,
          Learning = Experience_9,
          Empathy = Experience_10,
-         Test = Test_1,
+         TestImportance = Test_1,
          Recommendation = Recommendation_1)
 
 postTestData <-
@@ -137,7 +151,7 @@ postTestData <-
     values_to = "Attitude"
   ) %>%
   mutate_at(vars(Interest:Empathy, 
-                 Test, 
+                 TestImportance, 
                  Recommendation),
             funs(as.numeric))
 
@@ -173,13 +187,13 @@ rm(attitudeAveragePostTest)
 ```
 
 ```{r Cory Data Cleaning}
-coryData <-
-  coryData %>%
+chatbotData <-
+  chatbotData %>%
   arrange(`Joined At (+11:00)`)
 
 # create summary
-corySummary <-
-  coryData %>%
+chatbotSummary <-
+  chatbotData %>%
   group_by(testingLikelihoodSpread,
            testingLikelihoodEmpathy,
            testingLikelihoodControl) %>%
@@ -208,18 +222,18 @@ corySummary <-
         "Control",
         ifelse(
           !is.na(testingLikelihoodEmpathy),
-          "Empathy",
+          "Compassion",
           ifelse(!is.na(testingLikelihoodSpread),
                  "Exponential Growth")
         )
       ),
-      levels = c("Exponential Growth", "Empathy", "Control")
+      levels = c("Exponential Growth", "Compassion", "Control")
     )
   )
 
-# create data for regression
-coryData <-
-  coryData %>%
+# create simple data for analysis
+chatbotData <-
+  chatbotData %>%
   group_by(testingLikelihoodSpread,
            testingLikelihoodEmpathy,
            testingLikelihoodControl) %>%
@@ -247,12 +261,12 @@ coryData <-
         "Control",
         ifelse(
           !is.na(testingLikelihoodEmpathy),
-          "Empathy",
+          "Compassion",
           ifelse(!is.na(testingLikelihoodSpread),
                  "Exponential Growth")
         )
       ),
-      levels = c("Control", "Empathy", "Exponential Growth")
+      levels = c("Control", "Compassion", "Exponential Growth")
     )
   ) %>%
   ungroup() %>%
@@ -264,63 +278,78 @@ coryData <-
 
 ```{r ID linking}
 
-analysisData <- 
-  left_join(eligibility, coryData)
-
-View(analysisData)
+# Link demographics to data from the chatbot
+chatbotData <- 
+  left_join(eligibility, chatbotData, by = "ParticipantID")
 
 
 ```
 
 
-```{r Create analysis data set}
+```{r Create pre-post comparison data set}
 
-ComparisonData <-
+comparisonDataPre <-
   preTestData %>%
-  filter(IdMatch == TRUE) %>%
-  select(ID,
-         Test,
-         Risk,
-         Question,
-         Attitude,
-         Study_Type) %>%
-  arrange(ID)
-
-ComparisonDataPost <-
-  postTestData %>%
-  filter(IdMatch == TRUE) %>%
-  select(ID,
-         Test,
+  select(ParticipantID,
+         Nationality,
+         TestImportance,
          Risk,
          Question,
          Attitude,
          Study_Type,
          Condition) %>%
-  arrange(ID)
+  arrange(ParticipantID, Question)
 
-ComparisonData <-
-  ComparisonData %>%
-  mutate(Condition = ComparisonDataPost$Condition) %>%
-  rbind(ComparisonDataPost) %>% 
+# Make separate dataframe to add information to post-test data
+nationalityData <- 
+  comparisonDataPre %>%
+  select(ParticipantID, Nationality)
+
+comparisonDataPost <-
+  postTestData %>%
+  select(ParticipantID,
+         TestImportance,
+         Risk,
+         Question,
+         Attitude,
+         Study_Type,
+         Condition) %>%
+  arrange(ParticipantID, Question)
+
+# Add nationality column
+comparisonDataPost <-
+  comparisonDataPost %>% 
+  left_join(nationalityData, by = "ParticipantID")
+
+# Bind the two datasets row-wise now that they have the same number of columns
+comparisonData <-
+  comparisonDataPre %>%
+  rbind(comparisonDataPost) %>% 
   mutate(Timepoint = factor(Study_Type,
-                             levels = c("Pre-Test", 
+                             levels = c("Pre-Test",
                                         "Post-Test")),
          Condition = factor(Condition,
                             levels = c("Exponential Growth",
                                        "Compassion",
                                        "Control")),
-         Attitude = Attitude - 50) %>%
-  left_join(eligibility)
+         Attitude = Attitude - 50,
+         Question = factor(Question)) %>%
+  left_join(eligibility, by = "ParticipantID")
 
-
-
+rm(nationalityData)
 ```
 
 
 ```{r finish up}
 
-rm(matches, matchesPost)
-rm(IdDataPre, IdDataPost, ComparisonDataPost)
+write_csv(comparisonData, here("./output/data/clean_surveys_cory.csv"))
+write_csv(chatbotData, here("./output/data/clean_chatbot_cory.csv"))
+
+
+rm(chatbotData, chatbotSummary, 
+   comparisonData, comparisonDataPost, 
+   comparisonDataPre, eligibility,
+   postTestData, preTestData)
 
 ```
 
