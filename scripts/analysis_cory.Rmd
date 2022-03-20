@@ -7,10 +7,9 @@ output: html_document
 
 ```{r setup, include=FALSE}
 
-library(ggplot2)
-library(ggpubr)
-library(kableExtra)
 library(ordinal)
+library(ordinalCont)
+library(afex)
 library(emmeans)
 library(onewaytests)
 
@@ -29,278 +28,131 @@ surveyData %>%
             n = n()/30)
 
 surveyData %>%
-  group_by(Childhood) %>%
-  summarise(n = n()/30)
-
-surveyData %>%
   group_by(Nationality) %>%
   summarise(n = n())
 
 TestJudgments <-
   surveyData %>%
-  group_by(ID, Study_Type, Condition) %>%
-  summarise(TestImportance = mean(Test)) 
+  group_by(ParticipantID, Study_Type, Condition) %>%
+  summarise(TestImportance = mean(TestImportance)) 
 
 surveyData %>%
   group_by(Study_Type, Condition) %>%
-  summarise(TestImportance = mean(Test)) %>%
+  summarise(TestImportance = mean(TestImportance)) %>%
   arrange(Condition, desc(Study_Type))
 
+chatbotData %>%
+  group_by(Condition, testingLikelihood) %>%
+  summarise(n = n())
 
-postTestData %>% summarise(Interest = mean(Interest),
-                           Intrigue = mean(Intrigue),
-                           Focus = mean(Focus),
-                           Inattention = mean(Inattention),
-                           Distraction = mean(Distraction),
-                           Enjoyment = mean(Enjoyment),
-                           Annoyance = mean(Annoyance),
-                           Pleasure = mean(Pleasure),
-                           Learning = mean(Learning)) %>%
-  pivot_longer(Interest:Learning, names_to = "Metric", values_to="Response")
+
+# surveyData %>% 
+#   summarise(Interest = mean(Interest),
+#                            Intrigue = mean(Intrigue),
+#                            Focus = mean(Focus),
+#                            Inattention = mean(Inattention),
+#                            Distraction = mean(Distraction),
+#                            Enjoyment = mean(Enjoyment),
+#                            Annoyance = mean(Annoyance),
+#                            Pleasure = mean(Pleasure),
+#                            Learning = mean(Learning)) %>%
+#   pivot_longer(Interest:Learning, names_to = "Metric", values_to="Response")
 
 
 
 ```
-
-
-```{r Tables}
-
-eligibility %>%
-  group_by(Childhood, Sex, Essential) %>%
-  summarise(Number_of_Users = n(),
-            Age = round(mean(as.numeric(Age)), 1)) %>%
-  write.csv("Eligibility Table.csv")
-
-preTestData <-
-  preTestData %>%
-  mutate(NationalityGroup = factor(
-    ifelse(
-      Nationality != "Australia" &
-        Nationality != "Viet Nam",
-      "Other",
-      Nationality
+```{r Analysis prep}
+# Ordering factor levels and scaling the age variable.
+chatbotData <-
+  chatbotData %>%
+  mutate(
+    testingLikelihood = factor(
+      testingLikelihood,
+      levels = c("Very Unlikely",
+                 "I don't know",
+                 "Very Likely")
     ),
-    levels = c("Australia", "Viet Nam", "Other")
-  ))
-
-preTestData %>%
-  group_by(NationalityGroup) %>%
-  summarise(
-    Sample_Size = n() / 15,
-    Intention_to_Self_Isolate = mean(Intention),
-    Perceived_Effectiveness_of_Lockdown = mean(Effectiveness_Rank),
-    Concern_about_COVID = mean(Concern_Rank),
-    Importance_of_Testing = mean(Test)
+    testingLikNum = ifelse(
+      testingLikelihood ==
+        "Very Unlikely",
+      1,
+      ifelse(
+        testingLikelihood ==
+          "I don't know",
+        2,
+        ifelse(testingLikelihood ==
+                 "Very Likely", 3, NA)
+      )
+    ),
+    Condition = factor(
+      Condition,
+      levels = c("Control",
+                 "Compassion",
+                 "Exponential Growth")
+    ),
+    Age = scale(Age, center = T, scale = T),
+    Sex = factor(Sex)
   )
 
-df <- read_csv("Eligibility Table.csv")
-colnames(df) <- c("Country", rep(c("Age", "N"), times = 4))
 
-# df %>%
-#   kable() %>%
-#   kable_styling(bootstrap_options = c("striped", "hover", "responsive", "bordered"), 
-#                 full_width = F, 
-#                 font_size = 14) %>%
-#   column_spec(1:9, color = "black") %>%
-#   add_header_above(c(" " = 1, "Female" = 2, "Male" = 2, "Female" = 2, "Male" = 2)) %>%
-#   add_header_above(c(" " = 1, "Yes" = 4, "No" = 4)) %>%
-#   add_header_above(c(" " = 1, "Essential Worker" = 8)) %>%
-#   save_kable(file = "DemoTable.png")
+# Set contrasts for factor to sum contrasts
+contrasts(chatbotData$Condition) <- contr.sum(3)
+contrasts(chatbotData$Sex) <- contr.sum(2)
 
-
-
-```
-
-
-
-```{r Figures}
-# # The palette with black:
-# cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
-# cbbPaletteBoxPlots <- c("#E69F00","#56B4E9","#000000")
-# ## Plot dimensions
-# w = 6
-# h = 4
-# 
-# 
-# #========================================= Cory's internal data figures
-# 
-# 
-# ggplot(corySummary %>% 
-#          filter(!is.na(ExponentialSpreadGuess)) %>% ungroup() %>%
-#          mutate(ExponentialSpreadGuess = as.factor(ExponentialSpreadGuess)), 
-#        aes(x = ExponentialSpreadGuess, y = Count, fill = testingLikelihoodSpread)) +
-#   geom_bar(position="stack", stat="identity") +
-#   theme_light()
-# 
-# ggplot(corySummary %>%
-#          filter(!is.na(EmpathyInput)) %>% 
-#          ungroup() %>%
-#          mutate(`Testing Likelihood` = factor(testingLikelihoodEmpathy, levels = c("Very Likely", "I don't know", "Very Unlikely"))),
-#        aes(x = EmpathyInput, y = Count, fill = `Testing Likelihood`)) +
-#   geom_bar(position="stack", stat="identity") +
-#   labs(x = "Do you know someone who could be vulnerable?") +
-#   theme_light()
-# 
-# ggplot(corySummary, aes(x = Condition, y = Count, fill = testingLikelihood)) +
-#          geom_bar(stat = "identity", position = "fill", width = .5) +
-#   labs(y = "Proportion of Choices") +
-#   scale_fill_manual(name = "Likelihood to get Tested", values = cbbPaletteBoxPlots) +
-#   theme_light() +
-#   theme(legend.position = "bottom")
-# 
-# #================================================================================= Density plots for attitudes
-# 
- surveyData <- 
-   surveyData %>%
-   mutate(StudyTypeNumeric = ifelse(Timepoint == "Pre-Test",0,1))
-# 
-# 
-# AggregateAttitudePlot <-
-#   ggplot(surveyData, aes(x = Attitude, fill = Study_Type)) +
-#   geom_density(alpha = .5) +
-#   geom_boxplot(aes(x = Attitude, y = StudyTypeNumeric *-.0015 + 0.0275),
-#                alpha = .4, colour = "black", notch = T, coef = 1) +
-#   labs(title = "Staying Home Attitudes" , 
-#        x = "Certainty that it's alright to leave home", 
-#        y = "Frequency") +
-#   scale_fill_manual(values = cbbPaletteBoxPlots, name = "Survey Moment") +
-#   theme_light() +
-#     theme(legend.position = "bottom")
-# AggregateAttitudePlot
-# 
- HighRiskAttitudePlot <- 
-  ggplot(surveyData %>%
-           filter(Risk == "High_Risk"),
-         aes(x = Attitude, fill = Timepoint)) +
-  geom_density(alpha = .4) +
-  geom_boxplot(aes(x = Attitude, y = StudyTypeNumeric * .0015 + 0.0215),
-               alpha = .4, colour = "black", notch = T, coef = 1) +
-  labs(title = "High Risk" ,x = "Certainty", y = "Frequency") +
-   scale_fill_viridis_d(begin = .2, end = .7) +
-  theme_light() +
-  theme(axis.title.x = element_blank())
-
-LowRiskAttitudePlot <-
-  ggplot(surveyData %>%
-           filter(Risk == "Low_Risk"),
-         aes(x = Attitude, fill = Timepoint)) +
-  geom_density(alpha = .4) +
-  geom_boxplot(aes(x = Attitude, y = StudyTypeNumeric * .0015 + 0.0215),
-               alpha = .4, colour = "black", notch = T, coef = 1) +
-  labs(title = "Low Risk", x = "Certainty", y = "Frequency") +
-  scale_fill_viridis_d(begin = .2, end = .7) +
-  theme_light() +
-  theme(axis.title = element_blank()) 
-
-MinimalRiskAttitudePlot <-
-  ggplot(surveyData %>%
-           filter(Risk == "Minimal_Risk"),
-         aes(x = Attitude, fill = Timepoint)) +
-  geom_density(alpha = .4) +
-  geom_boxplot(aes(x = Attitude, y = StudyTypeNumeric * .0015 + 0.0215),
-               alpha = .4, colour = "black", notch = T, coef = 1) +
-  labs(title = "Minimal Risk", x = "Certainty", y = "Frequency",
-       fill = "Timepoint") +
-  scale_fill_viridis_d(begin = .2, end = .7) +
-  theme_light() +
-  theme(axis.title = element_blank())
-# 
-# ggarrange(AggregateAttitudePlot,
-#           HighRiskAttitudePlot,
-#           LowRiskAttitudePlot,
-#           MinimalRiskAttitudePlot, nrow = 2, ncol = 2, common.legend = TRUE, legend = "bottom") +
-#   ggsave("AttitudePlots.png", width = 2*w, height = 2.5*h)
-# 
-# #================================================================================== Assessment of metrics
-# DCBIavg <- 
-#   postTestData %>% 
-#          summarise(Interest_mean = mean(Interest),
-#                    Interest_sd = sd(Interest),
-#                    Intrigue_mean = mean(Intrigue),
-#                    Intrigue_sd = sd(Intrigue),
-#                    Focus_mean = mean(Focus),
-#                    Focus_sd = sd(Focus),
-#                    Inattention_mean = mean(Inattention),
-#                    Inattention_sd = sd(Inattention),
-#                    Distraction_mean = mean(Distraction),
-#                    Distraction_sd = sd(Distraction),
-#                    Enjoyment_mean = mean(Enjoyment),
-#                    Enjoyment_sd = sd(Enjoyment),
-#                    Annoyance_mean = mean(Annoyance),
-#                    Annoyance_sd = sd(Annoyance),
-#                    Pleasure_mean = mean(Pleasure),
-#                    Pleasure_sd = sd(Pleasure),
-#                    Learning_mean = mean(Learning),
-#                    Learning_sd = sd(Learning)) %>%
-#   pivot_longer(Interest_mean:Learning_sd, names_to = c("Metric", "Type"),
-#                names_sep = "_",
-#                values_to = c("Response")) %>%
-#   pivot_wider(id_cols = "Metric", 
-#               names_from = "Type", 
-#               values_from = "Response")
-# 
-# ## DCBI plot
-# 
-# ggplot(DCBIavg,
-#        aes(x = reorder(Metric, mean), y = mean, col = mean)) +
-#   geom_point() +
-#   geom_errorbar(aes(ymin = mean - sd, ymax = mean + sd),
-#                 width = .2) +
-#   labs(y = "Likert Scale Response", x = "Metric",
-#        col = "Response") +
-#   scale_y_continuous(breaks=seq(1,7,1), limits = c(.94,7.01)) +
-#   scale_colour_viridis_c(begin = .1, end = .65) +
-#   theme_light() +
-#   ggsave("DCBIplot.png", height = 4, width = 6)
-# 
-# ##
-# 
-
-attitudePlots <- 
-  ggarrange(HighRiskAttitudePlot,
-        #  LowRiskAttitudePlot,
-          MinimalRiskAttitudePlot,
-          ncol = 2, nrow = 1,
-          common.legend = T,
-          legend = "top")
-
-annotate_figure(attitudePlots, 
-                bottom = text_grob("Permissiveness of Going Out")) +
-  ggsave("CertaintyPlots.png", path = "figures",
-         height = 4, width = 8)
+clm.control(relTol = 1e-9)
 
 ```
 
 ```{r Analysis}
 
-clmTestingLikelihood <- 
-  clm(testingLikelihood ~ Condition,
-       data = ordinalRegressionData,
-      link = "probit")
+wilcox.test(x = chatbotData$testingLikNum[chatbotData$Condition=="Exponential Growth"],
+            y = chatbotData$testingLikNum[chatbotData$Condition=="Control"])
 
-EmmeansTestingLikelihood <- emmeans(clmTestingLikelihood, specs = "Condition", mode = "mean.class")
-pairs(EmmeansTestingLikelihood, reverse = T)
+wilcox.test(x = chatbotData$testingLikNum[chatbotData$Condition=="Compassion"],
+            y = chatbotData$testingLikNum[chatbotData$Condition=="Control"])
+
+
+# Run cumulative link model
+
+clmTestingLikelihood <- 
+  clm(testingLikelihood ~ 
+        Condition,
+       data = chatbotData %>% 
+        filter(!is.na(testingLikelihood)),
+      link = "logit")
+# Hessian singular -> collapse categories (done above).
+
+drop1(clmTestingLikelihood, test = "Chi")
+
+# Run binomial model
+glmTestingLikelihood <- 
+  glm(testingLikelihoodBinary ~ 
+        Condition,
+       data = chatbotData %>% 
+        filter(!is.na(testingLikelihood)),
+       family = "binomial")
+
+emmeansClmTestingLikelihood <- 
+  emmeans(clmTestingLikelihood, specs = "Condition", mode = "mean.class")
+pairs(emmeansClmTestingLikelihood, reverse = T)
+
+emmeansGlmTestingLikelihood <- 
+  emmeans(glmTestingLikelihood, ~Condition)
+pairs(emmeansGlmTestingLikelihood, reverse = T)
 
 ```
 
 ```{r Certainty testing}
 
-CertaintyData <- 
+certaintyData <- 
   surveyData %>%
-  mutate(AbsCertainty = abs(Attitude - 50))
-
-meanCertaintyLMM <- 
-  mixed(Attitude ~ Risk*Timepoint + (1|ID), CertaintyData)
-
-emmeansMeanCertainty <- 
-  emmeans(meanCertaintyLMM, ~ Timepoint|Risk)
-pairs(emmeansMeanCertainty, reverse = T)
+  mutate(AbsCertainty = abs(Attitude))
 
 certaintyLMM <- 
   mixed(AbsCertainty ~ 
           Risk*Timepoint + 
           (1|ID),
-         CertaintyData)
+         certaintyData)
 
 emmeansCertainty <- 
   emmeans(certaintyLMM, ~ Study_Type|Risk)

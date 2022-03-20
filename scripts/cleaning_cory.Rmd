@@ -1,5 +1,5 @@
 ---
-title: "Cory_UAT_Cleaning"
+title: "Cory chatbot test data cleaning"
 author: "Simon van Baal"
 date: "26/10/2020"
 output: html_document
@@ -303,6 +303,8 @@ comparisonDataPre <-
 # Make separate dataframe to add information to post-test data
 nationalityData <- 
   comparisonDataPre %>%
+  group_by(ParticipantID, Nationality) %>%
+  summarise(n = n()) %>%
   select(ParticipantID, Nationality)
 
 comparisonDataPost <-
@@ -341,15 +343,12 @@ rm(nationalityData)
 
 
 ```{r finish up}
-
+# write the cleaned data
 write_csv(comparisonData, here("./output/data/clean_surveys_cory.csv"))
 write_csv(chatbotData, here("./output/data/clean_chatbot_cory.csv"))
 
-
-rm(chatbotData, chatbotSummary, 
-   comparisonData, comparisonDataPost, 
-   comparisonDataPre, eligibility,
-   postTestData, preTestData)
+# clear environment
+rm(list=ls())
 
 ```
 
