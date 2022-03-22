@@ -15,6 +15,7 @@ library(kableExtra)
 
 ```
 
+# Tables
 ```{r Tables}
 
 eligibility %>%
@@ -63,106 +64,12 @@ colnames(df) <- c("Country", rep(c("Age", "N"), times = 4))
 
 ```
 
+# Figures
 
+## Figures of Chatbot Evaluation
 
-```{r Figures}
-# # The palette with black:
-# cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
-# cbbPaletteBoxPlots <- c("#E69F00","#56B4E9","#000000")
-# ## Plot dimensions
-# w = 6
-# h = 4
-# 
-# 
-# #========================================= Cory's internal data figures
-# 
-# 
-# ggplot(corySummary %>% 
-#          filter(!is.na(ExponentialSpreadGuess)) %>% ungroup() %>%
-#          mutate(ExponentialSpreadGuess = as.factor(ExponentialSpreadGuess)), 
-#        aes(x = ExponentialSpreadGuess, y = Count, fill = testingLikelihoodSpread)) +
-#   geom_bar(position="stack", stat="identity") +
-#   theme_light()
-# 
-# ggplot(corySummary %>%
-#          filter(!is.na(EmpathyInput)) %>% 
-#          ungroup() %>%
-#          mutate(`Testing Likelihood` = factor(testingLikelihoodEmpathy, levels = c("Very Likely", "I don't know", "Very Unlikely"))),
-#        aes(x = EmpathyInput, y = Count, fill = `Testing Likelihood`)) +
-#   geom_bar(position="stack", stat="identity") +
-#   labs(x = "Do you know someone who could be vulnerable?") +
-#   theme_light()
-# 
-# ggplot(corySummary, aes(x = Condition, y = Count, fill = testingLikelihood)) +
-#          geom_bar(stat = "identity", position = "fill", width = .5) +
-#   labs(y = "Proportion of Choices") +
-#   scale_fill_manual(name = "Likelihood to get Tested", values = cbbPaletteBoxPlots) +
-#   theme_light() +
-#   theme(legend.position = "bottom")
-# 
-# #================================================================================= Density plots for attitudes
-# 
- surveyData <- 
-   surveyData %>%
-   mutate(StudyTypeNumeric = ifelse(Timepoint == "Pre-Test",0,1))
-# 
-# 
-# AggregateAttitudePlot <-
-#   ggplot(surveyData, aes(x = Attitude, fill = Study_Type)) +
-#   geom_density(alpha = .5) +
-#   geom_boxplot(aes(x = Attitude, y = StudyTypeNumeric *-.0015 + 0.0275),
-#                alpha = .4, colour = "black", notch = T, coef = 1) +
-#   labs(title = "Staying Home Attitudes" , 
-#        x = "Certainty that it's alright to leave home", 
-#        y = "Frequency") +
-#   scale_fill_manual(values = cbbPaletteBoxPlots, name = "Survey Moment") +
-#   theme_light() +
-#     theme(legend.position = "bottom")
-# AggregateAttitudePlot
-# 
- HighRiskAttitudePlot <- 
-  ggplot(surveyData %>%
-           filter(Risk == "High_Risk"),
-         aes(x = Attitude, fill = Timepoint)) +
-  geom_density(alpha = .4) +
-  geom_boxplot(aes(x = Attitude, y = StudyTypeNumeric * .0015 + 0.0215),
-               alpha = .4, colour = "black", notch = T, coef = 1) +
-  labs(title = "High Risk" ,x = "Certainty", y = "Frequency") +
-   scale_fill_viridis_d(begin = .2, end = .7) +
-  theme_light() +
-  theme(axis.title.x = element_blank())
+```{r Chatbot Evaluation}
 
-LowRiskAttitudePlot <-
-  ggplot(surveyData %>%
-           filter(Risk == "Low_Risk"),
-         aes(x = Attitude, fill = Timepoint)) +
-  geom_density(alpha = .4) +
-  geom_boxplot(aes(x = Attitude, y = StudyTypeNumeric * .0015 + 0.0215),
-               alpha = .4, colour = "black", notch = T, coef = 1) +
-  labs(title = "Low Risk", x = "Certainty", y = "Frequency") +
-  scale_fill_viridis_d(begin = .2, end = .7) +
-  theme_light() +
-  theme(axis.title = element_blank()) 
-
-MinimalRiskAttitudePlot <-
-  ggplot(surveyData %>%
-           filter(Risk == "Minimal_Risk"),
-         aes(x = Attitude, fill = Timepoint)) +
-  geom_density(alpha = .4) +
-  geom_boxplot(aes(x = Attitude, y = StudyTypeNumeric * .0015 + 0.0215),
-               alpha = .4, colour = "black", notch = T, coef = 1) +
-  labs(title = "Minimal Risk", x = "Certainty", y = "Frequency",
-       fill = "Timepoint") +
-  scale_fill_viridis_d(begin = .2, end = .7) +
-  theme_light() +
-  theme(axis.title = element_blank())
-# 
-# ggarrange(AggregateAttitudePlot,
-#           HighRiskAttitudePlot,
-#           LowRiskAttitudePlot,
-#           MinimalRiskAttitudePlot, nrow = 2, ncol = 2, common.legend = TRUE, legend = "bottom") +
-#   ggsave("AttitudePlots.png", width = 2*w, height = 2.5*h)
-# 
 # #================================================================================== Assessment of metrics
 # DCBIavg <- 
 #   postTestData %>% 
@@ -208,9 +115,132 @@ MinimalRiskAttitudePlot <-
 # ##
 # 
 
+
+```
+
+## Figures of Testing Attitudes
+
+```{r Figure prep}
+
+# The palette with black:
+cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+cbbPaletteBoxPlots <- c("#E69F00","#56B4E9","#000000")
+## Plot dimensions
+w = 6
+h = 4
+
+```
+
+```{r Testing likelihood figures}
+
+# #========================================= Cory's internal data figures
+# 
+# ggplot(corySummary %>% 
+#          filter(!is.na(ExponentialSpreadGuess)) %>% ungroup() %>%
+#          mutate(ExponentialSpreadGuess = as.factor(ExponentialSpreadGuess)), 
+#        aes(x = ExponentialSpreadGuess, y = Count, fill = testingLikelihoodSpread)) +
+#   geom_bar(position="stack", stat="identity") +
+#   theme_light()
+# 
+# ggplot(corySummary %>%
+#          filter(!is.na(EmpathyInput)) %>% 
+#          ungroup() %>%
+#          mutate(`Testing Likelihood` = factor(testingLikelihoodEmpathy, levels = c("Very Likely", "I don't know", "Very Unlikely"))),
+#        aes(x = EmpathyInput, y = Count, fill = `Testing Likelihood`)) +
+#   geom_bar(position="stack", stat="identity") +
+#   labs(x = "Do you know someone who could be vulnerable?") +
+#   theme_light()
+# 
+# ggplot(corySummary, aes(x = Condition, y = Count, fill = testingLikelihood)) +
+#          geom_bar(stat = "identity", position = "fill", width = .5) +
+#   labs(y = "Proportion of Choices") +
+#   scale_fill_manual(name = "Likelihood to get Tested", values = cbbPaletteBoxPlots) +
+#   theme_light() +
+#   theme(legend.position = "bottom")
+
+```
+
+
+```{r Testing importance attitudes figures}
+
+
+
+```
+
+
+## Figures of Attitudes toward Leaving Home
+
+```{r Figures}
+
+
+# #================================================================================= Density plots for attitudes
+# 
+ surveyData <- 
+   surveyData %>%
+   mutate(TimepointNumeric = ifelse(Timepoint == "Pre-Test",0,1))
+# 
+# 
+# AggregateAttitudePlot <-
+#   ggplot(surveyData, aes(x = Attitude, fill = Timepoint)) +
+#   geom_density(alpha = .5) +
+#   geom_boxplot(aes(x = Attitude, y = TimepointNumeric *-.0015 + 0.0275),
+#                alpha = .4, colour = "black", notch = T, coef = 1) +
+#   labs(title = "Staying Home Attitudes" , 
+#        x = "Certainty that it's alright to leave home", 
+#        y = "Frequency") +
+#   scale_fill_manual(values = cbbPaletteBoxPlots, name = "Survey Moment") +
+#   theme_light() +
+#     theme(legend.position = "bottom")
+# AggregateAttitudePlot
+# 
+ HighRiskAttitudePlot <- 
+  ggplot(surveyData %>%
+           filter(Risk == "High_Risk"),
+         aes(x = Attitude, fill = Timepoint)) +
+  geom_density(alpha = .4) +
+  geom_boxplot(aes(x = Attitude, y = TimepointNumeric * .0015 + 0.0215),
+               alpha = .4, colour = "black", notch = T, coef = 1) +
+  labs(title = "High Risk" ,x = "Certainty", y = "Frequency") +
+   scale_fill_viridis_d(begin = .2, end = .7) +
+  theme_light() +
+  theme(axis.title.x = element_blank())
+
+LowRiskAttitudePlot <-
+  ggplot(surveyData %>%
+           filter(Risk == "Low_Risk"),
+         aes(x = Attitude, fill = Timepoint)) +
+  geom_density(alpha = .4) +
+  geom_boxplot(aes(x = Attitude, y = TimepointNumeric * .0015 + 0.0215),
+               alpha = .4, colour = "black", notch = T, coef = 1) +
+  labs(title = "Low Risk", x = "Certainty", y = "Frequency") +
+  scale_fill_viridis_d(begin = .2, end = .7) +
+  theme_light() +
+  theme(axis.title = element_blank()) 
+
+MinimalRiskAttitudePlot <-
+  ggplot(surveyData %>%
+           filter(Risk == "Minimal_Risk"),
+         aes(x = Attitude, fill = Timepoint)) +
+  geom_density(alpha = .4) +
+  geom_boxplot(aes(x = Attitude, y = TimepointNumeric * .0015 + 0.0215),
+               alpha = .4, colour = "black", notch = T, coef = 1) +
+  labs(title = "Minimal Risk", x = "Certainty", y = "Frequency",
+       fill = "Timepoint") +
+  scale_fill_viridis_d(begin = .2, end = .7) +
+  theme_light() +
+  theme(axis.title = element_blank())
+# 
+# ggarrange(AggregateAttitudePlot,
+#           HighRiskAttitudePlot,
+#           LowRiskAttitudePlot,
+#           MinimalRiskAttitudePlot, nrow = 2, ncol = 2, common.legend = TRUE, legend = "bottom") +
+#   ggsave("AttitudePlots.png", width = 2*w, height = 2.5*h)
+# 
+
+
 attitudePlots <- 
   ggarrange(HighRiskAttitudePlot,
-        #  LowRiskAttitudePlot,
+          LowRiskAttitudePlot,
           MinimalRiskAttitudePlot,
           ncol = 2, nrow = 1,
           common.legend = T,

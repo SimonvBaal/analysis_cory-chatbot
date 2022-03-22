@@ -12,11 +12,15 @@ library(ordinalCont)
 library(afex)
 library(emmeans)
 library(onewaytests)
+library(rcompanion)
 
 surveyData <- read_csv(here("./output/data/clean_surveys_cory.csv"))
 chatbotData <- read_csv(here("./output/data/clean_chatbot_cory.csv"))
 ```
 
+## Descriptive statistics
+
+In this section, we start by providing some descriptive statistics about the sample, in addition to providing information about the distribution of the variables of interest.
 
 ```{r Descriptive statistics}
 
@@ -61,7 +65,12 @@ chatbotData %>%
 
 
 ```
-```{r Analysis prep}
+
+## Getting Tested when Experiencing COVID-19 Symptoms
+
+Here we analyse whether the behavioural interventions and the interaction with the chatbot influenced people's likelihood of getting tested, and their perceived importance of getting tested.
+
+```{r Analysis prep CLM}
 # Ordering factor levels and scaling the age variable.
 chatbotData <-
   chatbotData %>%
@@ -99,83 +108,68 @@ chatbotData <-
 contrasts(chatbotData$Condition) <- contr.sum(3)
 contrasts(chatbotData$Sex) <- contr.sum(2)
 
-clm.control(relTol = 1e-9)
-
 ```
 
-```{r Analysis}
 
-wilcox.test(x = chatbotData$testingLikNum[chatbotData$Condition=="Exponential Growth"],
-            y = chatbotData$testingLikNum[chatbotData$Condition=="Control"])
-
-wilcox.test(x = chatbotData$testingLikNum[chatbotData$Condition=="Compassion"],
-            y = chatbotData$testingLikNum[chatbotData$Condition=="Control"])
-
+```{r Cumulative Link Model testing likelihood}
 
 # Run cumulative link model
 
 clmTestingLikelihood <- 
   clm(testingLikelihood ~ 
-        Condition,
+        Condition +
+        Sex +
+        Age,
        data = chatbotData %>% 
         filter(!is.na(testingLikelihood)),
       link = "logit")
 # Hessian singular -> collapse categories (done above).
 
-drop1(clmTestingLikelihood, test = "Chi")
+chiSqTestClm <- drop1(clmTestingLikelihood, test = "Chi")
 
-# Run binomial model
-glmTestingLikelihood <- 
-  glm(testingLikelihoodBinary ~ 
-        Condition,
-       data = chatbotData %>% 
-        filter(!is.na(testingLikelihood)),
-       family = "binomial")
+# # Due to convergence issues, pairwise tests are not done through the model with emmeans
+# emmeansClmTestingLikelihood <- 
+#   emmeans(clmTestingLikelihood, specs = "Condition", mode = "mean.class")
+# pairs(emmeansClmTestingLikelihood, reverse = T)
 
-emmeansClmTestingLikelihood <- 
-  emmeans(clmTestingLikelihood, specs = "Condition", mode = "mean.class")
-pairs(emmeansClmTestingLikelihood, reverse = T)
 
-emmeansGlmTestingLikelihood <- 
-  emmeans(glmTestingLikelihood, ~Condition)
-pairs(emmeansGlmTestingLikelihood, reverse = T)
+# Instead, we conduct simple Mann-Whitney U tests.
+wTestExp <-
+  wilcox.test(x = chatbotData$testingLikNum[chatbotData$Condition == "Exponential Growth"],
+              y = chatbotData$testingLikNum[chatbotData$Condition == "Control"],
+              paired = F,
+              exact = F,
+              conf.int = T,
+              alternative = "greater")
 
-```
+wTestComp <-
+  wilcox.test(x = chatbotData$testingLikNum[chatbotData$Condition == "Compassion"],
+              y = chatbotData$testingLikNum[chatbotData$Condition == "Control"],
+              paired = F,
+              exact = F,
+              conf.int = T, 
+              alternative = "greater")
 
-```{r Certainty testing}
+zValueWTestComp <- 
+  wilcoxonZ(x = chatbotData$testingLikNum[chatbotData$Condition == "Compassion"],
+              y = chatbotData$testingLikNum[chatbotData$Condition == "Control"],
+              paired = F,
+              exact = F,
+            digits = 4)
 
-certaintyData <- 
-  surveyData %>%
-  mutate(AbsCertainty = abs(Attitude))
+ZValueWTestExp <-
+  wilcoxonZ(x = chatbotData$testingLikNum[chatbotData$Condition == "Exponential Growth"],
+              y = chatbotData$testingLikNum[chatbotData$Condition == "Control"],
+              paired = F,
+              exact = F,
+            digits = 4)
 
-certaintyLMM <- 
-  mixed(AbsCertainty ~ 
-          Risk*Timepoint + 
-          (1|ID),
-         certaintyData)
 
-emmeansCertainty <- 
-  emmeans(certaintyLMM, ~ Study_Type|Risk)
-pairs(emmeansCertainty, reverse = T)
-
-# Equal variances testing
-
-HighRisksurveyData <- 
-  surveyData %>% filter(Risk == "High_Risk")
-HighRiskEqVariancesTest <- 
-  levene.test(HighRisksurveyData$Attitude, HighRisksurveyData$Study_Type)
-
-LowRisksurveyData <- 
-  surveyData %>% filter(Risk == "Low_Risk")
-LowRiskEqVariancesTest <- 
-  levene.test(LowRisksurveyData$Attitude, LowRisksurveyData$Study_Type)
-
-MinimalRisksurveyData <- 
-  surveyData %>% filter(Risk == "Minimal_Risk")
-MinimalRiskEqVariancesTest <- 
-  levene.test(MinimalRisksurveyData$Attitude, MinimalRisksurveyData$Study_Type)
+adjustedPvalues <- p.adjust(c(.028, .165), method = "BH")
 
 ```
+
+
 
 ```{r Testing importance}
 
@@ -183,30 +177,180 @@ MinimalRiskEqVariancesTest <-
 TestImportanceData <- 
   surveyData %>% 
   group_by(ID, Study_Type, Condition) %>%
-  summarise(TestImportance = mean(Test)) %>%
+  summarise(TestImportance = mean(TestImportance)) %>%
   pivot_wider(id_cols = c("ID", "Condition"),
-              names_from = "Study_Type",
+              names_from = "Timepoint",
               values_from = "TestImportance") %>%
   mutate(TestImportanceDifference = `Post-Test`-`Pre-Test`,
          Condition = factor(Condition, 
-                            levels = c("Empathy", 
+                            levels = c("Compassion", 
                                        "Exponential Growth", 
                                        "Control")))
 
 contrasts(TestImportanceData$Condition) <- contr.sum(3)
 
-LMMTestImportance <- 
-  lm(TestImportanceDifference ~ Condition, 
-        data = TestImportanceData)
 
-EmmeansTestImportance <- 
-  emmeans(LMMTestImportance, ~ Condition)
 
-afex_plot(LMMTestImportance, ~Condition,
-          mapping = "colour",
-          data_geom = geom_violin) +
-  labs(y = "Difference in Perceived Importance of Testing") +
-  scale_color_viridis_d(begin = .2, end = .65) +
-  theme_light()
+```
+
+
+## Attitudes to Going Out
+
+Here we analyse whether Cory influenced people's judgments of whether it is acceptable to leave the house or not in various scenarios.
+
+
+```{r Certainty analysis prep}
+# Add absolute value for certainty about testing.
+
+surveyData <- 
+  surveyData %>%
+  mutate(AbsCertainty = abs(Attitude),
+         scaledAge = scale(Age),
+         Sex = factor(Sex))
+
+contrasts(surveyData$Sex) <- contr.sum(2)
+
+```
+
+```{r Continuous Ordinal Model - Attitudes to going out}
+# We estimate models with different reference levels, in order to do pairwise
+# comparisons.
+
+# High Risk, Post-Test is the reference point here 
+# (because of alphabetical ordering)
+ocm1Certainty <- 
+  ocm(AbsCertainty ~ 
+          Risk*Timepoint + 
+        Age +
+        Sex +
+          (1|ParticipantID),
+         surveyData %>% 
+        filter(!is.na(Age)))
+
+# Here the difference between pre-test and post-test in high risk scenarios is:
+#                               Estimate    StdErr t.value   p.value
+#TimepointPre-Test             -0.057005  0.130388 -0.4372 0.6632508 
+
+surveyData <-
+  surveyData %>%
+  mutate(Risk = factor(Risk, levels = c("Low", "High", "Minimal")))
+
+# Now we run the model with low risk as the reference level.
+ocm2Certainty <- 
+  ocm(AbsCertainty ~ 
+          Risk*Timepoint + 
+        Age +
+        Sex +
+          (1|ParticipantID),
+         surveyData %>% 
+        filter(!is.na(Age)))
+
+# Here the difference between pre-test and post-test in low risk scenarios is:
+#                               Estimate    StdErr t.value   p.value
+#TimepointPre-Test              0.817518  0.183384  4.4579 2.902e-05 ***
+
+surveyData <-
+  surveyData %>%
+  mutate(Risk = factor(Risk, levels = c("Minimal", "Low", "High")))
+
+ocm3Certainty <- 
+  ocm(AbsCertainty ~ 
+          Risk*Timepoint + 
+        Age +
+        Sex +
+          (1|ParticipantID),
+         surveyData %>% 
+        filter(!is.na(Age)))
+
+# Here the difference between pre-test and post-test in minimal risk scenarios is:
+#                            Estimate    StdErr t.value   p.value
+#TimepointPre-Test           1.238254  0.195481  6.3344 1.682e-08 ***
+```
+
+```{r Certainty Likelihood Ratio Tests}
+# Reduced models
+
+ocmReduced1Certainty <-
+  ocm(AbsCertainty ~
+        Risk + Timepoint +
+        Age +
+        Sex +
+        (1|ParticipantID),
+      surveyData %>% 
+        filter(!is.na(Age)))
+
+ocmReduced2Certainty <-
+  ocm(AbsCertainty ~
+        Risk + 
+        Age +
+        Sex +
+        (1|ParticipantID),
+      surveyData %>% 
+        filter(!is.na(Age)))
+
+ocmReduced3Certainty <-
+  ocm(AbsCertainty ~
+        Timepoint + 
+        Age +
+        Sex +
+        (1|ParticipantID),
+      surveyData %>% 
+        filter(!is.na(Age)))
+
+# Likelihood ratio tests
+
+lrtCertainty <-
+  anova(ocm1Certainty,
+        ocmReduced1Certainty,
+        ocmReduced2Certainty,
+        ocmReduced3Certainty)
+
+# Now test for inclusion of the risk factor when time-point is in the model
+lrtCertainty2 <-
+  anova(ocmReduced1Certainty,
+        ocmReduced3Certainty)
+
+```
+
+```{r Certainty main effects analysis}
+# For main effects.
+contrasts(surveyData$Risk) <- contr.sum(3)
+contrasts(surveyData$Timepoint) <- contr.sum(2)
+```
+
+```{r Certainty effect size estimation}
+
+# Here we 
+estimateMinimalHigh <- exp(-ocmTreatmentRisk$coefficients[5])
+ciLowerMinimalHigh <- exp(-ocmTreatmentRisk$coefficients[5] - .0362*1.96)
+ciUpperMinimalHigh <- exp(-ocmTreatmentRisk$coefficients[5] + .0362*1.96)
+
+
+```
+
+
+```{r Linear Model - attitudes to going out}
+
+# Linear mixed model is used for creating a figure that reflects the model.
+# This cannot be done easily with the ordinalCont package.
+
+lmmCertainty <- 
+  mixed(AbsCertainty ~ 
+          Risk*Timepoint + 
+          Age +
+          Sex +
+          (1|ParticipantID),
+         surveyData)
+
+emmeansCertainty <- 
+  emmeans(lmmCertainty, ~ Timepoint|Risk)
+pairs(emmeansCertainty, reverse = F)
+
+```
+
+
+
+```{r save image}
+save.image()
 
 ```
