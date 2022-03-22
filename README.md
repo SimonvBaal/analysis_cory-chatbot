@@ -47,7 +47,7 @@ I wrote the code for this project myself, but I would like to thank my
 collaborators: Farhad Fatehi, Suong Le, Antonio Verdejo-Garcia and Jakob Hohwy
 
 ## License
-This project is licensed with CC-BY
+This project has an MIT license
 
 ## Project status
 This project is still under development
