@@ -1,45 +1,53 @@
-usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
+# Cory Chatbot Pilot Project
 
-These are common Git commands used in various situations:
+## Description
+In this project I conduct the data analysis for the Cory Chatbot pilot study.
+Data was collected through  interaction with a chatbot, in addition to 
+data from surveys that were administered before and after interaction.
 
-start a working area (see also: git help tutorial)
-   clone             Clone a repository into a new directory
-   init              Create an empty Git repository or reinitialize an existing one
+The chatbot was developed to study whether chatbots could be used to change
+behaviour to protect public health. In particular, this chatbot aimed to
+not only provide information on COVID-19, but also change people's attitudes
+to getting tested when they experience symptoms and to increase their certainty
+on the acceptability of leaving their houses in different scenarios during a 
+lockdown.
 
-work on the current change (see also: git help everyday)
-   add               Add file contents to the index
-   mv                Move or rename a file, a directory, or a symlink
-   restore           Restore working tree files
-   rm                Remove files from the working tree and from the index
-   sparse-checkout   Initialize and modify the sparse-checkout
+## Installation
+### Requirements
+R(4.0.5)
+RStudio
 
-examine the history and state (see also: git help revisions)
-   bisect            Use binary search to find the commit that introduced a bug
-   diff              Show changes between commits, commit and working tree, etc
-   grep              Print lines matching a pattern
-   log               Show commit logs
-   show              Show various types of objects
-   status            Show the working tree status
+### Instructions
+Please download the entire project. Then, you can open the RStudio application, 
+click 'File' in the menubar, then click 'Open Project...'. Navigate towards
+the storage location for this project and click the .Rproj file. The environment
+should load.
 
-grow, mark and tweak your common history
-   branch            List, create, or delete branches
-   commit            Record changes to the repository
-   merge             Join two or more development histories together
-   rebase            Reapply commits on top of another base tip
-   reset             Reset current HEAD to the specified state
-   switch            Switch branches
-   tag               Create, list, delete or verify a tag object signed with GPG
+The package management for this project was made using 'renv'. This means that
+when you run the following command, all the packages with the correct versions
+will be loaded.
+> renv::restore()
 
-collaborate (see also: git help workflows)
-   fetch             Download objects and refs from another repository
-   pull              Fetch from and integrate with another repository or a local branch
-   push              Update remote refs along with associated objects
+## Usage
+It is possible to run this project in multiple ways. The quickest way is to
+run from the analysis_cory.Rmd file directly, after which you may run the 
+figures_cory.Rmd script file. 
+However, if you would like to run the data cleaning file first, to see how the 
+data was handled, you may start by running the cleaning_cory.Rmd file.
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+## Support
+Should you have any problems, please send an email to simon.vanbaal1@monash.edu
+
+## Contributing
+This project is not open for contributions. However, if you find a mistake,
+please contact me via the email address listed above.
+
+## Authors and acknowledgment
+I wrote the code for this project myself, but I would like to thank my
+collaborators: Farhad Fatehi, Suong Le, Antonio Verdejo-Garcia and Jakob Hohwy
+
+## License
+This project is licensed with CC-BY
+
+## Project status
+This project is still under development
