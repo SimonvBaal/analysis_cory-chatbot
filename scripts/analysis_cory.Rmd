@@ -37,13 +37,13 @@ surveyData %>%
 
 TestJudgments <-
   surveyData %>%
-  group_by(ParticipantID, Study_Type, Condition) %>%
+  group_by(ParticipantID, Timepoint, Condition) %>%
   summarise(TestImportance = mean(TestImportance)) 
 
 surveyData %>%
-  group_by(Study_Type, Condition) %>%
+  group_by(Timepoint, Condition) %>%
   summarise(TestImportance = mean(TestImportance)) %>%
-  arrange(Condition, desc(Study_Type))
+  arrange(Condition, desc(Timepoint))
 
 chatbotData %>%
   group_by(Condition, testingLikelihood) %>%
@@ -169,16 +169,18 @@ adjustedPvalues <- p.adjust(c(.028, .165), method = "BH")
 
 ```
 
+## Importance of Testing for COVID-19
 
+Here we analyse whether the chatbot increases the perceived importance of testing as part of the public health response.
 
 ```{r Testing importance}
 
 # Testing importance of getting tested before and after Cory.
-TestImportanceData <- 
+testImportanceData <- 
   surveyData %>% 
-  group_by(ID, Study_Type, Condition) %>%
+  group_by(ParticipantID, Timepoint, Condition) %>%
   summarise(TestImportance = mean(TestImportance)) %>%
-  pivot_wider(id_cols = c("ID", "Condition"),
+  pivot_wider(id_cols = c("ParticipantID", "Condition"),
               names_from = "Timepoint",
               values_from = "TestImportance") %>%
   mutate(TestImportanceDifference = `Post-Test`-`Pre-Test`,
@@ -187,12 +189,10 @@ TestImportanceData <-
                                        "Exponential Growth", 
                                        "Control")))
 
-contrasts(TestImportanceData$Condition) <- contr.sum(3)
-
+contrasts(testImportanceData$Condition) <- contr.sum(3)
 
 
 ```
-
 
 ## Attitudes to Going Out
 
@@ -200,17 +200,84 @@ Here we analyse whether Cory influenced people's judgments of whether it is acce
 
 
 ```{r Certainty analysis prep}
-# Add absolute value for certainty about testing.
+# Add absolute value for certainty about going out.
 
 surveyData <- 
   surveyData %>%
   mutate(AbsCertainty = abs(Attitude),
          scaledAge = scale(Age),
-         Sex = factor(Sex))
+         Sex = factor(Sex),
+         Timepoint = factor(Timepoint, 
+                            levels = c("Pre-Test", 
+                                       "Post-Test")))
 
 contrasts(surveyData$Sex) <- contr.sum(2)
 
 ```
+
+We conduct likelihood ratio tests to determine the best combination of the two variables of interest: Timepoint and Risk, where the two control variables Age and Sex remain in the model in each iteration.
+The first test is whether the full model, with an interaction of risk level and timepoint, is the best model. Then we see whether each of these variables on their own constitute a significant improvement of the model.
+```{r Certainty Likelihood Ratio Tests}
+# Full model
+
+ocmFullModelCertainty <-
+  ocm(
+    AbsCertainty ~
+      Risk * Timepoint +
+      Age +
+      Sex +
+      (1 | ParticipantID),
+    surveyData %>%
+      filter(!is.na(Age))
+  )
+
+# Reduced models
+
+ocmReduced1Certainty <-
+  ocm(
+    AbsCertainty ~
+      Risk + Timepoint +
+      Age +
+      Sex +
+      (1 | ParticipantID),
+    surveyData %>%
+      filter(!is.na(Age))
+  )
+
+ocmReduced2Certainty <-
+  ocm(AbsCertainty ~
+        Risk +
+        Age +
+        Sex +
+        (1 | ParticipantID),
+      surveyData %>%
+        filter(!is.na(Age)))
+
+ocmReduced3Certainty <-
+  ocm(AbsCertainty ~
+        Timepoint +
+        Age +
+        Sex +
+        (1 | ParticipantID),
+      surveyData %>%
+        filter(!is.na(Age)))
+
+# Likelihood ratio tests
+
+lrtCertainty <-
+  anova(ocmFullModelCertainty,
+        ocmReduced1Certainty,
+        ocmReduced2Certainty,
+        ocmReduced3Certainty)
+
+# Now test for inclusion of the risk factor when time-point is in the model
+
+lrtCertainty2 <-
+  anova(ocmReduced1Certainty,
+        ocmReduced3Certainty)
+
+```
+
 
 ```{r Continuous Ordinal Model - Attitudes to going out}
 # We estimate models with different reference levels, in order to do pairwise
@@ -267,60 +334,50 @@ ocm3Certainty <-
 #TimepointPre-Test           1.238254  0.195481  6.3344 1.682e-08 ***
 ```
 
-```{r Certainty Likelihood Ratio Tests}
-# Reduced models
 
-ocmReduced1Certainty <-
-  ocm(AbsCertainty ~
-        Risk + Timepoint +
-        Age +
-        Sex +
-        (1|ParticipantID),
-      surveyData %>% 
-        filter(!is.na(Age)))
-
-ocmReduced2Certainty <-
-  ocm(AbsCertainty ~
-        Risk + 
-        Age +
-        Sex +
-        (1|ParticipantID),
-      surveyData %>% 
-        filter(!is.na(Age)))
-
-ocmReduced3Certainty <-
-  ocm(AbsCertainty ~
-        Timepoint + 
-        Age +
-        Sex +
-        (1|ParticipantID),
-      surveyData %>% 
-        filter(!is.na(Age)))
-
-# Likelihood ratio tests
-
-lrtCertainty <-
-  anova(ocm1Certainty,
-        ocmReduced1Certainty,
-        ocmReduced2Certainty,
-        ocmReduced3Certainty)
-
-# Now test for inclusion of the risk factor when time-point is in the model
-lrtCertainty2 <-
-  anova(ocmReduced1Certainty,
-        ocmReduced3Certainty)
-
-```
 
 ```{r Certainty main effects analysis}
-# For main effects.
+# For main effects we sequentially introduce sum contrasts.
+
+# Set sum contrasts for risk, so we may evaluate the main effect of Timepoint.
 contrasts(surveyData$Risk) <- contr.sum(3)
+
+ocmMainTimepointCertainty <- 
+  ocm(AbsCertainty ~ 
+          Risk*Timepoint + 
+        Age +
+        Sex +
+          (1|ParticipantID),
+         surveyData %>% 
+        filter(!is.na(Age)))
+
+# Set Risk back to treatment contrasts, and set Timepoint to sum contrasts,
+# to evaluate the main effect of risk.
+contrasts(surveyData$Risk) <- contr.treatment(3)
 contrasts(surveyData$Timepoint) <- contr.sum(2)
+
+ocmMainRiskCertainty <- 
+  ocm(AbsCertainty ~ 
+          Risk*Timepoint + 
+        Age +
+        Sex +
+          (1|ParticipantID),
+         surveyData %>% 
+        filter(!is.na(Age)))
 ```
 
 ```{r Certainty effect size estimation}
 
-# Here we 
+# we extract coefficients from the model, turn them into odds ratios,
+# and then we construct confidence intervals using standard errors.
+
+estimateTimepointHigh <- exp(-ocm1Certainty$coefficients[4])
+
+estimateTimepointLow <- exp(-ocm2Certainty$coefficients[4])
+
+estimateTimepointMinimal <- exp(-ocm3Certainty$coefficients[4])
+
+
 estimateMinimalHigh <- exp(-ocmTreatmentRisk$coefficients[5])
 ciLowerMinimalHigh <- exp(-ocmTreatmentRisk$coefficients[5] - .0362*1.96)
 ciUpperMinimalHigh <- exp(-ocmTreatmentRisk$coefficients[5] + .0362*1.96)

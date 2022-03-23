@@ -44,7 +44,7 @@ please contact me via the email address listed above.
 
 ## Authors and acknowledgment
 I wrote the code for this project myself, but I would like to thank my
-collaborators: Farhad Fatehi, Suong Le, Antonio Verdejo-Garcia and Jakob Hohwy
+collaborators: Farhad Fatehi, Suong Le, Antonio Verdejo-Garcia and Jakob Hohwy.
 
 ## License
 This project has an MIT license
