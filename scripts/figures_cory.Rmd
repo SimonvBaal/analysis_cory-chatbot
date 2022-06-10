@@ -138,29 +138,7 @@ ggplot(DCBIavg,
 ```{r Testing likelihood figures}
 
 # Testing likelihood figure
-lmTestingLikelihood <- lm(testingLikNum ~ Condition, data = chatbotData %>% filter(!is.na(testingLikNum)))
-plot(emmeans(lmTestingLikelihood, ~ Condition), comparisons = T, adjust = "none")
-afex_plot(lmTestingLikelihood, ~ Condition, 
-          mapping = "colour",
-          data_geom = geom_violin)
 
-ggplot(
-  chatbotData %>% 
-    filter(!is.na(testingLikelihood)) %>%
-    group_by(Condition) %>%
-    summarise(meanTestingLikelihood = mean(testingLikNum),
-              sdTestingLikelihood = mean(testingLikNum),
-              n = n()),
-  aes(x = Condition, y = meanTestingLikelihood)
-) +
-  geom_point() +
-  geom_errorbar(aes(ymin = meanTestingLikelihood-(sdTestingLikelihood/sqrt(n)),
-                    ymax = meanTestingLikelihood+(sdTestingLikelihood/sqrt(n))))
-
-
-
-
-#------------------------------------ bar chart
 plotTestingLikelihood <-
   ggplot(
     chatbotData %>%
