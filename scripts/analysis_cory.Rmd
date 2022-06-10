@@ -135,35 +135,50 @@ chiSqTestClm <- drop1(clmTestingLikelihood, test = "Chi")
 
 # Instead, we conduct simple Mann-Whitney U tests.
 wTestExp <-
-  wilcox.test(x = chatbotData$testingLikNum[chatbotData$Condition == "Exponential Growth"],
-              y = chatbotData$testingLikNum[chatbotData$Condition == "Control"],
-              paired = F,
-              exact = F,
-              conf.int = T,
-              alternative = "greater")
+  wilcox.test(
+    x = chatbotData$testingLikNum[chatbotData$Condition == 
+                                    "Exponential Growth"],
+    y = chatbotData$testingLikNum[chatbotData$Condition == 
+                                    "Control"],
+    paired = F,
+    exact = F,
+    conf.int = T,
+    alternative = "greater"
+  )
 
 wTestComp <-
-  wilcox.test(x = chatbotData$testingLikNum[chatbotData$Condition == "Compassion"],
-              y = chatbotData$testingLikNum[chatbotData$Condition == "Control"],
-              paired = F,
-              exact = F,
-              conf.int = T, 
-              alternative = "greater")
+  wilcox.test(
+    x = chatbotData$testingLikNum[chatbotData$Condition ==
+                                    "Compassion"],
+    y = chatbotData$testingLikNum[chatbotData$Condition ==
+                                    "Control"],
+    paired = F,
+    exact = F,
+    conf.int = T,
+    alternative = "greater"
+  )
 
-zValueWTestComp <- 
-  wilcoxonZ(x = chatbotData$testingLikNum[chatbotData$Condition == "Compassion"],
-              y = chatbotData$testingLikNum[chatbotData$Condition == "Control"],
-              paired = F,
-              exact = F,
-            digits = 4)
+zValueWTestComp <-
+  wilcoxonZ(
+    x = chatbotData$testingLikNum[chatbotData$Condition ==
+                                    "Compassion"],
+    y = chatbotData$testingLikNum[chatbotData$Condition ==
+                                    "Control"],
+    paired = F,
+    exact = F,
+    digits = 4
+  )
 
 ZValueWTestExp <-
-  wilcoxonZ(x = chatbotData$testingLikNum[chatbotData$Condition == "Exponential Growth"],
-              y = chatbotData$testingLikNum[chatbotData$Condition == "Control"],
-              paired = F,
-              exact = F,
-            digits = 4)
-
+  wilcoxonZ(
+    x = chatbotData$testingLikNum[chatbotData$Condition == 
+                                    "Exponential Growth"],
+    y = chatbotData$testingLikNum[chatbotData$Condition == 
+                                    "Control"],
+    paired = F,
+    exact = F,
+    digits = 4
+  )
 
 adjustedPvalues <- p.adjust(c(.028, .165), method = "BH")
 

@@ -178,77 +178,81 @@ h = 4
  surveyData <- 
    surveyData %>%
    mutate(TimepointNumeric = ifelse(Timepoint == "Pre-Test",0,1))
-# 
-# 
-# AggregateAttitudePlot <-
-#   ggplot(surveyData, aes(x = Attitude, fill = Timepoint)) +
-#   geom_density(alpha = .5) +
-#   geom_boxplot(aes(x = Attitude, y = TimepointNumeric *-.0015 + 0.0275),
-#                alpha = .4, colour = "black", notch = T, coef = 1) +
-#   labs(title = "Staying Home Attitudes" , 
-#        x = "Certainty that it's alright to leave home", 
-#        y = "Frequency") +
-#   scale_fill_manual(values = cbbPaletteBoxPlots, name = "Survey Moment") +
-#   theme_light() +
-#     theme(legend.position = "bottom")
-# AggregateAttitudePlot
-# 
- HighRiskAttitudePlot <- 
-  ggplot(surveyData %>%
-           filter(Risk == "High_Risk"),
-         aes(x = Attitude, fill = Timepoint)) +
-  geom_density(alpha = .4) +
-  geom_boxplot(aes(x = Attitude, y = TimepointNumeric * .0015 + 0.0215),
-               alpha = .4, colour = "black", notch = T, coef = 1) +
-  labs(title = "High Risk" ,x = "Certainty", y = "Frequency") +
-   scale_fill_viridis_d(begin = .2, end = .7) +
-  theme_light() +
-  theme(axis.title.x = element_blank())
 
-LowRiskAttitudePlot <-
+plotHighRiskAttitude <-
   ggplot(surveyData %>%
-           filter(Risk == "Low_Risk"),
+           filter(Risk == "High"),
          aes(x = Attitude, fill = Timepoint)) +
   geom_density(alpha = .4) +
-  geom_boxplot(aes(x = Attitude, y = TimepointNumeric * .0015 + 0.0215),
-               alpha = .4, colour = "black", notch = T, coef = 1) +
-  labs(title = "Low Risk", x = "Certainty", y = "Frequency") +
+  geom_boxplot(
+    aes(x = Attitude, 
+        y = TimepointNumeric * .0015 + 0.0315),
+    alpha = .4,
+    colour = "black",
+    notch = F,
+    coef = 1,
+    width = .001,
+  ) +
+  labs(title = "High Risk", 
+       x = "Certainty", 
+       y = "Frequency") +
   scale_fill_viridis_d(begin = .2, end = .7) +
   theme_light() +
-  theme(axis.title = element_blank()) 
+  theme(axis.title.x = element_blank()) +
+  guides(fill = guide_legend(reverse = T))
 
-MinimalRiskAttitudePlot <-
+plotLowRiskAttitude <-
   ggplot(surveyData %>%
-           filter(Risk == "Minimal_Risk"),
+           filter(Risk == "Low"),
          aes(x = Attitude, fill = Timepoint)) +
   geom_density(alpha = .4) +
-  geom_boxplot(aes(x = Attitude, y = TimepointNumeric * .0015 + 0.0215),
-               alpha = .4, colour = "black", notch = T, coef = 1) +
-  labs(title = "Minimal Risk", x = "Certainty", y = "Frequency",
+  geom_boxplot(aes(x = Attitude, 
+                   y = TimepointNumeric * .0015 + 0.0315),
+               alpha = .4, 
+               colour = "black", 
+               notch = F, 
+               coef = 1,
+               width = .001) +
+  labs(title = "Low Risk", 
+       x = "Certainty", 
+       y = "Frequency") +
+  scale_fill_viridis_d(begin = .2, end = .7) +
+  theme_light() +
+  theme(axis.title = element_blank()) +
+  guides(fill = guide_legend(reverse = T)) 
+
+plotMinimalRiskAttitude <-
+  ggplot(surveyData %>%
+           filter(Risk == "Minimal"),
+         aes(x = Attitude, fill = Timepoint)) +
+  geom_density(alpha = .4) +
+  geom_boxplot(aes(x = Attitude, y = TimepointNumeric * .0015 + 0.0315),
+               alpha = .4, 
+               colour = "black", 
+               notch = F, 
+               coef = 1,
+               width = .001) +
+  labs(title = "Minimal Risk",
+       x = "Certainty", 
+       y = "Frequency",
        fill = "Timepoint") +
   scale_fill_viridis_d(begin = .2, end = .7) +
   theme_light() +
-  theme(axis.title = element_blank())
-# 
-# ggarrange(AggregateAttitudePlot,
-#           HighRiskAttitudePlot,
-#           LowRiskAttitudePlot,
-#           MinimalRiskAttitudePlot, nrow = 2, ncol = 2, common.legend = TRUE, legend = "bottom") +
-#   ggsave("AttitudePlots.png", width = 2*w, height = 2.5*h)
-# 
-
+  theme(axis.title = element_blank()) +
+  guides(fill = guide_legend(reverse = T))
+ 
 
 attitudePlots <- 
-  ggarrange(HighRiskAttitudePlot,
-          LowRiskAttitudePlot,
-          MinimalRiskAttitudePlot,
-          ncol = 2, nrow = 1,
+  ggarrange(plotHighRiskAttitude,
+          plotLowRiskAttitude,
+          plotMinimalRiskAttitude,
+          ncol = 3, nrow = 1,
           common.legend = T,
           legend = "top")
 
 annotate_figure(attitudePlots, 
-                bottom = text_grob("Permissiveness of Going Out")) +
-  ggsave("CertaintyPlots.png", path = "figures",
+                bottom = text_grob("Permissiveness of Going Out"))
+ggsave(here("output/figures/plot_certainty-pre-post.png"),
          height = 4, width = 8)
 
 ```
