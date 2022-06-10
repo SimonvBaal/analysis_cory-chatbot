@@ -71,92 +71,135 @@ colnames(df) <- c("Country", rep(c("Age", "N"), times = 4))
 ```{r Chatbot Evaluation}
 
 # #================================================================================== Assessment of metrics
-# DCBIavg <- 
-#   postTestData %>% 
-#          summarise(Interest_mean = mean(Interest),
-#                    Interest_sd = sd(Interest),
-#                    Intrigue_mean = mean(Intrigue),
-#                    Intrigue_sd = sd(Intrigue),
-#                    Focus_mean = mean(Focus),
-#                    Focus_sd = sd(Focus),
-#                    Inattention_mean = mean(Inattention),
-#                    Inattention_sd = sd(Inattention),
-#                    Distraction_mean = mean(Distraction),
-#                    Distraction_sd = sd(Distraction),
-#                    Enjoyment_mean = mean(Enjoyment),
-#                    Enjoyment_sd = sd(Enjoyment),
-#                    Annoyance_mean = mean(Annoyance),
-#                    Annoyance_sd = sd(Annoyance),
-#                    Pleasure_mean = mean(Pleasure),
-#                    Pleasure_sd = sd(Pleasure),
-#                    Learning_mean = mean(Learning),
-#                    Learning_sd = sd(Learning)) %>%
-#   pivot_longer(Interest_mean:Learning_sd, names_to = c("Metric", "Type"),
-#                names_sep = "_",
-#                values_to = c("Response")) %>%
-#   pivot_wider(id_cols = "Metric", 
-#               names_from = "Type", 
-#               values_from = "Response")
-# 
-# ## DCBI plot
-# 
-# ggplot(DCBIavg,
-#        aes(x = reorder(Metric, mean), y = mean, col = mean)) +
-#   geom_point() +
-#   geom_errorbar(aes(ymin = mean - sd, ymax = mean + sd),
-#                 width = .2) +
-#   labs(y = "Likert Scale Response", x = "Metric",
-#        col = "Response") +
-#   scale_y_continuous(breaks=seq(1,7,1), limits = c(.94,7.01)) +
-#   scale_colour_viridis_c(begin = .1, end = .65) +
-#   theme_light() +
-#   ggsave(here("output/figures/plot_experience_cory.png"), height = 4, width = 6)
-# 
-# ##
-# 
+DCBIavg <-
+  postTestData %>%
+  summarise(
+    Interest_mean = mean(Interest),
+    Interest_sd = sd(Interest),
+    Intrigue_mean = mean(Intrigue),
+    Intrigue_sd = sd(Intrigue),
+    Focus_mean = mean(Focus),
+    Focus_sd = sd(Focus),
+    Inattention_mean = mean(Inattention),
+    Inattention_sd = sd(Inattention),
+    Distraction_mean = mean(Distraction),
+    Distraction_sd = sd(Distraction),
+    Enjoyment_mean = mean(Enjoyment),
+    Enjoyment_sd = sd(Enjoyment),
+    Annoyance_mean = mean(Annoyance),
+    Annoyance_sd = sd(Annoyance),
+    Pleasure_mean = mean(Pleasure),
+    Pleasure_sd = sd(Pleasure),
+    Learning_mean = mean(Learning),
+    Learning_sd = sd(Learning)
+  ) %>%
+  pivot_longer(
+    Interest_mean:Learning_sd,
+    names_to = c("Metric", "Type"),
+    names_sep = "_",
+    values_to = c("Response")
+  ) %>%
+  pivot_wider(id_cols = "Metric",
+              names_from = "Type",
+              values_from = "Response")
+
+## DCBI plot
+
+ggplot(DCBIavg,
+       aes(
+         x = reorder(Metric, mean),
+         y = mean,
+         col = mean
+       )) +
+  geom_point() +
+  geom_errorbar(aes(ymin = mean - sd, ymax = mean + sd),
+                width = .2) +
+  labs(y = "Likert Scale Response", x = "Metric",
+       col = "Response") +
+  scale_y_continuous(breaks = seq(1, 7, 1), limits = c(.94, 7.01)) +
+  scale_colour_viridis_c(begin = .1, end = .65) +
+  theme_light() +
+  ggsave(
+    here("output/figures/plot_experience_cory.png"),
+    height = 4,
+    width = 6
+  )
+
+##
+
 
 
 ```
 
 ## Figures of Testing Attitudes
 
-```{r Figure prep}
 
-# The palette with black:
-cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
-cbbPaletteBoxPlots <- c("#E69F00","#56B4E9","#000000")
-## Plot dimensions
-w = 6
-h = 4
-
-```
 
 ```{r Testing likelihood figures}
 
-# #========================================= Cory's internal data figures
-# 
-# ggplot(corySummary %>% 
-#          filter(!is.na(ExponentialSpreadGuess)) %>% ungroup() %>%
-#          mutate(ExponentialSpreadGuess = as.factor(ExponentialSpreadGuess)), 
-#        aes(x = ExponentialSpreadGuess, y = Count, fill = testingLikelihoodSpread)) +
-#   geom_bar(position="stack", stat="identity") +
-#   theme_light()
-# 
-# ggplot(corySummary %>%
-#          filter(!is.na(EmpathyInput)) %>% 
-#          ungroup() %>%
-#          mutate(`Testing Likelihood` = factor(testingLikelihoodEmpathy, levels = c("Very Likely", "I don't know", "Very Unlikely"))),
-#        aes(x = EmpathyInput, y = Count, fill = `Testing Likelihood`)) +
-#   geom_bar(position="stack", stat="identity") +
-#   labs(x = "Do you know someone who could be vulnerable?") +
-#   theme_light()
-# 
-# ggplot(corySummary, aes(x = Condition, y = Count, fill = testingLikelihood)) +
-#          geom_bar(stat = "identity", position = "fill", width = .5) +
-#   labs(y = "Proportion of Choices") +
-#   scale_fill_manual(name = "Likelihood to get Tested", values = cbbPaletteBoxPlots) +
-#   theme_light() +
-#   theme(legend.position = "bottom")
+# Testing likelihood figure
+lmTestingLikelihood <- lm(testingLikNum ~ Condition, data = chatbotData %>% filter(!is.na(testingLikNum)))
+plot(emmeans(lmTestingLikelihood, ~ Condition), comparisons = T, adjust = "none")
+afex_plot(lmTestingLikelihood, ~ Condition, 
+          mapping = "colour",
+          data_geom = geom_violin)
+
+ggplot(
+  chatbotData %>% 
+    filter(!is.na(testingLikelihood)) %>%
+    group_by(Condition) %>%
+    summarise(meanTestingLikelihood = mean(testingLikNum),
+              sdTestingLikelihood = mean(testingLikNum),
+              n = n()),
+  aes(x = Condition, y = meanTestingLikelihood)
+) +
+  geom_point() +
+  geom_errorbar(aes(ymin = meanTestingLikelihood-(sdTestingLikelihood/sqrt(n)),
+                    ymax = meanTestingLikelihood+(sdTestingLikelihood/sqrt(n))))
+
+
+
+
+#------------------------------------ bar chart
+plotTestingLikelihood <-
+  ggplot(
+    chatbotData %>%
+      filter(!is.na(testingLikelihood)) %>%
+      mutate(
+        testingLikelihood = factor(
+          ifelse(
+            testingLikelihood == "Very Likely",
+            "Very Likely",
+            ifelse(testingLikelihood == "I don't know",
+                   "Unsure",
+                   "Very Unlikely")
+          ),
+          levels = c("Very Likely",
+                     "Unsure",
+                     "Very Unlikely")
+        ),
+        Condition = factor(
+          Condition,
+          levels = c("Exponential Growth",
+                     "Compassion",
+                     "Control")
+        )
+      ),
+    aes(group = Condition,
+        x = testingLikelihood)
+  ) +
+  geom_bar(aes(y = ..prop.., fill = Condition),
+           width = .5,
+           position = position_dodge2()) +
+  labs(x = "Testing Likelihood",
+       y = "Percentage of Answers") +
+  theme_light() +
+  theme(legend.position = "bottom") +
+  scale_fill_viridis_d(begin = .2, end = .8) +
+  scale_y_continuous(labels = scales::percent)
+ggsave(here("output/figures/plot_test-likelihood.png"),
+            width = 6, height = 4)
+
 
 ```
 
@@ -176,22 +219,20 @@ plotTestImportance <-
   theme(legend.position = "none")
 
 ggsave(here("output/figures/plot_test-importance.png"),
-       height = 6, 
-       width = 5)
+       height = 4, 
+       width = 6)
 
 ```
 
 
 ## Figures of Attitudes toward Leaving Home
 
-```{r Figures}
-
-
-# #================================================================================= Density plots for attitudes
-# 
- surveyData <- 
-   surveyData %>%
-   mutate(TimepointNumeric = ifelse(Timepoint == "Pre-Test",0,1))
+```{r plots for attitudes to leaving home attitudes}
+#================================================================================= Density plots for attitudes
+ 
+surveyData <- 
+  surveyData %>%
+  mutate(TimepointNumeric = ifelse(Timepoint == "Pre-Test",0,1))
 
 plotHighRiskAttitude <-
   ggplot(surveyData %>%

@@ -24,46 +24,30 @@ In this section, we start by providing some descriptive statistics about the sam
 
 ```{r Descriptive statistics}
 
+# Here we gather descriptive statistics by sex
 surveyData %>%
+  group_by(ParticipantID, Sex, Age) %>%
+  summarise(n = n()) %>%
   group_by(Sex) %>%
-  summarise(Mean_Age = mean(as.numeric(Age), na.rm = T),
-            Min_Age = min(as.numeric(Age), na.rm = T),
-            Max_Age = max(as.numeric(Age), na.rm = T),
-            n = n()/30)
+  summarise(meanAge = mean(as.numeric(Age), na.rm = T),
+            sdAge = sd(as.numeric(Age), na.rm = T),
+            n = n())
 
+# Some nationality data if needed
 surveyData %>%
   group_by(Nationality) %>%
   summarise(n = n())
 
-TestJudgments <-
-  surveyData %>%
-  group_by(ParticipantID, Timepoint, Condition) %>%
-  summarise(TestImportance = mean(TestImportance)) 
-
+# Group level statistics on the perceived importance of testing
 surveyData %>%
   group_by(Timepoint, Condition) %>%
   summarise(TestImportance = mean(TestImportance)) %>%
   arrange(Condition, desc(Timepoint))
 
+# Group level statistics about the intention to get tested if the participant detects symptoms.
 chatbotData %>%
   group_by(Condition, testingLikelihood) %>%
   summarise(n = n())
-
-
-# surveyData %>% 
-#   summarise(Interest = mean(Interest),
-#                            Intrigue = mean(Intrigue),
-#                            Focus = mean(Focus),
-#                            Inattention = mean(Inattention),
-#                            Distraction = mean(Distraction),
-#                            Enjoyment = mean(Enjoyment),
-#                            Annoyance = mean(Annoyance),
-#                            Pleasure = mean(Pleasure),
-#                            Learning = mean(Learning)) %>%
-#   pivot_longer(Interest:Learning, names_to = "Metric", values_to="Response")
-
-
-
 ```
 
 ## Getting Tested when Experiencing COVID-19 Symptoms
