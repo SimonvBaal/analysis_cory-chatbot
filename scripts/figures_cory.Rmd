@@ -15,6 +15,14 @@ library(kableExtra)
 
 ```
 
+```{r load data}
+
+postTestData <-
+  read_csv(here("output/data/clean_post-test_cory.csv"))
+
+```
+
+
 # Tables
 ```{r Tables}
 
@@ -105,9 +113,10 @@ DCBIavg <-
 
 ## DCBI plot
 
-ggplot(DCBIavg,
+plotDCBI <- 
+  ggplot(DCBIavg,
        aes(
-         x = reorder(Metric, mean),
+         x = reorder(Metric, desc(mean)),
          y = mean,
          col = mean
        )) +
@@ -119,15 +128,14 @@ ggplot(DCBIavg,
   scale_y_continuous(breaks = seq(1, 7, 1), limits = c(.94, 7.01)) +
   scale_colour_viridis_c(begin = .1, end = .65) +
   theme_light() +
-  ggsave(
+  theme(legend.position = "none")
+ggsave(
     here("output/figures/plot_experience_cory.png"),
     height = 4,
     width = 6
   )
 
-##
-
-
+rm(DCBIavg)
 
 ```
 

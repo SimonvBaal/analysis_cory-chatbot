@@ -347,6 +347,9 @@ rm(nationalityData)
 write_csv(comparisonData, here("./output/data/clean_surveys_cory.csv"))
 write_csv(chatbotData, here("./output/data/clean_chatbot_cory.csv"))
 
+# write the postTestData for the cory experience figure in the figures.rmd file
+write_csv(postTestData, here("output/data/clean_post-test_cory.csv"))
+
 # clear environment
 rm(list=ls())
 
