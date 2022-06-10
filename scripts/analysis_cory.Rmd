@@ -158,17 +158,6 @@ wTestComp <-
     alternative = "greater"
   )
 
-zValueWTestComp <-
-  wilcoxonZ(
-    x = chatbotData$testingLikNum[chatbotData$Condition ==
-                                    "Compassion"],
-    y = chatbotData$testingLikNum[chatbotData$Condition ==
-                                    "Control"],
-    paired = F,
-    exact = F,
-    digits = 4
-  )
-
 ZValueWTestExp <-
   wilcoxonZ(
     x = chatbotData$testingLikNum[chatbotData$Condition == 
@@ -180,7 +169,20 @@ ZValueWTestExp <-
     digits = 4
   )
 
+zValueWTestComp <-
+  wilcoxonZ(
+    x = chatbotData$testingLikNum[chatbotData$Condition ==
+                                    "Compassion"],
+    y = chatbotData$testingLikNum[chatbotData$Condition ==
+                                    "Control"],
+    paired = F,
+    exact = F,
+    digits = 4
+  )
+
 adjustedPvalues <- p.adjust(c(.028, .165), method = "BH")
+
+
 
 ```
 
@@ -194,17 +196,27 @@ Here we analyse whether the chatbot increases the perceived importance of testin
 testImportanceData <- 
   surveyData %>% 
   group_by(ParticipantID, Timepoint, Condition) %>%
-  summarise(TestImportance = mean(TestImportance)) %>%
+  summarise(testImportance = mean(TestImportance)) %>%
   pivot_wider(id_cols = c("ParticipantID", "Condition"),
               names_from = "Timepoint",
-              values_from = "TestImportance") %>%
-  mutate(TestImportanceDifference = `Post-Test`-`Pre-Test`,
+              values_from = "testImportance") %>%
+  mutate(testImportanceDifference = `Post-Test`-`Pre-Test`,
          Condition = factor(Condition, 
                             levels = c("Compassion", 
                                        "Exponential Growth", 
                                        "Control")))
 
 contrasts(testImportanceData$Condition) <- contr.sum(3)
+
+
+lmTestImportance <- 
+  lm(
+  testImportanceDifference ~
+    Condition,
+  data = testImportanceData
+)
+
+
 
 
 ```

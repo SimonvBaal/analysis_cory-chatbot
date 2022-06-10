@@ -46,7 +46,7 @@ preTestData %>%
     Importance_of_Testing = mean(Test)
   )
 
-df <- read_csv("Eligibility Table.csv")
+df <- read_csv(here("output/figures/table_demographics.csv"))
 colnames(df) <- c("Country", rep(c("Age", "N"), times = 4))
 
 # df %>%
@@ -110,7 +110,7 @@ colnames(df) <- c("Country", rep(c("Age", "N"), times = 4))
 #   scale_y_continuous(breaks=seq(1,7,1), limits = c(.94,7.01)) +
 #   scale_colour_viridis_c(begin = .1, end = .65) +
 #   theme_light() +
-#   ggsave("DCBIplot.png", height = 4, width = 6)
+#   ggsave(here("output/figures/plot_experience_cory.png"), height = 4, width = 6)
 # 
 # ##
 # 
@@ -163,7 +163,21 @@ h = 4
 
 ```{r Testing importance attitudes figures}
 
+plotTestImportance <- 
+  afex_plot(lmTestImportance, ~Condition,
+          mapping = "colour",
+          data_geom = geom_violin) +
+  geom_hline(aes(yintercept = 0),
+             alpha = .5,
+             size = .2) +
+  labs(y = expression("Positive Change in Perceived Testing Importance " %->% "")) +
+  scale_color_viridis_d(begin = .2, end = .65) +
+  theme_light() +
+  theme(legend.position = "none")
 
+ggsave(here("output/figures/plot_test-importance.png"),
+       height = 6, 
+       width = 5)
 
 ```
 
