@@ -290,8 +290,8 @@ lrtCertainty2 <-
 ```
 
 
-```{r Continuous Ordinal Model - Attitudes to going out}
-# We estimate models with different reference levels, in order to do pairwise
+```{r Cont ordinal - attitudes to going out: pairwise}
+# Now we estimate models with different reference levels in order to do pairwise
 # comparisons.
 
 # High Risk, Post-Test is the reference point here 
@@ -307,7 +307,18 @@ ocm1Certainty <-
 
 # Here the difference between pre-test and post-test in high risk scenarios is:
 #                               Estimate    StdErr t.value   p.value
-#TimepointPre-Test             -0.057005  0.130388 -0.4372 0.6632508 
+#TimepointPost-Test             0.057005  0.130388 -0.4372 0.6632508 
+
+ciLowerTimepointHigh = .057005 - .130388 * 1.96
+ciUpperTimepointHigh = .057005 + .130388 * 1.96
+surveyData %>%
+  filter(!is.na(Age), Risk == "High") %>%
+  group_by(Timepoint) %>%
+  summarise(mean = mean(AbsCertainty),
+            sd = sd(AbsCertainty))
+
+
+#---------------------------------------- Low Risk
 
 surveyData <-
   surveyData %>%
@@ -325,8 +336,18 @@ ocm2Certainty <-
 
 # Here the difference between pre-test and post-test in low risk scenarios is:
 #                               Estimate    StdErr t.value   p.value
-#TimepointPre-Test              0.817518  0.183384  4.4579 2.902e-05 ***
+#TimepointPost-Test              -0.817518  0.183384  4.4579 2.902e-05 ***
 
+ciLowerTimepointLow = -.817518 - .183384 * 1.96
+ciUpperTimepointLow = -.817518 + .183384 * 1.96
+surveyData %>%
+  filter(!is.na(Age), Risk == "Low") %>%
+  group_by(Timepoint) %>%
+  summarise(mean = mean(AbsCertainty),
+            sd = sd(AbsCertainty))
+
+
+#--------------------------------------- Minimal Risk
 surveyData <-
   surveyData %>%
   mutate(Risk = factor(Risk, levels = c("Minimal", "Low", "High")))
@@ -342,7 +363,16 @@ ocm3Certainty <-
 
 # Here the difference between pre-test and post-test in minimal risk scenarios is:
 #                            Estimate    StdErr t.value   p.value
-#TimepointPre-Test           1.238254  0.195481  6.3344 1.682e-08 ***
+#TimepointPost-Test           -1.238254  0.195481  6.3344 1.682e-08 ***
+
+ciLowerTimepointMinimal = -1.238254 - .195481 * 1.96
+ciUpperTimepointMinimal = -1.238254 + .195481 * 1.96
+surveyData %>%
+  filter(!is.na(Age), Risk == "Minimal") %>%
+  group_by(Timepoint) %>%
+  summarise(mean = mean(AbsCertainty),
+            sd = sd(AbsCertainty))
+
 ```
 
 
@@ -361,9 +391,20 @@ ocmMainTimepointCertainty <-
           (1|ParticipantID),
          surveyData %>% 
         filter(!is.na(Age)))
+# The main effect of timepoint is:
+#                          Estimate    StdErr t.value   p.value
+#TimepointPost-Test       -0.666256  0.102592 -6.4943 8.578e-09 ***
+ciLowerTimepointMain <- -0.666256 - 0.102592 * 1.96
+ciUpperTimepointMain <- -0.666256 + 0.102592 * 1.96
+
+surveyData %>%
+  filter(!is.na(Age)) %>%
+  group_by(Timepoint) %>%
+  summarise(mean = mean(AbsCertainty),
+            sd = sd(AbsCertainty))
 
 # Set Risk back to treatment contrasts, and set Timepoint to sum contrasts,
-# to evaluate the main effect of risk.
+# if you would like to evaluate the main effect of risk.
 contrasts(surveyData$Risk) <- contr.treatment(3)
 contrasts(surveyData$Timepoint) <- contr.sum(2)
 
