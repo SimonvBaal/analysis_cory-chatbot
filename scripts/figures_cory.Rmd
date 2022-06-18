@@ -1,5 +1,5 @@
 ---
-title: "Cory chatbot test figures"
+title: "Cory - figures"
 author: "Simon van Baal"
 date: "17/03/2022"
 output: html_document
