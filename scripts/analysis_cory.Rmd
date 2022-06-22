@@ -14,8 +14,8 @@ library(emmeans)
 library(onewaytests)
 library(rcompanion)
 
-surveyData <- read_csv(here("./output/data/clean_surveys_cory.csv"))
-chatbotData <- read_csv(here("./output/data/clean_chatbot_cory.csv"))
+surveyData <- read_csv(here("output/data/clean_surveys_cory.csv"))
+chatbotData <- read_csv(here("output/data/clean_chatbot_cory.csv"))
 ```
 
 ## Descriptive statistics

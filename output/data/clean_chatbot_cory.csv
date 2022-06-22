@@ -1,7 +1,6 @@
 StartDate,ParticipantID,Age,Sex,Vic,Childhood,Essential,Reading,FM,testingLikelihood,Condition
 14/10/2020 22:12,P3,26,Female,Regional Vic,Australia,Yes,No,Yes,NA,NA
 14/10/2020 22:18,P24,25,Male,Metro Melbourne,Brazil,Yes,No,Yes,NA,NA
-14/10/2020 22:25,P19,26,Male,Metro Melbourne,Australia,No,No,Yes,Very Likely,Compassion
 14/10/2020 22:43,P1,23,Female,Regional Vic,Australia,No,No,Yes,NA,NA
 14/10/2020 22:50,P45,25,Female,Metro Melbourne,Australia,No,No,Yes,Very Likely,Exponential Growth
 15/10/2020 0:13,P13,26,Female,Metro Melbourne,Brazil,No,No,Yes,I don't know,Control
@@ -29,7 +28,7 @@ StartDate,ParticipantID,Age,Sex,Vic,Childhood,Essential,Reading,FM,testingLikeli
 17/10/2020 20:40,P16,29,Female,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
 17/10/2020 20:43,P35,22,Male,Metro Melbourne,Australia,Yes,No,Yes,NA,NA
 17/10/2020 20:52,P14,22,Male,Metro Melbourne,Australia,No,No,Yes,Very Unlikely,Control
-17/10/2020 20:57,P60,18,Male,Metro Melbourne,Australia,Yes,No,Yes,Very Likely,Control
+17/10/2020 20:57,P6,18,Male,Metro Melbourne,Australia,Yes,No,Yes,Very Likely,Control
 17/10/2020 21:11,P5,28,Male,Metro Melbourne,Mexico,Yes,No,Yes,NA,NA
 17/10/2020 21:18,P2,27,Female,Metro Melbourne,Nepal,Yes,No,Yes,NA,NA
 17/10/2020 21:54,P15,25,Female,Metro Melbourne,Australia,No,No,Yes,NA,NA

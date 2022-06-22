@@ -20,55 +20,175 @@ library(kableExtra)
 postTestData <-
   read_csv(here("output/data/clean_post-test_cory.csv"))
 
+surveyData <- 
+  read_csv(here("./output/data/clean_surveys_cory.csv"))
+
+chatbotData <-
+  read_csv(here("output/data/clean_chatbot_cory.csv"))
+
 ```
 
 
 # Tables
-```{r Tables}
 
-eligibility %>%
-  group_by(Childhood, Sex, Essential) %>%
-  summarise(Number_of_Users = n(),
-            Age = round(mean(as.numeric(Age)), 1)) %>%
-  write.csv("Eligibility Table.csv")
+```{r Table sample demographics}
 
-preTestData <-
-  preTestData %>%
+# here we provide a table for demographic information of the sample.
+
+demographics <-
+  chatbotData %>%
+  filter(!is.na(Age)) %>%
+  mutate(coiGroup = factor( # country of origin group
+    ifelse(
+      Childhood != "Australia" &
+        Childhood != "Viet Nam",
+      "Other Migrants",
+      Childhood
+    ), levels = c(
+      "Australia",
+      "Viet Nam", 
+      "Other Migrants"
+    )
+  )) %>%
+  group_by(ParticipantID, coiGroup, Age, Sex) %>%
+  summarise(n = n()) %>%
+  group_by(coiGroup, Sex) %>%
+  summarise(
+    `M (n)` = round(mean(Age, na.rm = T), 1),
+    SD = as.character(round(sd(Age, na.rm = T), 1)),
+    n = n()) %>%
+  mutate(`M (n)` = paste0(`M (n)`, " (", n, ")")) %>%
+  arrange(coiGroup) %>% # change order
+  ungroup() %>%
+  select(Sex, `M (n)`, SD) %>%
+  rename(` ` = Sex)
+
+kable(demographics, caption = "Table 1. Sample demographics.") %>%
+  kable_classic(
+    full_width = F,
+    font_size = 14
+  ) %>%
+  column_spec(1:3, color = "black") %>%
+  pack_rows("Australia", 1, 2) %>%
+  pack_rows("Viet Nam", 3, 3) %>%
+  pack_rows("Other Migrants", 4, 5) %>%
+  save_kable(file = here("output/figures/table_test-importance-demographics.html"))
+
+
+```
+
+
+```{r Table surveys demographics}
+
+# here we provide a table for demographic information of the sample used for
+# the perceived importance of testing - partitioned by group.
+# Some participants did not complete both surveys, So there is missing data
+# for nationality.
+
+demographics <-
+  chatbotData %>%
+  filter(!is.na(Age), !is.na(Nationality)) %>%
   mutate(NationalityGroup = factor(
     ifelse(
       Nationality != "Australia" &
         Nationality != "Viet Nam",
-      "Other",
+      "Other Migrants",
       Nationality
-    ),
-    levels = c("Australia", "Viet Nam", "Other")
-  ))
-
-preTestData %>%
-  group_by(NationalityGroup) %>%
+    )
+  )) %>%
+  group_by(ParticipantID, NationalityGroup, Condition, Age, Sex) %>%
+  summarise(n = n()) %>%
+  group_by(Condition, NationalityGroup) %>%
   summarise(
-    Sample_Size = n() / 15,
-    Intention_to_Self_Isolate = mean(Intention),
-    Perceived_Effectiveness_of_Lockdown = mean(Effectiveness_Rank),
-    Concern_about_COVID = mean(Concern_Rank),
-    Importance_of_Testing = mean(Test)
-  )
+    `M (n)` = round(mean(Age, na.rm = T), 1),
+    SD = as.character(round(sd(Age, na.rm = T), 1)),
+    n = n()) %>%
+  mutate(`M (n)` = paste0(`M (n)`, " (", n, ")")) %>%
+  select(Condition, NationalityGroup, `M (n)`, SD)
 
-df <- read_csv(here("output/figures/table_demographics.csv"))
-colnames(df) <- c("Country", rep(c("Age", "N"), times = 4))
+# Create dfs for the different conditions to make table
+tableDf1 <-
+  demographics %>%
+  filter(Condition == "Compassion") %>%
+  rename(` ` = NationalityGroup) %>%
+  ungroup() %>%
+  select(` `, `M (n)`, SD) %>%
+  add_row(` ` = "Viet Nam", `M (n)` = "-" , SD = "-")
 
-# df %>%
-#   kable() %>%
-#   kable_styling(bootstrap_options = c("striped", "hover", "responsive", "bordered"), 
-#                 full_width = F, 
-#                 font_size = 14) %>%
-#   column_spec(1:9, color = "black") %>%
-#   add_header_above(c(" " = 1, "Female" = 2, "Male" = 2, "Female" = 2, "Male" = 2)) %>%
-#   add_header_above(c(" " = 1, "Yes" = 4, "No" = 4)) %>%
-#   add_header_above(c(" " = 1, "Essential Worker" = 8)) %>%
-#   save_kable(file = "DemoTable.png")
+tableDf2 <-
+  demographics %>%
+  filter(Condition == "Exponential Growth") %>%
+  ungroup() %>%
+  select(`M (n)`, SD)
+
+tableDf3 <-
+  demographics %>%
+  filter(Condition == "Control") %>%
+  ungroup() %>%
+  select(`M (n)`, SD) %>%
+  add_row(`M (n)` = "-", SD = "-")
+
+tableDfComplete <- 
+  cbind(tableDf1, tableDf2, tableDf3)
+
+tableDfComplete %>%
+  kable() %>%
+  kable_classic(html_font = "Cambria", full_width = F) %>%
+  column_spec(1:7, color = "black") %>%
+  add_header_above(c(
+    " " = 1,
+    "Compassion" = 2,
+    "Exponential" = 2,
+    "Control" = 2
+  )) %>%
+  save_kable(file = 
+               here("output/figures/table_test-importance_demographics.html"))
 
 
+```
+
+
+
+```{r Table demographics testing likelihood}
+
+# Many participants did not answer Cory COVID-bot's question on how likely 
+# they were to get tested if they experienced symptoms.
+# Here we describe the sample for the testing likelihood data.
+
+compliantParticipants <-
+  chatbotData %>%
+           filter(!is.na(testingLikelihood))
+
+dataTestingLikelihoodTable <-
+  surveyData %>%
+  filter(ParticipantID %in% compliantParticipants$ParticipantID) %>%
+  group_by(ParticipantID, Sex, Nationality, Age, Condition) %>%
+  summarise(n = n()) %>%
+  mutate(NationalityGroup = factor(
+    ifelse(
+      Nationality != "Australia" &
+        Nationality != "Viet Nam",
+      "Other Migrants",
+      Nationality
+    ), levels = c(
+      "Australia",
+      "Viet Nam", 
+      "Other Migrants"
+    )
+  )) %>%
+  group_by(Condition, NationalityGroup) %>%
+  summarise(`M (n)` = round(mean(Age, na.rm = T), 1),
+              SD = as.character(round(sd(Age, na.rm = T), 1)),
+              n = n()) %>%
+  mutate(`M (n)` = paste0(`M (n)`, " (", n, ")")) %>%
+  arrange(Condition, NationalityGroup)
+
+
+kable(dataTestingLikelihoodTable) %>%
+  kable_classic(full_width=F, html_font = "Cambria")
+
+
+rm(compliantParticipants)
 
 ```
 
@@ -78,7 +198,6 @@ colnames(df) <- c("Country", rep(c("Age", "N"), times = 4))
 
 ```{r Chatbot Evaluation}
 
-# #================================================================================== Assessment of metrics
 DCBIavg <-
   postTestData %>%
   summarise(
