@@ -32,7 +32,8 @@ eligibility <-
          Age,
          Sex,
          Vic,
-         Childhood:FM)
+         Childhood:FM) %>%
+  slice(-3) # duplicate entry
 
 ```
 
@@ -281,7 +282,7 @@ chatbotData <-
 # Link demographics to data from the chatbot
 chatbotData <- 
   left_join(eligibility, chatbotData, by = "ParticipantID")
-
+eligibility$ParticipantID
 
 ```
 
@@ -340,6 +341,30 @@ comparisonData <-
 
 rm(nationalityData)
 ```
+
+```{r Enter additional demographic data manually}
+# We received some of the missing demographic data from participants directly
+# We enter this manually here.
+
+comparisonData <- 
+  comparisonData %>%
+  mutate(Nationality = ifelse(ParticipantID == "P16", 
+                               "Australia", 
+                               ifelse(ParticipantID == "P37", 
+                                      "Australia",
+                                      ifelse(ParticipantID == "P38", 
+                                             "Australia", 
+                                             Nationality))),
+         Age = ifelse(ParticipantID == "P16", 
+                               29, 
+                               ifelse(ParticipantID == "P37", 
+                                      27,
+                                      ifelse(ParticipantID == "P38", 
+                                             20, 
+                                             Age))))
+
+```
+
 
 
 ```{r finish up}
