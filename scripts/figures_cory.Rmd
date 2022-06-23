@@ -72,7 +72,7 @@ kable(demographics, caption = "Table 1. Sample demographics.") %>%
   pack_rows("Australia", 1, 2) %>%
   pack_rows("Viet Nam", 3, 3) %>%
   pack_rows("Other Migrants", 4, 5) %>%
-  save_kable(file = here("output/figures/table_test-importance-demographics.html"))
+  save_kable(file = here("output/figures/table_sample-demographics.html"))
 
 
 ```
@@ -82,113 +82,207 @@ kable(demographics, caption = "Table 1. Sample demographics.") %>%
 
 # here we provide a table for demographic information of the sample used for
 # the perceived importance of testing - partitioned by group.
-# Some participants did not complete both surveys, So there is missing data
-# for nationality.
+# Some participants did not complete both surveys, So there is missing data.
 
-demographics <-
+# Reload data to deal with centering of age
+chatbotData <-
+  read_csv(here("output/data/clean_chatbot_cory.csv"))
+
+demographicsTestImp <-
   chatbotData %>%
-  filter(!is.na(Age), !is.na(Nationality)) %>%
-  mutate(NationalityGroup = factor(
+  filter(ParticipantID %in% testImportanceData$ParticipantID,
+         !is.na(Age), 
+         !is.na(Childhood)) %>%
+  mutate(coiGroup = factor(
     ifelse(
-      Nationality != "Australia" &
-        Nationality != "Viet Nam",
+      Childhood != "Australia" &
+        Childhood != "Viet Nam",
       "Other Migrants",
-      Nationality
+      Childhood
     )
   )) %>%
-  group_by(ParticipantID, NationalityGroup, Condition, Age, Sex) %>%
+  group_by(ParticipantID, coiGroup, Condition, Age, Sex) %>%
+  summarise(n = n()) 
+
+list <- 
+  surveyData %>%
+  group_by(ParticipantID, Condition) %>%
   summarise(n = n()) %>%
-  group_by(Condition, NationalityGroup) %>%
+  select(ParticipantID, Condition)
+
+demographicsTestImp <- 
+  demographicsTestImp %>% 
+  left_join(list, by = "ParticipantID") %>%
+  rename(Condition = Condition.y)
+
+sexInfoTestImp <- 
+  demographicsTestImp %>%
+  group_by(Condition, Sex) %>%
+  summarise(n = n())
+  
+demographicsTestImp <-
+  demographicsTestImp %>%
+  group_by(Condition, coiGroup) %>%
   summarise(
     `M (n)` = round(mean(Age, na.rm = T), 1),
     SD = as.character(round(sd(Age, na.rm = T), 1)),
     n = n()) %>%
   mutate(`M (n)` = paste0(`M (n)`, " (", n, ")")) %>%
-  select(Condition, NationalityGroup, `M (n)`, SD)
+  select(Condition, coiGroup, `M (n)`, SD)
 
 # Create dfs for the different conditions to make table
 tableDf1 <-
-  demographics %>%
+  demographicsTestImp %>%
   filter(Condition == "Compassion") %>%
-  rename(` ` = NationalityGroup) %>%
+  rename(` ` = coiGroup) %>%
   ungroup() %>%
   select(` `, `M (n)`, SD) %>%
-  add_row(` ` = "Viet Nam", `M (n)` = "-" , SD = "-")
+  add_row(` ` = "Viet Nam", `M (n)` = "-" , SD = "-") %>%
+  mutate(SD = ifelse(is.na(SD), "-", SD))
 
 tableDf2 <-
-  demographics %>%
+  demographicsTestImp %>%
   filter(Condition == "Exponential Growth") %>%
   ungroup() %>%
-  select(`M (n)`, SD)
+  select(`M (n)`, SD) %>%
+  mutate(SD = ifelse(is.na(SD), "-", SD))
 
 tableDf3 <-
-  demographics %>%
+  demographicsTestImp %>%
   filter(Condition == "Control") %>%
   ungroup() %>%
   select(`M (n)`, SD) %>%
-  add_row(`M (n)` = "-", SD = "-")
-
-tableDfComplete <- 
-  cbind(tableDf1, tableDf2, tableDf3)
-
-tableDfComplete %>%
-  kable() %>%
-  kable_classic(html_font = "Cambria", full_width = F) %>%
-  column_spec(1:7, color = "black") %>%
-  add_header_above(c(
-    " " = 1,
-    "Compassion" = 2,
-    "Exponential" = 2,
-    "Control" = 2
-  )) %>%
-  save_kable(file = 
-               here("output/figures/table_test-importance_demographics.html"))
+  add_row(`M (n)` = "-", SD = "-") %>%
+  mutate(SD = ifelse(is.na(SD), "-", SD))
 
 
-```
-
-
-
-```{r Table demographics testing likelihood}
+# ----------------------------------- Testing likelihood table section
 
 # Many participants did not answer Cory COVID-bot's question on how likely 
 # they were to get tested if they experienced symptoms.
 # Here we describe the sample for the testing likelihood data.
 
-compliantParticipants <-
+# Do this over again with only people who replied to Cory's question
+demographicsTestLik <-
   chatbotData %>%
-           filter(!is.na(testingLikelihood))
-
-dataTestingLikelihoodTable <-
-  surveyData %>%
-  filter(ParticipantID %in% compliantParticipants$ParticipantID) %>%
-  group_by(ParticipantID, Sex, Nationality, Age, Condition) %>%
-  summarise(n = n()) %>%
-  mutate(NationalityGroup = factor(
+  filter(!is.na(Age), !is.na(Childhood),
+         !is.na(testingLikelihood)) %>%
+  mutate(coiGroup = factor(
     ifelse(
-      Nationality != "Australia" &
-        Nationality != "Viet Nam",
+      Childhood != "Australia" &
+        Childhood != "Viet Nam",
       "Other Migrants",
-      Nationality
-    ), levels = c(
-      "Australia",
-      "Viet Nam", 
-      "Other Migrants"
+      Childhood
     )
   )) %>%
-  group_by(Condition, NationalityGroup) %>%
-  summarise(`M (n)` = round(mean(Age, na.rm = T), 1),
-              SD = as.character(round(sd(Age, na.rm = T), 1)),
-              n = n()) %>%
+  group_by(ParticipantID, coiGroup, Condition, Age, Sex) %>%
+  summarise(n = n())
+
+sexInfoTestLik <-
+  demographicsTestLik %>%
+  group_by(Condition, Sex) %>%
+  summarise(n = n())
+
+demographicsTestLik <-
+  demographicsTestLik %>%
+  group_by(Condition, coiGroup) %>%
+  summarise(
+    `M (n)` = round(mean(Age, na.rm = T), 1),
+    SD = as.character(round(sd(Age, na.rm = T), 1)),
+    n = n()) %>%
   mutate(`M (n)` = paste0(`M (n)`, " (", n, ")")) %>%
-  arrange(Condition, NationalityGroup)
+  select(Condition, coiGroup, `M (n)`, SD)
+
+tableDf4 <-
+  demographicsTestLik %>%
+  filter(Condition == "Compassion") %>%
+  rename(` ` = coiGroup) %>%
+  ungroup() %>%
+  select(`M (n)`, SD) %>%
+  add_row(`M (n)` = "-" , SD = "-") %>%
+  mutate(SD = ifelse(is.na(SD), "-", SD))
+
+tableDf5 <-
+  demographicsTestLik %>%
+  filter(Condition == "Exponential Growth") %>%
+  ungroup() %>%
+  select(`M (n)`, SD) %>%
+  mutate(SD = ifelse(is.na(SD), "-", SD))
+
+tableDf6 <-
+  demographicsTestLik %>%
+  filter(Condition == "Control") %>%
+  ungroup() %>%
+  select(`M (n)`, SD) %>%
+  add_row(`M (n)` = "-", SD = "-") %>%
+  mutate(SD = ifelse(is.na(SD), "-", SD))
+
+# ---------------------------- Sex information for table
+
+sexInfoTestImp <-
+  sexInfoTestImp %>%
+  pivot_wider(id_cols = Condition,
+              names_from = Sex,
+              values_from = n) %>%
+  mutate(`F/M` = paste0(Female, "/", Male))
+
+sexInfoTestLik <-
+  sexInfoTestLik %>%
+pivot_wider(id_cols = Condition,
+              names_from = Sex,
+              values_from = n) %>%
+  mutate(`F/M` = paste0(Female, "/", Male))
+
+sexInfoList <-
+  c(sexInfoTestImp$`F/M`, sexInfoTestLik$`F/M`)
 
 
-kable(dataTestingLikelihoodTable) %>%
-  kable_classic(full_width=F, html_font = "Cambria")
+```
 
 
-rm(compliantParticipants)
+```{r Create table}
+tableDfComplete <- 
+  cbind(tableDf1, tableDf2, tableDf3,
+        tableDf4, tableDf5, tableDf6)
+
+tableDfComplete %>%
+  kable(caption = "Table A1. Sample demographics by condition.") %>%
+  kable_classic(html_font = "Cambria", full_width = F) %>%
+  column_spec(1:13, color = "black") %>%
+  add_header_above(c(
+    "Female/Male" = 1,
+    "7/6" = 2,
+    "8/6" = 2,
+    "17/3" = 2,
+    "7/2" = 2,
+    "4/3" = 2,
+    "6/2" = 2
+  )) %>%
+  add_header_above(c(
+    " " = 1,
+    "Compassion" = 2,
+    "Exponential" = 2,
+    "Control" = 2,
+    "Compassion" = 2,
+    "Exponential" = 2,
+    "Control" = 2
+  )) %>%
+  add_header_above(c(
+    " " = 1,
+    "Perceived Importance of Testing" = 6,
+    "Likelihood of Getting Tested" = 6
+  )) %>% 
+  save_kable(file = 
+               here("output/figures/table_demographics_by-condition.html"))
+
+
+rm(tableDf1,
+   tableDf2,
+   tableDf3,
+   tableDf4,
+   tableDf5,
+   tableDf6,
+   list)
 
 ```
 
@@ -296,7 +390,7 @@ plotTestingLikelihood <-
   geom_bar(aes(y = ..prop.., fill = Condition),
            width = .5,
            position = position_dodge2()) +
-  labs(x = "Testing Likelihood",
+  labs(x = "Likelihood of Getting tested",
        y = "Percentage of Answers") +
   theme_light() +
   theme(legend.position = "bottom") +
@@ -310,6 +404,12 @@ ggsave(here("output/figures/plot_test-likelihood.png"),
 
 
 ```{r Testing importance attitudes figures}
+# Run simple model for figure
+
+lmTestImportance <- 
+  lm(testImportanceDifference ~
+       Condition,
+     data = testImportanceData)
 
 plotTestImportance <- 
   afex_plot(lmTestImportance, ~Condition,

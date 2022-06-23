@@ -33,7 +33,7 @@ eligibility <-
          Sex,
          Vic,
          Childhood:FM) %>%
-  slice(-3) # duplicate entry
+  slice(-3) # remove duplicate entry
 
 ```
 

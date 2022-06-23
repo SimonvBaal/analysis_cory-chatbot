@@ -55,6 +55,7 @@ chatbotData %>%
 Here we analyse whether the behavioural interventions and the interaction with the chatbot influenced people's likelihood of getting tested, and their perceived importance of getting tested.
 
 ```{r Analysis prep CLM}
+
 # Ordering factor levels and scaling the age variable.
 chatbotData <-
   chatbotData %>%
@@ -164,7 +165,7 @@ zValueWTestComp <-
     digits = 4
   )
 
-adjustedPvalues <- p.adjust(c(.028, .165), method = "BH")
+adjustedPvalues <- p.adjust(c(.028, .20), method = "BH")
 
 
 
@@ -177,31 +178,67 @@ Here we analyse whether the chatbot increases the perceived importance of testin
 ```{r Testing importance}
 
 # Testing importance of getting tested before and after Cory.
-testImportanceData <- 
-  surveyData %>% 
-  group_by(ParticipantID, Timepoint, Condition) %>%
+testImportanceData <-
+  surveyData %>%
+  group_by(ParticipantID, Sex, Age, Timepoint, Condition) %>%
   summarise(testImportance = mean(TestImportance)) %>%
-  pivot_wider(id_cols = c("ParticipantID", "Condition"),
-              names_from = "Timepoint",
-              values_from = "testImportance") %>%
-  mutate(testImportanceDifference = `Post-Test`-`Pre-Test`,
-         Condition = factor(Condition, 
-                            levels = c("Compassion", 
-                                       "Exponential Growth", 
-                                       "Control")))
+  pivot_wider(
+    id_cols = c("ParticipantID", "Sex", "Age", "Condition"),
+    names_from = "Timepoint",
+    values_from = "testImportance"
+  ) %>%
+  mutate(
+    testImportanceDifference = `Post-Test` - `Pre-Test`,
+    Condition = factor(
+      Condition,
+      levels = c("Control",
+                 "Exponential Growth",
+                 "Compassion")
+    ),
+    Sex = factor(Sex)
+  ) %>%
+  filter(!is.na(testImportanceDifference),
+         !is.na(Sex))
 
-contrasts(testImportanceData$Condition) <- contr.sum(3)
+contrasts(testImportanceData$Sex) <- contr.sum(2)
+
+testImportanceData %>%
+  group_by(Condition) %>%
+  summarise(mean = mean(testImportanceDifference),
+            sd = sd(testImportanceDifference))
+
+```
 
 
-lmTestImportance <- 
-  lm(
-  testImportanceDifference ~
-    Condition,
-  data = testImportanceData
-)
+```{r modelling perceived importance of testing}
 
+ocmFullModelTestImportance <-
+  ocm(testImportanceDifference ~
+        Condition +
+        Sex +
+        Age,
+        data = testImportanceData)
 
+ocmReducedTestImportance <-
+  ocm(testImportanceDifference ~
+        Sex +
+        Age,
+      data = testImportanceData)
 
+anova(ocmFullModelTestImportance, ocmReducedTestImportance)
+
+# Effects:
+#                              Estimate    StdErr t.value  p.value   
+# ConditionExponential Growth  0.056070  0.625981  0.0896 0.930082   
+# ConditionCompassion         -2.381093  0.735830 -3.2359 0.007005 **
+
+ciLowerImportanceExp = .056070 - 1.96*.625981
+ciUpperImportanceExp = .056070 + 1.96*.625981
+
+ciLowerImportanceComp = -2.381093 - 1.96*.735830
+ciUpperImportanceComp = -2.381093 + 1.96*.735830
+
+adjustedPvaluesTestImp <- p.adjust(c(.007, .92), method = "BH")
 
 ```
 
@@ -429,31 +466,6 @@ estimateTimepointLow <- exp(-ocm2Certainty$coefficients[4])
 
 estimateTimepointMinimal <- exp(-ocm3Certainty$coefficients[4])
 
-
-estimateMinimalHigh <- exp(-ocmTreatmentRisk$coefficients[5])
-ciLowerMinimalHigh <- exp(-ocmTreatmentRisk$coefficients[5] - .0362*1.96)
-ciUpperMinimalHigh <- exp(-ocmTreatmentRisk$coefficients[5] + .0362*1.96)
-
-
-```
-
-
-```{r Linear Model - attitudes to going out}
-
-# Linear mixed model is used for creating a figure that reflects the model.
-# This cannot be done easily with the ordinalCont package.
-
-lmmCertainty <- 
-  mixed(AbsCertainty ~ 
-          Risk*Timepoint + 
-          Age +
-          Sex +
-          (1|ParticipantID),
-         surveyData)
-
-emmeansCertainty <- 
-  emmeans(lmmCertainty, ~ Timepoint|Risk)
-pairs(emmeansCertainty, reverse = F)
 
 ```
 
