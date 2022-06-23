@@ -2,7 +2,7 @@
 
 ## Description
 In this project I conduct the data analysis for the Cory Chatbot pilot study.
-Data was collected through  interaction with a chatbot, in addition to 
+Data was collected through interaction with a chatbot, in addition to 
 data from surveys that were administered before and after interaction.
 
 The chatbot was developed to study whether chatbots could be used to change
@@ -44,7 +44,8 @@ please contact me via the email address listed above.
 
 ## Authors and acknowledgment
 I wrote the code for this project myself, but I would like to thank my
-collaborators: Farhad Fatehi, Suong Le, Antonio Verdejo-Garcia and Jakob Hohwy.
+collaborators Farhad Fatehi, Suong Le, Antonio Verdejo-Garcia, and Jakob Hohwy 
+for their contributions to the project.
 
 ## License
 This project has an MIT license

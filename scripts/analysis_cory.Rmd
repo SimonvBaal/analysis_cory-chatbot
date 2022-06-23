@@ -327,9 +327,16 @@ lrtCertainty2 <-
 ```
 
 
-```{r Cont ordinal - attitudes to going out: pairwise}
+```{r Cont ordinal - attitudes to going out: pairwise - high risk attitudes}
 # Now we estimate models with different reference levels in order to do pairwise
 # comparisons.
+
+surveyData %>%
+  filter(!is.na(Age)) %>%
+  group_by(Timepoint) %>%
+  summarise(mean = mean(AbsCertainty),
+            sd = sd(AbsCertainty))
+
 
 # High Risk, Post-Test is the reference point here 
 # (because of alphabetical ordering)
@@ -344,19 +351,23 @@ ocm1Certainty <-
 
 # Here the difference between pre-test and post-test in high risk scenarios is:
 #                               Estimate    StdErr t.value   p.value
-#TimepointPost-Test             0.057005  0.130388 -0.4372 0.6632508 
+#TimepointPost-Test              0.042846  0.128981  0.3322 0.7406793 
 
-ciLowerTimepointHigh = .057005 - .130388 * 1.96
-ciUpperTimepointHigh = .057005 + .130388 * 1.96
+ciLowerTimepointHigh = 0.042846 - 0.128981 * 1.96
+ciUpperTimepointHigh = 0.042846 + 0.128981 * 1.96
 surveyData %>%
   filter(!is.na(Age), Risk == "High") %>%
   group_by(Timepoint) %>%
   summarise(mean = mean(AbsCertainty),
             sd = sd(AbsCertainty))
 
+```
 
-#---------------------------------------- Low Risk
 
+
+```{r Low risk attitudes}
+
+# we do the same for low risk scenarios
 surveyData <-
   surveyData %>%
   mutate(Risk = factor(Risk, levels = c("Low", "High", "Minimal")))
@@ -373,18 +384,24 @@ ocm2Certainty <-
 
 # Here the difference between pre-test and post-test in low risk scenarios is:
 #                               Estimate    StdErr t.value   p.value
-#TimepointPost-Test              -0.817518  0.183384  4.4579 2.902e-05 ***
+#TimepointPost-Test             -0.832905  0.182084 -4.5743 1.862e-05 ***
 
-ciLowerTimepointLow = -.817518 - .183384 * 1.96
-ciUpperTimepointLow = -.817518 + .183384 * 1.96
+ciLowerTimepointLow = -0.832905 - 0.182084 * 1.96
+ciUpperTimepointLow = -0.832905 + 0.182084 * 1.96
 surveyData %>%
   filter(!is.na(Age), Risk == "Low") %>%
   group_by(Timepoint) %>%
   summarise(mean = mean(AbsCertainty),
             sd = sd(AbsCertainty))
 
+```
 
-#--------------------------------------- Minimal Risk
+
+
+```{r Minimal risk attitudes}
+
+# And now for minimal risk attitudes
+
 surveyData <-
   surveyData %>%
   mutate(Risk = factor(Risk, levels = c("Minimal", "Low", "High")))
@@ -400,10 +417,10 @@ ocm3Certainty <-
 
 # Here the difference between pre-test and post-test in minimal risk scenarios is:
 #                            Estimate    StdErr t.value   p.value
-#TimepointPost-Test           -1.238254  0.195481  6.3344 1.682e-08 ***
+#TimepointPost-Test          -1.206200  0.194421 -6.2041 2.799e-08 ***
 
-ciLowerTimepointMinimal = -1.238254 - .195481 * 1.96
-ciUpperTimepointMinimal = -1.238254 + .195481 * 1.96
+ciLowerTimepointMinimal = -1.206200 - 0.194421 * 1.96
+ciUpperTimepointMinimal = -1.206200 + 0.194421 * 1.96
 surveyData %>%
   filter(!is.na(Age), Risk == "Minimal") %>%
   group_by(Timepoint) %>%
@@ -430,9 +447,9 @@ ocmMainTimepointCertainty <-
         filter(!is.na(Age)))
 # The main effect of timepoint is:
 #                          Estimate    StdErr t.value   p.value
-#TimepointPost-Test       -0.666256  0.102592 -6.4943 8.578e-09 ***
-ciLowerTimepointMain <- -0.666256 - 0.102592 * 1.96
-ciUpperTimepointMain <- -0.666256 + 0.102592 * 1.96
+#TimepointPost-Test       -0.665420  0.101618 -6.5482 6.544e-09 ***
+ciLowerTimepointMain = -0.665420 - 0.101618 * 1.96
+ciUpperTimepointMain = -0.665420 +  0.101618 * 1.96
 
 surveyData %>%
   filter(!is.na(Age)) %>%
@@ -454,21 +471,6 @@ ocmMainRiskCertainty <-
          surveyData %>% 
         filter(!is.na(Age)))
 ```
-
-```{r Certainty effect size estimation}
-
-# we extract coefficients from the model, turn them into odds ratios,
-# and then we construct confidence intervals using standard errors.
-
-estimateTimepointHigh <- exp(-ocm1Certainty$coefficients[4])
-
-estimateTimepointLow <- exp(-ocm2Certainty$coefficients[4])
-
-estimateTimepointMinimal <- exp(-ocm3Certainty$coefficients[4])
-
-
-```
-
 
 
 ```{r save image}
