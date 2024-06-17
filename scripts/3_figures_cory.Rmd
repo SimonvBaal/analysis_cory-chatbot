@@ -16,6 +16,7 @@ library(kableExtra)
 ```
 
 ```{r load data}
+# Please ensure you have run previous scripts.
 
 postTestData <-
   read_csv(here("data/clean/clean_post-test_cory.csv"))
@@ -33,11 +34,20 @@ chatbotData <-
 
 ```{r Table sample demographics}
 
-# here we provide a table for demographic information of the sample.
+# Create a place to store the table
+if (!dir.exists(here("output/tables"))) {
+  dir.create(here("output/tables"))
+}
+
+# Reload data to deal with centering of age
+chatbotData <-
+  read_csv(here("data/clean/clean_chatbot_cory.csv"))
+
+# Here we provide a table for demographic information of the sample.
 
 demographics <-
-  chatbotData %>%
-  filter(!is.na(Age)) %>%
+  chatbotData |>
+  filter(!is.na(Age)) |>
   mutate(coiGroup = factor( # country of origin group
     ifelse(
       Childhood != "Australia" &
@@ -49,50 +59,46 @@ demographics <-
       "Viet Nam", 
       "Other Migrants"
     )
-  )) %>%
-  group_by(ParticipantID, coiGroup, Age, Sex) %>%
-  summarise(n = n()) %>%
-  group_by(coiGroup, Sex) %>%
+  )) |>
+  group_by(ParticipantID, coiGroup, Age, Sex) |>
+  summarise(n = n()) |>
+  group_by(coiGroup, Sex) |>
   summarise(
     `M (n)` = round(mean(Age, na.rm = T), 1),
     SD = as.character(round(sd(Age, na.rm = T), 1)),
-    n = n()) %>%
-  mutate(`M (n)` = paste0(`M (n)`, " (", n, ")")) %>%
-  arrange(coiGroup) %>% # change order
-  ungroup() %>%
-  select(Sex, `M (n)`, SD) %>%
+    n = n()) |>
+  mutate(`M (n)` = paste0(`M (n)`, " (", n, ")")) |>
+  arrange(coiGroup) |> # change order
+  ungroup() |>
+  select(Sex, `M (n)`, SD) |>
   rename(` ` = Sex)
 
-kable(demographics, caption = "Table 1. Sample demographics.") %>%
+kable(demographics, caption = "Sample demographics.") |>
   kable_classic(
     full_width = F,
     font_size = 14
-  ) %>%
-  column_spec(1:3, color = "black") %>%
-  pack_rows("Australia", 1, 2) %>%
-  pack_rows("Viet Nam", 3, 3) %>%
-  pack_rows("Other Migrants", 4, 5) %>%
-  save_kable(file = here("output/figures/table_sample-demographics.html"))
+  ) |>
+  column_spec(1:3, color = "black") |>
+  pack_rows("Australia", 1, 2) |>
+  pack_rows("Viet Nam", 3, 3) |>
+  pack_rows("Other Migrants", 4, 5) 
 
 
 ```
 
 
-```{r Table surveys demographics}
+```{r table-survey-demographics}
 
 # here we provide a table for demographic information of the sample used for
-# the perceived importance of testing - partitioned by group.
+# the perceived importance of testing (pre/post chatbot) - partitioned by group.
 # Some participants did not complete both surveys, So there is missing data.
 
-# Reload data to deal with centering of age
-chatbotData <-
-  read_csv(here("data/clean/clean_chatbot_cory.csv"))
-
+# ----------------------------------- Testing importance table section
 demographicsTestImp <-
-  chatbotData %>%
+  chatbotData |>
   filter(ParticipantID %in% testImportanceData$ParticipantID,
          !is.na(Age), 
-         !is.na(Childhood)) %>%
+         !is.na(Childhood)) |>
   mutate(coiGroup = factor(
     ifelse(
       Childhood != "Australia" &
@@ -100,73 +106,73 @@ demographicsTestImp <-
       "Other Migrants",
       Childhood
     )
-  )) %>%
-  group_by(ParticipantID, coiGroup, Condition, Age, Sex) %>%
+  )) |>
+  group_by(ParticipantID, coiGroup, Condition, Age, Sex) |>
   summarise(n = n()) 
 
 list <- 
-  surveyData %>%
-  group_by(ParticipantID, Condition) %>%
-  summarise(n = n()) %>%
+  surveyData |>
+  group_by(ParticipantID, Condition) |>
+  summarise(n = n()) |>
   select(ParticipantID, Condition)
 
 demographicsTestImp <- 
-  demographicsTestImp %>% 
-  left_join(list, by = "ParticipantID") %>%
+  demographicsTestImp |> 
+  left_join(list, by = "ParticipantID") |>
   rename(Condition = Condition.y)
 
 sexInfoTestImp <- 
-  demographicsTestImp %>%
-  group_by(Condition, Sex) %>%
+  demographicsTestImp |>
+  group_by(Condition, Sex) |>
   summarise(n = n())
   
 demographicsTestImp <-
-  demographicsTestImp %>%
-  group_by(Condition, coiGroup) %>%
+  demographicsTestImp |>
+  group_by(Condition, coiGroup) |>
   summarise(
     `M (n)` = round(mean(Age, na.rm = T), 1),
     SD = as.character(round(sd(Age, na.rm = T), 1)),
-    n = n()) %>%
-  mutate(`M (n)` = paste0(`M (n)`, " (", n, ")")) %>%
+    n = n()) |>
+  mutate(`M (n)` = paste0(`M (n)`, " (", n, ")")) |>
   select(Condition, coiGroup, `M (n)`, SD)
 
 # Create dfs for the different conditions to make table
 tableDf1 <-
-  demographicsTestImp %>%
-  filter(Condition == "Compassion") %>%
-  rename(` ` = coiGroup) %>%
-  ungroup() %>%
-  select(` `, `M (n)`, SD) %>%
-  add_row(` ` = "Viet Nam", `M (n)` = "-" , SD = "-") %>%
+  demographicsTestImp |>
+  filter(Condition == "Compassion") |>
+  rename(` ` = coiGroup) |>
+  ungroup() |>
+  select(` `, `M (n)`, SD) |>
+  add_row(` ` = "Viet Nam", `M (n)` = "-" , SD = "-") |>
   mutate(SD = ifelse(is.na(SD), "-", SD))
 
 tableDf2 <-
-  demographicsTestImp %>%
-  filter(Condition == "Exponential Growth") %>%
-  ungroup() %>%
-  select(`M (n)`, SD) %>%
+  demographicsTestImp |>
+  filter(Condition == "Exponential Growth") |>
+  ungroup() |>
+  select(`M (n)`, SD) |>
   mutate(SD = ifelse(is.na(SD), "-", SD))
 
 tableDf3 <-
-  demographicsTestImp %>%
-  filter(Condition == "Control") %>%
-  ungroup() %>%
-  select(`M (n)`, SD) %>%
-  add_row(`M (n)` = "-", SD = "-") %>%
+  demographicsTestImp |>
+  filter(Condition == "Control") |>
+  ungroup() |>
+  select(`M (n)`, SD) |>
+  add_row(`M (n)` = "-", SD = "-") |>
   mutate(SD = ifelse(is.na(SD), "-", SD))
 
 
 # ----------------------------------- Testing likelihood table section
 
 # Many participants did not answer Cory COVID-bot's question on how likely 
-# they were to get tested if they experienced symptoms.
+# they were to get tested if they experienced symptoms; it was voluntary.
 # Here we describe the sample for the testing likelihood data.
 
 # Do this over again with only people who replied to Cory's question
 demographicsTestLik <-
-  chatbotData %>%
+  chatbotData |>
   filter(!is.na(Age), !is.na(Childhood),
-         !is.na(testingLikelihood)) %>%
+         !is.na(testingLikelihood)) |>
   mutate(coiGroup = factor(
     ifelse(
       Childhood != "Australia" &
@@ -174,63 +180,63 @@ demographicsTestLik <-
       "Other Migrants",
       Childhood
     )
-  )) %>%
-  group_by(ParticipantID, coiGroup, Condition, Age, Sex) %>%
+  )) |>
+  group_by(ParticipantID, coiGroup, Condition, Age, Sex) |>
   summarise(n = n())
 
 sexInfoTestLik <-
-  demographicsTestLik %>%
-  group_by(Condition, Sex) %>%
+  demographicsTestLik |>
+  group_by(Condition, Sex) |>
   summarise(n = n())
 
 demographicsTestLik <-
-  demographicsTestLik %>%
-  group_by(Condition, coiGroup) %>%
+  demographicsTestLik |>
+  group_by(Condition, coiGroup) |>
   summarise(
     `M (n)` = round(mean(Age, na.rm = T), 1),
     SD = as.character(round(sd(Age, na.rm = T), 1)),
-    n = n()) %>%
-  mutate(`M (n)` = paste0(`M (n)`, " (", n, ")")) %>%
+    n = n()) |>
+  mutate(`M (n)` = paste0(`M (n)`, " (", n, ")")) |>
   select(Condition, coiGroup, `M (n)`, SD)
 
 tableDf4 <-
-  demographicsTestLik %>%
-  filter(Condition == "Compassion") %>%
-  rename(` ` = coiGroup) %>%
-  ungroup() %>%
-  select(`M (n)`, SD) %>%
-  add_row(`M (n)` = "-" , SD = "-") %>%
+  demographicsTestLik |>
+  filter(Condition == "Compassion") |>
+  rename(` ` = coiGroup) |>
+  ungroup() |>
+  select(`M (n)`, SD) |>
+  add_row(`M (n)` = "-" , SD = "-") |>
   mutate(SD = ifelse(is.na(SD), "-", SD))
 
 tableDf5 <-
-  demographicsTestLik %>%
-  filter(Condition == "Exponential Growth") %>%
-  ungroup() %>%
-  select(`M (n)`, SD) %>%
+  demographicsTestLik |>
+  filter(Condition == "Exponential Growth") |>
+  ungroup() |>
+  select(`M (n)`, SD) |>
   mutate(SD = ifelse(is.na(SD), "-", SD))
 
 tableDf6 <-
-  demographicsTestLik %>%
-  filter(Condition == "Control") %>%
-  ungroup() %>%
-  select(`M (n)`, SD) %>%
-  add_row(`M (n)` = "-", SD = "-") %>%
+  demographicsTestLik |>
+  filter(Condition == "Control") |>
+  ungroup() |>
+  select(`M (n)`, SD) |>
+  add_row(`M (n)` = "-", SD = "-") |>
   mutate(SD = ifelse(is.na(SD), "-", SD))
 
 # ---------------------------- Sex information for table
 
 sexInfoTestImp <-
-  sexInfoTestImp %>%
+  sexInfoTestImp |>
   pivot_wider(id_cols = Condition,
               names_from = Sex,
-              values_from = n) %>%
+              values_from = n) |>
   mutate(`F/M` = paste0(Female, "/", Male))
 
 sexInfoTestLik <-
-  sexInfoTestLik %>%
+  sexInfoTestLik |>
 pivot_wider(id_cols = Condition,
               names_from = Sex,
-              values_from = n) %>%
+              values_from = n) |>
   mutate(`F/M` = paste0(Female, "/", Male))
 
 sexInfoList <-
@@ -240,15 +246,15 @@ sexInfoList <-
 ```
 
 
-```{r Create table}
+```{r store-table}
 tableDfComplete <- 
   cbind(tableDf1, tableDf2, tableDf3,
         tableDf4, tableDf5, tableDf6)
 
-tableDfComplete %>%
-  kable(caption = "Table A1. Sample demographics by condition.") %>%
-  kable_classic(html_font = "Cambria", full_width = F) %>%
-  column_spec(1:13, color = "black") %>%
+tableDfComplete |>
+  kable(caption = "Table 1. Sample demographics by condition.") |>
+  kable_classic(html_font = "Cambria", full_width = F) |>
+  column_spec(1:13, color = "black") |>
   add_header_above(c(
     "Female/Male" = 1,
     "7/6" = 2,
@@ -257,7 +263,7 @@ tableDfComplete %>%
     "7/2" = 2,
     "4/3" = 2,
     "6/2" = 2
-  )) %>%
+  )) |>
   add_header_above(c(
     " " = 1,
     "Compassion" = 2,
@@ -266,14 +272,14 @@ tableDfComplete %>%
     "Compassion" = 2,
     "Exponential" = 2,
     "Control" = 2
-  )) %>%
+  )) |>
   add_header_above(c(
     " " = 1,
     "Perceived Importance of Testing" = 6,
     "Likelihood of Getting Tested" = 6
-  )) %>% 
+  )) |> 
   save_kable(file = 
-               here("output/figures/table_demographics_by-condition.html"))
+               here("output/tables/table_demographics_by-condition.html"))
 
 
 rm(tableDf1,
@@ -291,9 +297,12 @@ rm(tableDf1,
 ## Figures of Chatbot Evaluation
 
 ```{r Chatbot Evaluation}
+if (!dir.exists(here("output/figures"))) {
+  dir.create(here("output/figures"))
+}
 
 DCBIavg <-
-  postTestData %>%
+  postTestData |>
   summarise(
     Interest_mean = mean(Interest),
     Interest_sd = sd(Interest),
@@ -313,13 +322,13 @@ DCBIavg <-
     Pleasure_sd = sd(Pleasure),
     Learning_mean = mean(Learning),
     Learning_sd = sd(Learning)
-  ) %>%
+  ) |>
   pivot_longer(
     Interest_mean:Learning_sd,
     names_to = c("Metric", "Type"),
     names_sep = "_",
     values_to = c("Response")
-  ) %>%
+  ) |>
   pivot_wider(id_cols = "Metric",
               names_from = "Type",
               values_from = "Response")
@@ -354,16 +363,14 @@ rm(DCBIavg)
 
 ## Figures of Testing Attitudes
 
-
-
-```{r Testing likelihood figures}
+```{r Testing-likelihood-figs}
 
 # Testing likelihood figure
 
 plotTestingLikelihood <-
   ggplot(
-    chatbotData %>%
-      filter(!is.na(testingLikelihood)) %>%
+    chatbotData |>
+      filter(!is.na(testingLikelihood)) |>
       mutate(
         testingLikelihood = factor(
           ifelse(
@@ -433,14 +440,14 @@ ggsave(here("output/figures/plot_test-importance.png"),
 ## Figures of Attitudes toward Leaving Home
 
 ```{r plots for attitudes to leaving home attitudes}
-#================================================================================= Density plots for attitudes
+#=================================================== Density plots for attitudes
  
 surveyData <- 
-  surveyData %>%
+  surveyData |>
   mutate(TimepointNumeric = ifelse(Timepoint == "Pre-Test",0,1))
 
 plotHighRiskAttitude <-
-  ggplot(surveyData %>%
+  ggplot(surveyData |>
            filter(Risk == "High"),
          aes(x = Attitude, fill = Timepoint)) +
   geom_density(alpha = .4) +
@@ -462,7 +469,7 @@ plotHighRiskAttitude <-
   guides(fill = guide_legend(reverse = T))
 
 plotLowRiskAttitude <-
-  ggplot(surveyData %>%
+  ggplot(surveyData |>
            filter(Risk == "Low"),
          aes(x = Attitude, fill = Timepoint)) +
   geom_density(alpha = .4) +
@@ -482,7 +489,7 @@ plotLowRiskAttitude <-
   guides(fill = guide_legend(reverse = T)) 
 
 plotMinimalRiskAttitude <-
-  ggplot(surveyData %>%
+  ggplot(surveyData |>
            filter(Risk == "Minimal"),
          aes(x = Attitude, fill = Timepoint)) +
   geom_density(alpha = .4) +

@@ -30,13 +30,13 @@ chatbotData <- read_csv(here("data/proc/comb_proc_chatbot_cory.csv"))
 
 ```{r eligibility cleaning}
 eligibility <-
-  eligibility %>%
+  eligibility |>
   select(StartDate,
          ParticipantID,
          Age,
          Sex,
          Vic,
-         Childhood:FM) %>%
+         Childhood:FM) |>
   slice(-3) # remove duplicate entry
 
 ```
@@ -45,7 +45,7 @@ eligibility <-
 ```{r pre-test data cleaning}
 # Select relevant columns in a logical order
 preTestData <- 
-  preTestData %>%
+  preTestData |>
   select(StartDate,
          ParticipantID,
          Nationality,
@@ -56,21 +56,21 @@ preTestData <-
 # of the dataset.
 
 preTestData <-
-  preTestData %>%
-  filter(!is.na(ParticipantID)) %>% 
+  preTestData |>
+  filter(!is.na(ParticipantID)) |> 
   pivot_longer(
     `1_Attitude_1`:`3_Attitude_1`,
-    "Question",
+    names_to = "Question",
     values_transform = list(Attitude = as.numeric),
     values_to = "Attitude"
-  ) %>%
+  ) |>
   rename(
     Concern_Rank = Concern_Rank_1,
     Necessary_Rank = Necessary_Rank_1,
     Effectiveness_Rank = Effectiveness_Rank_1,
     Intention = Intention_1,
     TestImportance = Test_1
-  ) %>%
+  ) |>
   mutate(
     Concern_Rank = as.numeric(Concern_Rank),
     Necessary_Rank = as.numeric(Necessary_Rank),
@@ -83,7 +83,7 @@ preTestData <-
 # levels to the Risk column
 
 preTestData <-
-  preTestData %>%
+  preTestData |>
   mutate(
     Question = as.numeric(str_extract(Question, "\\d{1,2}")),
     Risk = ifelse(
@@ -107,20 +107,20 @@ participantList <-
                        rep("Exponential Growth", 26)))
 
 preTestData <-
-  preTestData %>%
+  preTestData |>
   left_join(participantList, by = "ParticipantID")
 
 
 # Create summaries per risk level and add it to the data set
 
 attitudeAveragePreTest <-
-  preTestData %>%
-  group_by(ParticipantID, Risk) %>%
-  summarise(Attitude_Average = mean(Attitude)) %>%
+  preTestData |>
+  group_by(ParticipantID, Risk) |>
+  summarise(Attitude_Average = mean(Attitude)) |>
   pivot_wider(names_from = "Risk", values_from = "Attitude_Average")
 
 preTestData <-
-  preTestData %>%
+  preTestData |>
   left_join(attitudeAveragePreTest, by = c("ParticipantID"))
 
 rm(attitudeAveragePreTest, participantList)
@@ -129,10 +129,10 @@ rm(attitudeAveragePreTest, participantList)
 
 ```{r post-test data cleaning}
 postTestData <- 
-  postTestData %>%
+  postTestData |>
   select(StartDate,
          ParticipantID,
-         Experience_1:Condition) %>%
+         Experience_1:Condition) |>
   rename(Interest = Experience_1,
          Intrigue = Experience_2,
          Focus = Experience_3,
@@ -147,14 +147,14 @@ postTestData <-
          Recommendation = Recommendation_1)
 
 postTestData <-
-  postTestData %>%
-  filter(!is.na(ParticipantID)) %>% 
+  postTestData |>
+  filter(!is.na(ParticipantID)) |> 
   pivot_longer(
     `2_Attitudes_1`:`20_Attitudes_1`,
-    "Question",
+    names_to = "Question",
     values_transform = list(Attitude = as.numeric),
     values_to = "Attitude"
-  ) %>%
+  ) |>
   mutate_at(vars(Interest:Empathy, 
                  TestImportance, 
                  Recommendation),
@@ -163,7 +163,7 @@ postTestData <-
 # Eliminate unnecessary text from the Question column and assign risk levels to the Risk column
 
 postTestData <-
-  postTestData %>%
+  postTestData |>
   mutate(
     Question = as.numeric(str_extract(Question, "\\d{1,2}")),
     Risk = ifelse(
@@ -179,13 +179,13 @@ postTestData <-
   ))
 
 attitudeAveragePostTest <- 
-  postTestData %>%
-  group_by(ParticipantID, Risk) %>%
-  summarise(Attitude_Average = mean(Attitude)) %>%
+  postTestData |>
+  group_by(ParticipantID, Risk) |>
+  summarise(Attitude_Average = mean(Attitude)) |>
   pivot_wider(names_from = "Risk", values_from = "Attitude_Average")
 
 postTestData <- 
-  postTestData %>%
+  postTestData |>
   left_join(attitudeAveragePostTest, by = "ParticipantID")
 
 rm(attitudeAveragePostTest)
@@ -193,21 +193,21 @@ rm(attitudeAveragePostTest)
 
 ```{r Cory Data Cleaning}
 chatbotData <-
-  chatbotData %>%
+  chatbotData |>
   arrange(`Joined At (+11:00)`)
 
 # create summary
 chatbotSummary <-
-  chatbotData %>%
+  chatbotData |>
   group_by(testingLikelihoodSpread,
            testingLikelihoodEmpathy,
-           testingLikelihoodControl) %>%
-  summarise(Count = n()) %>%
+           testingLikelihoodControl) |>
+  summarise(Count = n()) |>
   filter(
     !is.na(testingLikelihoodSpread) |
       !is.na(testingLikelihoodEmpathy) |
       !is.na(testingLikelihoodControl)
-  ) %>%
+  ) |>
   mutate(
     testingLikelihood = factor(
       ifelse(
@@ -238,15 +238,15 @@ chatbotSummary <-
 
 # create simple data for analysis
 chatbotData <-
-  chatbotData %>%
+  chatbotData |>
   group_by(testingLikelihoodSpread,
            testingLikelihoodEmpathy,
-           testingLikelihoodControl) %>%
+           testingLikelihoodControl) |>
   filter(
     !is.na(testingLikelihoodSpread) |
       !is.na(testingLikelihoodEmpathy) |
       !is.na(testingLikelihoodControl)
-  ) %>%
+  ) |>
   mutate(
     testingLikelihood = factor(
       ifelse(
@@ -273,8 +273,8 @@ chatbotData <-
       ),
       levels = c("Control", "Compassion", "Exponential Growth")
     )
-  ) %>%
-  ungroup() %>%
+  ) |>
+  ungroup() |>
   select(ParticipantID, testingLikelihood, Condition)
 
 
@@ -286,7 +286,6 @@ chatbotData <-
 # Link demographics to data from the chatbot
 chatbotData <- 
   left_join(eligibility, chatbotData, by = "ParticipantID")
-eligibility$ParticipantID
 
 ```
 
@@ -294,7 +293,7 @@ eligibility$ParticipantID
 ```{r Create pre-post comparison data set}
 
 comparisonDataPre <-
-  preTestData %>%
+  preTestData |>
   select(ParticipantID,
          Nationality,
          TestImportance,
@@ -302,36 +301,36 @@ comparisonDataPre <-
          Question,
          Attitude,
          Study_Type,
-         Condition) %>%
+         Condition) |>
   arrange(ParticipantID, Question)
 
 # Make separate dataframe to add information to post-test data
 nationalityData <- 
-  comparisonDataPre %>%
-  group_by(ParticipantID, Nationality) %>%
-  summarise(n = n()) %>%
+  comparisonDataPre |>
+  group_by(ParticipantID, Nationality) |>
+  summarise(n = n()) |>
   select(ParticipantID, Nationality)
 
 comparisonDataPost <-
-  postTestData %>%
+  postTestData |>
   select(ParticipantID,
          TestImportance,
          Risk,
          Question,
          Attitude,
          Study_Type,
-         Condition) %>%
+         Condition) |>
   arrange(ParticipantID, Question)
 
 # Add nationality column
 comparisonDataPost <-
-  comparisonDataPost %>% 
+  comparisonDataPost |> 
   left_join(nationalityData, by = "ParticipantID")
 
 # Bind the two datasets row-wise now that they have the same number of columns
 comparisonData <-
-  comparisonDataPre %>%
-  rbind(comparisonDataPost) %>% 
+  comparisonDataPre |>
+  rbind(comparisonDataPost) |> 
   mutate(Timepoint = factor(Study_Type,
                              levels = c("Pre-Test",
                                         "Post-Test")),
@@ -340,7 +339,7 @@ comparisonData <-
                                        "Compassion",
                                        "Control")),
          Attitude = Attitude - 50,
-         Question = factor(Question)) %>%
+         Question = factor(Question)) |>
   left_join(eligibility, by = "ParticipantID")
 
 rm(nationalityData)
@@ -351,7 +350,7 @@ rm(nationalityData)
 # We enter this manually here.
 
 comparisonData <- 
-  comparisonData %>%
+  comparisonData |>
   mutate(Nationality = ifelse(ParticipantID == "P16", 
                                "Australia", 
                                ifelse(ParticipantID == "P37", 
