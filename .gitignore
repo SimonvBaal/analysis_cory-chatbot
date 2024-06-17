@@ -1,9 +1,9 @@
-.DS_Store
+**.DS_Store
 
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-**/.png
+**.png
 desktop.ini
 data/raw/

@@ -15,7 +15,7 @@ lockdown.
 ## Installation
 ### Requirements
 R(4.0.5)
-RStudio
+RStudio(2024.04.1)
 
 ### Instructions
 Please download the entire project. Then, you can open the RStudio application, 
@@ -36,10 +36,12 @@ However, if you would like to run the data cleaning file first, to see how the
 data was handled, you may start by running the cleaning_cory.Rmd file.
 
 ## Support
-Should you have any problems, please send an email to simon.vanbaal1@monash.edu
+Should you have any problems, please send an email to either my permanent email,
+simonvanbaal.behsci@gmail.com, or to my institutional email listed on my profile
+page.
 
 ## Contributing
-This project is not open for contributions. However, if you find a mistake,
+The current project is not open for contributions. However, if you find a mistake,
 please contact me via the email address listed above.
 
 ## Authors and acknowledgment
@@ -51,4 +53,4 @@ for their contributions to the project.
 This project has an MIT license
 
 ## Project status
-This project is still under development
+The work on this project has been completed.
