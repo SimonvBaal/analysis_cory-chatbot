@@ -18,13 +18,13 @@ library(kableExtra)
 ```{r load data}
 
 postTestData <-
-  read_csv(here("output/data/clean_post-test_cory.csv"))
+  read_csv(here("data/clean/clean_post-test_cory.csv"))
 
 surveyData <- 
-  read_csv(here("./output/data/clean_surveys_cory.csv"))
+  read_csv(here("data/clean/clean_surveys_cory.csv"))
 
 chatbotData <-
-  read_csv(here("output/data/clean_chatbot_cory.csv"))
+  read_csv(here("data/clean/clean_chatbot_cory.csv"))
 
 ```
 
@@ -86,7 +86,7 @@ kable(demographics, caption = "Table 1. Sample demographics.") %>%
 
 # Reload data to deal with centering of age
 chatbotData <-
-  read_csv(here("output/data/clean_chatbot_cory.csv"))
+  read_csv(here("data/clean/clean_chatbot_cory.csv"))
 
 demographicsTestImp <-
   chatbotData %>%
@@ -510,7 +510,8 @@ attitudePlots <-
           common.legend = T,
           legend = "top")
 
-annotate_figure(attitudePlots, 
+attitudePlots <- 
+  annotate_figure(attitudePlots, 
                 bottom = text_grob("Permissiveness of Going Out"))
 ggsave(here("output/figures/plot_certainty-pre-post.png"),
          height = 4, width = 8)

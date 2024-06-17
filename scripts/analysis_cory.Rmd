@@ -7,15 +7,27 @@ output: html_document
 
 ```{r setup, include=FALSE}
 
+library(readr)
+library(dplyr)
+library(here)
 library(ordinal)
 library(ordinalCont)
+library(finalfit)
 library(afex)
 library(emmeans)
 library(onewaytests)
 library(rcompanion)
 
-surveyData <- read_csv(here("output/data/clean_surveys_cory.csv"))
-chatbotData <- read_csv(here("output/data/clean_chatbot_cory.csv"))
+
+```
+
+```{r load data, include=FALSE}
+
+surveyData <- 
+  read_csv(here("data/clean/clean_surveys_cory.csv"))
+chatbotData <- 
+  read_csv(here("data/clean/clean_chatbot_cory.csv"))
+
 ```
 
 ## Descriptive statistics
@@ -44,11 +56,100 @@ surveyData %>%
   summarise(TestImportance = mean(TestImportance)) %>%
   arrange(Condition, desc(Timepoint))
 
+surveyData %>%
+  group_by(Condition, ParticipantID) %>%
+  tally() %>%
+  group_by(Condition) %>%
+  tally()
+
 # Group level statistics about the intention to get tested if the participant detects symptoms.
 chatbotData %>%
   group_by(Condition, testingLikelihood) %>%
   summarise(n = n())
 ```
+
+```{r missing data analysis}
+dependentVar <- 
+  "testingLikelihood"
+independentVar <-
+  c("Condition", "Sex", "Age")
+
+chatbotData %>%
+  missing_pattern(dependentVar, independentVar)
+
+missPlotTestLikelihood <- 
+  chatbotData %>%
+  missing_plot(dependentVar, independentVar)
+
+chatbotData %>%
+  missing_pairs(dependentVar, independentVar)
+
+chatbotData %>%
+  group_by(testingLikelihood) %>%
+  mutate(testingLikelihood = ifelse(is.na(testingLikelihood), 
+                                          "missing", 
+                                          "not missing")) %>%
+  summarise(meanAge = round(mean(Age, na.rm = T), 1))
+
+chatbotData %>%
+  group_by(testingLikelihood, Essential) %>%
+  mutate(testingLikelihood = ifelse(is.na(testingLikelihood), 
+                                          "missing", 
+                                          "not missing")) %>%
+  tally() %>%
+  filter(!is.na(Essential))
+
+#18/34*100 
+#9/24*100
+
+chatbotData %>%
+  group_by(testingLikelihood, Sex) %>%
+  mutate(testingLikelihood = ifelse(is.na(testingLikelihood), 
+                                          "missing", 
+                                          "not missing")) %>%
+  tally() %>%
+  filter(!is.na(Sex))
+
+# missing female 23, 11
+# non-missing female 17, 7
+
+surveyData %>% 
+  group_by(Timepoint, ParticipantID, Age, Sex) %>%
+  tally() %>%
+  group_by(ParticipantID, Age, Sex) %>%
+  tally() %>%
+  arrange(n, ParticipantID) %>%
+  group_by(n, Sex) %>%
+  filter(!is.na(Sex)) %>%
+  tally()
+
+# 7/10 female for missing surveys
+# 32/45 female for non-missing surveys
+
+# Ages of groups with and without missing data in surveys
+surveyData %>% 
+  group_by(Timepoint, ParticipantID, Age) %>%
+  tally() %>%
+  group_by(ParticipantID, Age) %>%
+  tally() %>%
+  arrange(n, ParticipantID) %>%
+  group_by(n) %>%
+  filter(!is.na(Age)) %>%
+  summarise(meanAge = mean(Age))
+
+surveyData %>% 
+  group_by(Timepoint, ParticipantID, Essential) %>%
+  tally() %>%
+  group_by(ParticipantID, Essential) %>%
+  tally() %>%
+  arrange(n, ParticipantID) %>%
+  group_by(n, Essential) %>%
+  filter(!is.na(Essential)) %>%
+  tally()
+
+```
+
+
 
 ## Getting Tested when Experiencing COVID-19 Symptoms
 
@@ -355,6 +456,7 @@ ocm1Certainty <-
 
 ciLowerTimepointHigh = 0.042846 - 0.128981 * 1.96
 ciUpperTimepointHigh = 0.042846 + 0.128981 * 1.96
+
 surveyData %>%
   filter(!is.na(Age), Risk == "High") %>%
   group_by(Timepoint) %>%
@@ -474,6 +576,6 @@ ocmMainRiskCertainty <-
 
 
 ```{r save image}
-save.image()
+#save.image()
 
 ```

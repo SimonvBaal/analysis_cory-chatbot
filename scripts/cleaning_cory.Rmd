@@ -8,6 +8,10 @@ output: html_document
 ---
 
 ```{r libraries}
+
+library(renv)
+#renv::restore()
+
 library(dplyr)
 library(readr)
 library(tidyr)
@@ -369,11 +373,11 @@ comparisonData <-
 
 ```{r finish up}
 # write the cleaned data
-write_csv(comparisonData, here("./output/data/clean_surveys_cory.csv"))
-write_csv(chatbotData, here("./output/data/clean_chatbot_cory.csv"))
+write_csv(comparisonData, here("data/clean/clean_surveys_cory.csv"))
+write_csv(chatbotData, here("data/clean/clean_chatbot_cory.csv"))
 
 # write the postTestData for the cory experience figure in the figures.rmd file
-write_csv(postTestData, here("output/data/clean_post-test_cory.csv"))
+write_csv(postTestData, here("data/clean/clean_post-test_cory.csv"))
 
 # clear environment
 rm(list=ls())
